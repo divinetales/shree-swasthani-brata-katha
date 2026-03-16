@@ -3,15 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>श्री स्वस्थानी व्रत कथा - Web Ebook</title
-    <meta name="description" content="श्री स्वस्थानी व्रत कथा - सम्पूर्ण ३१ अध्यायसहितको डिजिटल संस्करण। पढ्न सजिलो र आकर्षक डिजाइनमा।">
+    
+    <title>श्री स्वस्थानी व्रत कथा - Shree Swasthani Brata Katha (All 31 Chapters)</title>
+    
+    <meta name="description" content="श्री स्वस्थानी व्रत कथा - सम्पूर्ण ३१ अध्यायसहितको डिजिटल संस्करण। Read Shree Swasthani Brata Katha online. Complete 31 chapters in Nepali, easy to read with an attractive design.">
+    <meta name="keywords" content="श्री स्वस्थानी व्रत कथा, Shree Swasthani Brata Katha, Swasthani Katha Online, Adhyaye 1-31, Nepali Ebook, Hindu Mythology, Magh Mahatmya">
     <meta name="SKS" content="SKS">
     
-    <meta property="og:title" content="श्री स्वस्थानी व्रत कथा - Web Ebook">
+    <meta property="og:title" content="श्री स्वस्थानी व्रत कथा - Shree Swasthani Brata Katha">
     <meta property="og:description" content="सम्पूर्ण ३१ अध्यायसहितको श्री स्वस्थानी परमेश्वरीको व्रत कथा। डिजिटल संस्करणमा पढ्नुहोस्।">
     <meta property="og:url" content="https://divinetales.github.io/shree-swasthani-brata-katha/">
     <meta property="og:image" content="https://divinetales.github.io/shree-swasthani-brata-katha/images/cover-swasthani.jpg"> 
-    <meta property="og:type" content="website">
+    <meta property="og:type" content="book">
     <meta property="og:locale" content="ne_NP">
 
     <meta name="twitter:card" content="summary_large_image">
@@ -19,22 +22,37 @@
     <meta name="twitter:description" content="सम्पूर्ण ३१ अध्यायसहितको श्री स्वस्थानी परमेश्वरीको व्रत कथा।">
     <meta name="twitter:image" content="https://divinetales.github.io/shree-swasthani-brata-katha/images/cover-swasthani.jpg">
 
-    <!-- Google Fonts for Nepali -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;600&family=Yatra+One&display=swap" rel="stylesheet">
 
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Book",
+      "name": "श्री स्वस्थानी व्रत कथा (Shree Swasthani Brata Katha)",
+      "description": "The complete 31 chapters of Shree Swasthani Brata Katha, a Hindu mythological text recited during the month of Magh in Nepal.",
+      "inLanguage": "ne",
+      "genre": "Religious, Hindu Mythology",
+      "publisher": {
+        "@type": "Organization",
+        "name": "SK's Creations"
+      },
+      "url": "https://divinetales.github.io/shree-swasthani-brata-katha/"
+    }
+    </script>
+
     <style>
-        /* CSS Settings */
-	/* --- Universal Box Sizing --- */
-*, *::before, *::after {
-    box-sizing: border-box;
-}
+        /* --- Universal Box Sizing --- */
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
         :root {
-            --bg-color: #fcfaf2; /* Parchment/Paper color */
+            --bg-color: #fcfaf2; 
             --text-color: #2c2c2c;
-            --primary-color: #8b0000; /* Deep Red/Maroon */
-            --secondary-color: #daa520; /* Gold */
+            --primary-color: #8b0000; 
+            --secondary-color: #daa520; 
             --sidebar-bg: #f5eedc;
         }
 
@@ -47,19 +65,22 @@
             line-height: 1.8;
             font-size: 18px;
             display: flex;
+            -webkit-user-select: none; 
+            -ms-user-select: none; 
+            user-select: none; 
         }
 
-        /* Sidebar / Table of Contents */
-.sidebar {
-    width: 340px; /* Increased from 280px to make it wider */
-    height: 100vh;
-    background-color: var(--sidebar-bg);
-    position: fixed;
-    overflow-y: auto;
-    border-right: 2px solid var(--secondary-color);
-    padding: 20px;
-    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
-}
+        /* --- Sidebar / Table of Contents --- */
+        .sidebar {
+            width: 340px; 
+            height: 100vh;
+            background-color: var(--sidebar-bg);
+            position: fixed;
+            overflow-y: auto;
+            border-right: 2px solid var(--secondary-color);
+            padding: 20px;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+        }
 
         .sidebar h3 {
             font-family: 'Yatra One', cursive;
@@ -89,17 +110,17 @@
             color: var(--primary-color);
         }
 
-        /* Main Content Area */
-.main-content {
-    margin-left: 380px; /* 340px (sidebar width) + 40px (gap) = 380px */
-    padding: 40px 60px; 
-    max-width: 850px; 
-    background-color: #ffffff;
-    box-shadow: 0 0 15px rgba(0,0,0,0.05);
-    min-height: 100vh;
-}
+        /* --- Main Content Area --- */
+        .main-content {
+            margin-left: 380px; 
+            padding: 40px 60px; 
+            max-width: 850px; 
+            background-color: #ffffff;
+            box-shadow: 0 0 15px rgba(0,0,0,0.05);
+            min-height: 100vh;
+        }
 
-        /* Typography */
+        /* --- Typography --- */
         h1, h2, h3 {
             font-family: 'Yatra One', cursive;
             color: var(--primary-color);
@@ -116,7 +137,6 @@
             margin-bottom: 20px;
         }
 
-        /* Drop Cap for first letter of chapter */
         .drop-cap::first-letter {
             font-family: 'Yatra One', cursive;
             font-size: 3em;
@@ -127,7 +147,6 @@
             margin-top: 5px;
         }
 
-        /* Mantra / Shloka Formatting */
         .mantra {
             background-color: #fff8e7;
             border-left: 5px solid var(--primary-color);
@@ -141,7 +160,6 @@
             border-radius: 5px;
         }
 
-        /* Decorative Divider */
         .divider {
             text-align: center;
             font-size: 24px;
@@ -149,438 +167,318 @@
             margin: 40px 0;
         }
 
-        /* Mobile Responsiveness */
-        /* --- Upgraded Mobile Responsiveness --- */
-@media (max-width: 768px) {
-    body { 
-        flex-direction: column; 
-    }
-    
-    /* Makes the sidebar scrollable on mobile instead of taking up the whole screen */
-    .sidebar {
-        width: 100%;
-        height: auto;
-        max-height: 250px; 
-        overflow-y: auto;
-        position: relative;
-        border-right: none;
-        border-bottom: 3px solid var(--secondary-color);
-        padding: 15px;
-    }
-    
-    .main-content { 
-        margin-left: 0; 
-        padding: 15px; 
-        width: 100%;
-    }
-    
-    /* Adjust typography for smaller screens */
-    h1 { 
-        font-size: 2em; 
-        margin-top: 50px; /* Leaves space so the top buttons don't cover the title */
-    }
-    h2 { font-size: 1.5em; }
-    h3 { font-size: 1.2em; }
-    
-    .mantra {
-        font-size: 1em;
-        padding: 15px;
-    }
+        /* --- Images --- */
+        .image-container {
+            margin: 20px auto 30px auto; 
+            text-align: center; 
+            max-width: 800px; 
+        }
 
-    /* Adjust floating buttons so they fit neatly on small screens */
-    #darkModeBtn {
-        top: 10px;
-        right: 10px;
-        font-size: 12px;
-        padding: 6px 10px;
-    }
-    
-    #fontControls {
-        top: 10px;
-        right: 110px; /* Safely positioned to the left of the Dark Mode button */
-        gap: 2px;
-    }
-    
-    .font-btn {
-        font-size: 12px;
-        padding: 6px 10px;
-    }
+        .chapter-image {
+            width: 100%;
+            height: auto;
+            border-radius: 8px; 
+            border: 3px solid var(--secondary-color); 
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15); 
+            display: block;
+            margin: 0 auto 10px auto; 
+        }
 
-    #backToTopBtn {
-        bottom: 15px;
-        right: 15px;
-        padding: 10px 15px;
-        font-size: 14px;
-    }
-} {
+        .image-caption {
+            font-size: 0.9em; 
+            font-style: italic; 
+            color: #555555; 
+            padding: 0 20px;
+            line-height: 1.4;
+        }
+
+        /* --- Buttons & UI Elements --- */
+        #backToTopBtn {
+            display: none; 
+            position: fixed; 
+            bottom: 30px; 
+            right: 30px; 
+            z-index: 99; 
+            border: none; 
+            outline: none; 
+            background-color: var(--primary-color); 
+            color: white; 
+            cursor: pointer; 
+            padding: 12px 20px; 
+            border-radius: 50px; 
+            font-size: 18px; 
+            font-family: 'Mukta', sans-serif;
+            font-weight: 600;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        #backToTopBtn:hover {
+            background-color: var(--secondary-color); 
+            color: var(--text-color);
+            transform: translateY(-3px); 
+        }
+
+        #darkModeBtn {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 100;
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: 'Mukta', sans-serif;
+            font-size: 16px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+            transition: background-color 0.3s;
+        }
+
+        #darkModeBtn:hover {
+            background-color: var(--secondary-color);
+            color: #000;
+        }
+
+        #fontControls {
+            position: fixed;
+            top: 20px;
+            right: 140px; 
+            z-index: 100;
+            display: flex;
+            gap: 5px; 
+        }
+
+        .font-btn {
+            background-color: var(--primary-color); 
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: 'Mukta', sans-serif;
+            font-size: 16px;
+            font-weight: 600;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+            transition: background-color 0.3s;
+        }
+
+        .font-btn:hover {
+            background-color: var(--secondary-color); 
+            color: #000;
+        }
+
+        #floatingDonateBtn {
+            position: fixed;
+            bottom: 30px;
+            left: 30px; 
+            z-index: 99;
+            background-color: #ff4757; 
+            color: white;
+            padding: 12px 20px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-family: 'Mukta', sans-serif;
+            font-size: 16px;
+            font-weight: 600;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            transition: transform 0.3s, background-color 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        #floatingDonateBtn:hover {
+            background-color: #ff6b81; 
+            transform: translateY(-3px);
+        }
+
+        /* --- Social Media Share Buttons --- */
+        .share-container {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 25px 0;
+            padding: 15px;
+            background-color: #fdfaf6;
+            border-radius: 8px;
+            border: 1px dashed var(--secondary-color);
+        }
+
+        .share-text {
+            width: 100%;
+            text-align: center;
+            font-size: 1.1em;
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 10px;
+            font-family: 'Mukta', sans-serif;
+        }
+
+        .share-btn {
+            padding: 8px 16px;
+            border-radius: 5px;
+            color: white;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 15px;
+            font-family: 'Mukta', sans-serif;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.2s, opacity 0.2s;
+        }
+
+        .share-btn:hover {
+            opacity: 0.85;
+            transform: translateY(-2px);
+            color: white;
+        }
+
+        .share-fb { background-color: #1877F2; }
+        .share-messenger { background-color: #00B2FF; color: white;}
+        .share-wa { background-color: #25D366; }
+        .share-tg { background-color: #229ED9; }
+        .share-x { background-color: #000000; }
+        .share-copy { background-color: #666666; }
+
+        /* --- Donation Section Styling --- */
+        .donation-section {
+            max-width: 800px;
+            margin: 60px auto 40px auto;
+            padding: 30px;
+            background-color: #fff9e6; 
+            border: 2px dashed var(--secondary-color);
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+
+        .donation-title {
+            color: var(--primary-color);
+            font-size: 1.8em;
+            font-family: 'Yatra One', cursive;
+            margin-bottom: 10px;
+            margin-top: 0;
+        }
+
+        .donation-text {
+            font-size: 1.1em;
+            color: #444;
+            margin-bottom: 25px;
+        }
+
+        .payment-options {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .wallet-box {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            width: 250px;
+            text-align: center;
+        }
+
+        .esewa-title { color: #60bb46; font-weight: bold; font-size: 1.2em; margin-bottom: 15px;}
+        .connectips-title { color: #0056a6; font-weight: bold; font-size: 1.2em; margin-bottom: 15px;}
+
+        .qr-image {
+            width: 150px;
+            height: 150px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            object-fit: contain;
+        }
+
+        .wallet-number {
+            font-size: 1.2em;
+            font-weight: bold;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+
+        .copy-btn {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: 'Mukta', sans-serif;
+            font-size: 0.9em;
+            transition: background-color 0.3s;
+        }
+
+        .copy-btn:hover {
+            background-color: var(--primary-color);
+        }
+
+        /* --- Dark Mode Theme Colors --- */
+        body.dark-mode {
+            --bg-color: #121212; 
+            --text-color: #e0e0e0; 
+            --sidebar-bg: #1e1e1e; 
+            --primary-color: #ff6b6b; 
+            --secondary-color: #ffd700; 
+        }
+
+        body.dark-mode .main-content {
+            background-color: #1a1a1a;
+        }
+
+        body.dark-mode .mantra {
+            background-color: #2d2d2d;
+            color: #ffdd99; 
+        }
+
+        /* --- Mobile Responsiveness --- */
+        @media (max-width: 768px) {
             body { flex-direction: column; }
             .sidebar {
                 width: 100%;
                 height: auto;
+                max-height: 250px; 
+                overflow-y: auto;
                 position: relative;
                 border-right: none;
-                border-bottom: 2px solid var(--secondary-color);
+                border-bottom: 3px solid var(--secondary-color);
+                padding: 15px;
             }
-            .main-content { margin-left: 0; padding: 20px; width: auto;}
-            h1 { font-size: 2em; }
+            .main-content { margin-left: 0; padding: 15px; width: 100%; }
+            h1 { font-size: 2em; margin-top: 50px; }
+            h2 { font-size: 1.5em; }
+            h3 { font-size: 1.2em; }
+            .mantra { font-size: 1em; padding: 15px; }
+            #darkModeBtn { top: 10px; right: 10px; font-size: 12px; padding: 6px 10px; }
+            #fontControls { top: 10px; right: 110px; gap: 2px; }
+            .font-btn { font-size: 12px; padding: 6px 10px; }
+            #backToTopBtn { bottom: 15px; right: 15px; padding: 10px 15px; font-size: 14px; }
+            .payment-options { flex-direction: column; align-items: center; gap: 20px; }
+            .wallet-box { width: 100%; max-width: 300px; }
+            #floatingDonateBtn { bottom: 20px; left: 20px; padding: 10px 15px; font-size: 14px; }
         }
-     /* Styling for Chapter Images */
-.chapter-image {
-    width: 100%;
-    max-width: 800px;
-    height: auto;
-    border-radius: 8px; /* Rounds the corners slightly */
-    margin-top: 10px;
-    margin-bottom: 25px;
-    border: 3px solid var(--secondary-color); /* Adds a gold border to match your theme */
-    box-shadow: 0 4px 10px rgba(0,0,0,0.15); /* Adds a soft shadow */
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-/* Image Container and Caption Styling */
-.image-container {
-    margin: 20px auto 30px auto; /* Centers the container and adds space around it */
-    text-align: center; /* Centers the caption text */
-    max-width: 800px; /* Keeps it from getting too wide */
-}
-
-.chapter-image {
-    width: 100%;
-    height: auto;
-    border-radius: 8px; 
-    border: 3px solid var(--secondary-color); 
-    box-shadow: 0 4px 10px rgba(0,0,0,0.15); 
-    display: block;
-    margin: 0 auto 10px auto; /* Adds a small 10px space between the image and the caption */
-}
-
-.image-caption {
-    font-size: 0.9em; /* Makes the caption slightly smaller than the main text */
-    font-style: italic; /* Makes the text slanted */
-    color: #555555; /* Uses a soft gray color so it doesn't distract from the story */
-    padding: 0 20px;
-    line-height: 1.4;
-}
-/* Back to Top Button Styling */
-#backToTopBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed position so it stays in the corner */
-    bottom: 30px; 
-    right: 30px; 
-    z-index: 99; /* Keeps it on top of other text */
-    border: none; 
-    outline: none; 
-    background-color: var(--primary-color); /* Uses your deep red theme color */
-    color: white; 
-    cursor: pointer; 
-    padding: 12px 20px; 
-    border-radius: 50px; /* Makes it a nice rounded pill shape */
-    font-size: 18px; 
-    font-family: 'Mukta', sans-serif;
-    font-weight: 600;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-    transition: background-color 0.3s, transform 0.3s;
-}
-
-#backToTopBtn:hover {
-    background-color: var(--secondary-color); /* Changes to gold when hovered */
-    color: var(--text-color);
-    transform: translateY(-3px); /* Gives it a little "lift" effect */
-}
-
-/* For mobile devices, make it slightly smaller and closer to the edge */
-@media (max-width: 768px) {
-    #backToTopBtn {
-        bottom: 20px;
-        right: 20px;
-        padding: 10px 16px;
-        font-size: 16px;
-    }
-}
-/* --- Dark Mode Button Styling --- */
-#darkModeBtn {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    z-index: 100;
-    background-color: var(--primary-color);
-    color: white;
-    border: none;
-    padding: 8px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-family: 'Mukta', sans-serif;
-    font-size: 16px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
-    transition: background-color 0.3s;
-}
-
-#darkModeBtn:hover {
-    background-color: var(--secondary-color);
-    color: #000;
-}
-
-/* --- Dark Mode Theme Colors --- */
-body.dark-mode {
-    --bg-color: #121212; /* Very dark grey background */
-    --text-color: #e0e0e0; /* Light grey text for easy reading */
-    --sidebar-bg: #1e1e1e; /* Slightly lighter dark grey for the sidebar */
-    --primary-color: #ff6b6b; /* Lighter red so it shows up on dark backgrounds */
-    --secondary-color: #ffd700; /* Bright gold */
-}
-
-body.dark-mode .main-content {
-    background-color: #1a1a1a;
-}
-
-body.dark-mode .mantra {
-    background-color: #2d2d2d;
-    color: #ffdd99; /* Soft golden text for the mantras */
-}
-
-/* Adjust button position on mobile */
-@media (max-width: 768px) {
-    #darkModeBtn {
-        top: 10px;
-        right: 10px;
-        font-size: 14px;
-        padding: 6px 10px;
-    }
-}
-/* --- Font Size Adjuster Styling --- */
-#fontControls {
-    position: fixed;
-    top: 20px;
-    right: 140px; /* Places it just to the left of the Dark Mode button */
-    z-index: 100;
-    display: flex;
-    gap: 5px; /* Adds a small gap between the A- and A+ buttons */
-}
-
-.font-btn {
-    background-color: var(--primary-color); /* Deep red theme color */
-    color: white;
-    border: none;
-    padding: 8px 12px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-family: 'Mukta', sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
-    transition: background-color 0.3s;
-}
-
-.font-btn:hover {
-    background-color: var(--secondary-color); /* Changes to gold on hover */
-    color: #000;
-}
-
-/* Adjust button position on mobile */
-@media (max-width: 768px) {
-    #fontControls {
-        top: 10px;
-        right: 120px; /* Keeps it from overlapping the dark mode button on small screens */
-    }
-    .font-btn {
-        font-size: 14px;
-        padding: 6px 10px;
-    }
-}
-/* --- Copyright Protection: Disable Text Selection --- */
-body {
-    -webkit-user-select: none; /* Safari */
-    -ms-user-select: none; /* IE 10 and IE 11 */
-    user-select: none; /* Standard syntax */
-}
-/* --- Donation Section Styling --- */
-.donation-section {
-    max-width: 800px;
-    margin: 60px auto 40px auto;
-    padding: 30px;
-    background-color: #fff9e6; /* Soft golden background */
-    border: 2px dashed var(--secondary-color);
-    border-radius: 12px;
-    text-align: center;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
-}
-
-.donation-title {
-    color: var(--primary-color);
-    font-size: 1.8em;
-    font-family: 'Yatra One', cursive;
-    margin-bottom: 10px;
-    margin-top: 0;
-}
-
-.donation-text {
-    font-size: 1.1em;
-    color: #444;
-    margin-bottom: 25px;
-}
-
-.payment-options {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    flex-wrap: wrap;
-}
-
-.wallet-box {
-    background: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    width: 250px;
-    text-align: center;
-}
-
-.esewa-title { color: #60bb46; font-weight: bold; font-size: 1.2em; margin-bottom: 15px;}
-.connectips-title { color: #0056a6; font-weight: bold; font-size: 1.2em; margin-bottom: 15px;}
-
-.qr-image {
-    width: 150px;
-    height: 150px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    margin-bottom: 15px;
-    object-fit: contain;
-}
-
-.wallet-number {
-    font-size: 1.2em;
-    font-weight: bold;
-    letter-spacing: 1px;
-    margin-bottom: 10px;
-}
-
-.copy-btn {
-    background-color: #333;
-    color: #fff;
-    border: none;
-    padding: 8px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-family: 'Mukta', sans-serif;
-    font-size: 0.9em;
-    transition: background-color 0.3s;
-}
-
-.copy-btn:hover {
-    background-color: var(--primary-color);
-}
-
-/* Mobile Adjustments */
-@media (max-width: 768px) {
-    .payment-options {
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-    }
-    .wallet-box {
-        width: 100%;
-        max-width: 300px;
-    }
-}
-/* --- Floating Donate Button Styling --- */
-#floatingDonateBtn {
-    position: fixed;
-    bottom: 30px;
-    left: 30px; /* स्क्रिनको देब्रेपट्टि राख्न */
-    z-index: 99;
-    background-color: #ff4757; /* आकर्षक रातो/गुलाबी रङ */
-    color: white;
-    padding: 12px 20px;
-    border-radius: 50px;
-    text-decoration: none;
-    font-family: 'Mukta', sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-    transition: transform 0.3s, background-color 0.3s;
-    display: flex;
-    align-items: center;
-    gap: 5px;
-}
-
-#floatingDonateBtn:hover {
-    background-color: #ff6b81; /* माउस लाँदा रङ परिवर्तन हुने */
-    transform: translateY(-3px);
-}
-
-/* मोबाइलको लागि साइज मिलाउन */
-@media (max-width: 768px) {
-    #floatingDonateBtn {
-        bottom: 20px;
-        left: 20px;
-        padding: 10px 15px;
-        font-size: 14px;
-    }
-}
-/* --- Social Media Share Buttons --- */
-.share-container {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 25px 0;
-    padding: 15px;
-    background-color: #fdfaf6;
-    border-radius: 8px;
-    border: 1px dashed var(--secondary-color);
-}
-
-.share-text {
-    width: 100%;
-    text-align: center;
-    font-size: 1.1em;
-    font-weight: 600;
-    color: var(--primary-color);
-    margin-bottom: 10px;
-    font-family: 'Mukta', sans-serif;
-}
-
-.share-btn {
-    padding: 8px 16px;
-    border-radius: 5px;
-    color: white;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    font-size: 15px;
-    font-family: 'Mukta', sans-serif;
-    border: none;
-    cursor: pointer;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    transition: transform 0.2s, opacity 0.2s;
-}
-
-.share-btn:hover {
-    opacity: 0.85;
-    transform: translateY(-2px);
-    color: white;
-}
-
-/* Official Brand Colors */
-.share-fb { background-color: #1877F2; }
-.share-messenger { background-color: #00B2FF; color: white;}
-.share-wa { background-color: #25D366; }
-.share-tg { background-color: #229ED9; }
-.share-x { background-color: #000000; }
-.share-copy { background-color: #666666; }
     </style>
 </head>
-<a href="#donate" id="floatingDonateBtn" title="स्रष्टालाई सहयोग गर्नुहोस्">❤️ Donate</a>
+
 <body>
-<button onclick="toggleDarkMode()" id="darkModeBtn" title="Toggle Dark Mode">🌙 राति पढ्ने</button>
-<div id="fontControls" title="अक्षरको आकार मिलाउनुहोस्">
+    <a href="#donate" id="floatingDonateBtn" title="स्रष्टालाई सहयोग गर्नुहोस्">❤️ Donate</a>
+    <button onclick="toggleDarkMode()" id="darkModeBtn" title="Toggle Dark Mode">🌙 राति पढ्ने</button>
+    
+    <div id="fontControls" title="अक्षरको आकार मिलाउनुहोस्">
         <button onclick="changeFontSize(1)" class="font-btn">A+</button>
         <button onclick="changeFontSize(-1)" class="font-btn">A-</button>
     </div>
 
-    <!-- Sidebar / Table of Contents -->
     <nav class="sidebar">
         <h3>विषयसूची</h3>
         <ul>
@@ -588,50 +486,48 @@ body {
             <li><a href="#vidhi">श्री स्वस्थानी व्रत पूजा विधि</a></li>
             <li><a href="#chapter-1">प्रथम अध्याय: सृष्टि क्रम वर्णन</a></li>
             <li><a href="#chapter-2">द्वितीय अध्याय: दिग्पाल र प्राणी सृष्टि</a></li>
-	    <li><a href="#chapter-3">तृतीय अध्याय: दक्ष कन्या विवाह वर्णन</a></li>
-	    <li><a href="#chapter-4">चतुर्थ अध्याय: सतीदेवी विवाह</a></li>
-	    <li><a href="#chapter-5">पञ्चम अध्याय: त्रिपुरासुर दाह</a></li>
-	    <li><a href="#chapter-6">षष्ठ अध्याय: सतीदेवी देह त्याग</a></li>
-	    <li><a href="#chapter-7">सप्तम अध्याय: दक्ष यज्ञ विध्वंश</a></li>
-	    <li><a href="#chapter-8">अष्टम अध्याय: महादेव पृथ्वी भ्रमण</a></li>
-	    <li><a href="#chapter-9">नवम अध्याय: सतीदेवी अङ्ग पतन (भाग १)</a></li>
-	    <li><a href="#chapter-10">दशम अध्याय: सतीदेवी अङ्ग पतन (भाग २)</a></li>
-	    <li><a href="#chapter-11">एकादश अध्याय: इन्द्रादि देवता मृगस्थली गमन</a></li>
-	    <li><a href="#chapter-12">द्वादश अध्याय: श्री स्वस्थानी व्रतोपदेश</a></li>
-	    <li><a href="#chapter-13">त्रयोदश अध्याय: श्री स्वस्थानी व्रत विधान</a></li>
-	    <li><a href="#chapter-14">चतुर्दश अध्याय: शिव पार्वती कैलाश प्रवेश</a></li>
-	    <li><a href="#chapter-15">पञ्चदश अध्याय: जालन्धर दैत्य जन्म</a></li>
-	    <li><a href="#chapter-16">षोडश अध्याय: शिवको मृग रूप र जालन्धरको छल</a></li>
-	    <li><a href="#chapter-17">सप्तदश अध्याय: वृन्दाको सतीत्व हरण र जालन्धर वध</a></li>
-	    <li><a href="#chapter-18">अष्टादश अध्याय: नागिनी व्रतकरण वर्णन</a></li>
-	    <li><a href="#chapter-19">एकोनविंश अध्याय: गोमा ब्राह्मणी जन्म</a></li>
-	    <li><a href="#chapter-20">विंश अध्याय: गोमा विवाह वर्णन</a></li>
-	    <li><a href="#chapter-21">एकविंश अध्याय: शिव शर्मा स्वगृह गमन</a></li>
-	    <li><a href="#chapter-22">द्वाविंश अध्याय: शिव शर्मा परलोक गमन</a></li>
-	    <li><a href="#chapter-23">त्रयोविंश अध्याय: सप्तऋषि व्रतोपदेश</a></li>
-	    <li><a href="#chapter-24">चतुर्विंश अध्याय: गोमा स्वस्थानी व्रतकृत्य</a></li>
-	    <li><a href="#chapter-25">पञ्चविंश अध्याय: नवराज राज्याभिषेक</a></li>
-	    <li><a href="#chapter-26">षड्विंश अध्याय: चन्द्रावतीको प्रस्थान</a></li>
-	    <li><a href="#chapter-27">सप्तविंश अध्याय: चन्द्रावतीको पतन र कष्ट</a></li>
-	    <li><a href="#chapter-28">अष्टाविंश अध्याय: चन्द्रावती व्रत वर्णन</a></li>
-	    <li><a href="#chapter-29">एकोनत्रिंश अध्याय: नाग-नागिनी मिलन</a></li>
-	    <li><a href="#chapter-30">त्रिंश अध्याय: चन्द्रावती स्ववृत्त कथन</a></li>
-	    <li><a href="#chapter-31">एकत्रिंश अध्याय: गोमा उपदेश र व्रत माहात्म्य</a></li>  
-
-         <!-- तपाईंले यहाँ अरू अध्यायहरूको लिङ्क थप्न सक्नुहुन्छ -->
+            <li><a href="#chapter-3">तृतीय अध्याय: दक्ष कन्या विवाह वर्णन</a></li>
+            <li><a href="#chapter-4">चतुर्थ अध्याय: सतीदेवी विवाह</a></li>
+            <li><a href="#chapter-5">पञ्चम अध्याय: त्रिपुरासुर दाह</a></li>
+            <li><a href="#chapter-6">षष्ठ अध्याय: सतीदेवी देह त्याग</a></li>
+            <li><a href="#chapter-7">सप्तम अध्याय: दक्ष यज्ञ विध्वंश</a></li>
+            <li><a href="#chapter-8">अष्टम अध्याय: महादेव पृथ्वी भ्रमण</a></li>
+            <li><a href="#chapter-9">नवम अध्याय: सतीदेवी अङ्ग पतन (भाग १)</a></li>
+            <li><a href="#chapter-10">दशम अध्याय: सतीदेवी अङ्ग पतन (भाग २)</a></li>
+            <li><a href="#chapter-11">एकादश अध्याय: इन्द्रादि देवता मृगस्थली गमन</a></li>
+            <li><a href="#chapter-12">द्वादश अध्याय: श्री स्वस्थानी व्रतोपदेश</a></li>
+            <li><a href="#chapter-13">त्रयोदश अध्याय: श्री स्वस्थानी व्रत विधान</a></li>
+            <li><a href="#chapter-14">चतुर्दश अध्याय: शिव पार्वती कैलाश प्रवेश</a></li>
+            <li><a href="#chapter-15">पञ्चदश अध्याय: जालन्धर दैत्य जन्म</a></li>
+            <li><a href="#chapter-16">षोडश अध्याय: शिवको मृग रूप र जालन्धरको छल</a></li>
+            <li><a href="#chapter-17">सप्तदश अध्याय: वृन्दाको सतीत्व हरण र जालन्धर वध</a></li>
+            <li><a href="#chapter-18">अष्टादश अध्याय: नागिनी व्रतकरण वर्णन</a></li>
+            <li><a href="#chapter-19">एकोनविंश अध्याय: गोमा ब्राह्मणी जन्म</a></li>
+            <li><a href="#chapter-20">विंश अध्याय: गोमा विवाह वर्णन</a></li>
+            <li><a href="#chapter-21">एकविंश अध्याय: शिव शर्मा स्वगृह गमन</a></li>
+            <li><a href="#chapter-22">द्वाविंश अध्याय: शिव शर्मा परलोक गमन</a></li>
+            <li><a href="#chapter-23">त्रयोविंश अध्याय: सप्तऋषि व्रतोपदेश</a></li>
+            <li><a href="#chapter-24">चतुर्विंश अध्याय: गोमा स्वस्थानी व्रतकृत्य</a></li>
+            <li><a href="#chapter-25">पञ्चविंश अध्याय: नवराज राज्याभिषेक</a></li>
+            <li><a href="#chapter-26">षड्विंश अध्याय: चन्द्रावतीको प्रस्थान</a></li>
+            <li><a href="#chapter-27">सप्तविंश अध्याय: चन्द्रावतीको पतन र कष्ट</a></li>
+            <li><a href="#chapter-28">अष्टाविंश अध्याय: चन्द्रावती व्रत वर्णन</a></li>
+            <li><a href="#chapter-29">एकोनत्रिंश अध्याय: नाग-नागिनी मिलन</a></li>
+            <li><a href="#chapter-30">त्रिंश अध्याय: चन्द्रावती स्ववृत्त कथन</a></li>
+            <li><a href="#chapter-31">एकत्रिंश अध्याय: गोमा उपदेश र व्रत माहात्म्य</a></li>  
         </ul>
     </nav>
 
-    <!-- Main Ebook Content -->
     <main class="main-content">
-   <figure class="image-container">
-    <img src="images/cover-swasthani.jpg" alt="Goddess Swasthani" loading="lazy" class="chapter-image">
-    <figcaption class="image-caption">अष्टदल पद्ममा विराजमान श्री स्वस्थानी परमेश्वरीको दिव्य स्वरूप।</figcaption>
-</figure>  
-        <!-- Title Page -->
+        <figure class="image-container">
+            <img src="images/cover-swasthani.jpg" alt="Goddess Swasthani" loading="lazy" class="chapter-image">
+            <figcaption class="image-caption">अष्टदल पद्ममा विराजमान श्री स्वस्थानी परमेश्वरीको दिव्य स्वरूप।</figcaption>
+        </figure>  
+
         <h1>श्री स्वस्थानी व्रत कथा</h1>
         <div class="divider">❁ ॐ ❁</div>
-<div class="share-container">
+
+        <div class="share-container">
             <div class="share-text">कथा सेयर गरी धर्म कमाउनुहोस्:</div>
             <a href="#" onclick="sharePage('facebook')" class="share-btn share-fb">📘 Facebook</a>
             <a href="#" onclick="sharePage('messenger')" class="share-btn share-messenger">💬 Messenger</a>
@@ -641,155 +537,126 @@ body {
             <button onclick="copyPageLink(this)" class="share-btn share-copy">🔗 Copy Link</button>
         </div>
 
-        <!-- Section: Stuti -->
         <section id="intro">
             <h2>स्तुति र मन्त्र पाठ</h2>
-	    <h3>प्रत्येक दिन कथा (अध्याय) आरम्भ गर्नु भन्दा पहिले वाचनले यो मन्त्र स्तुति पढ्नु</h3>
-            <div class="mantra">   
-    		यम् ब्रह्मा वरुणेन्द्ररुद्रमरुत: स्तुवन्ति दिव्यै: स्तवै: वेदै: साङ्गपदक्रमोपनिषदैर्गायन्ति यम् सामगा:।<br>
-    		ध्यानावस्थिततद्गतेन मनसा पश्यन्ति यम् योगिनो यस्यान्तम् न विदु: सुरासुरगणा देवाय तस्मै नम:।<br>
-    		श्रीमच्चन्दनचर्चितोज्ज्वलवपु: शुक्लाम्बरा मल्लिका मालाङ्कृतकुण्डला प्रविलसन्मुक्ता वलीशोभिता।<br> 
-    		सर्वज्ञाननिदानपुस्तकधरा रुद्राक्षमालाकरा वाग्देवी वदनाम्बुजे वसतु मे त्रैलोक्यमाताचिरम्।<br>
-    		मूकं करोति वाचालं पङ्गुं लङ्घयते गिरिम् यत्कृपा तमहं वन्दे परमानन्दमाधवम्।<br> 
-    		नमो भगवते तस्मै व्यासाय अमिततेजसे यस्य प्रसादाद् वक्ष्यामि नारायणकथामिमाम्।<br>
-    		नारायणं नमस्कृत्य नरं चैव नरोत्तमम् देवीं सरस्वतीं व्यासं ततो जयमुदीरयेत्।<br>
-    		या कुन्देन्दुतुषारहारधवला या शुभ्रवस्त्रावृता या वीणावरदण्डमण्डितकरा या श्वेतपद्मासना।<br>
-   		या ब्रह्माच्युतशङ्करप्रभृतिभिर्देवैः सदा वन्दिता सा मां पातु सरस्वती भगवती निःशेषजाड्यापहा।<br> 
-    		कायेन वाचा मनसेन्द्रियैर्वा बुद्ध्यात्मना वा प्रकृतिस्वभावात् करोमि यद्यत्सकलं परस्मै नारायणायेति समर्पयामि।
-	   </div>
-	   <h3>प्रत्येक दिन कथा (अध्याय) पढिसकेपछि वाचनले यो मन्त्र स्तुति पढ्नु</h3>
-	   <div class="mantra">   
-   		 यम् ब्रह्मा वरुणेन्द्ररुद्रमरुत: स्तुवन्ति दिव्यै: स्तवै: वेदै: साङ्गपदक्रमोपनिषदैर्गायन्ति यम् सामगा:।<br>
-    		ध्यानावस्थिततद्गतेन मनसा पश्यन्ति यम् योगिनो यस्यान्तम् न विदु: सुरासुरगणा देवाय तस्मै नम:।।<br><br>
-
-    		श्रीमच्चन्दनचर्चितोज्ज्वलवपु: शुक्लाम्बरा मल्लिका मालाङ्कृतकुण्डला प्रविलसन्मुक्ता वलीशोभिता।<br>
-    		सर्वज्ञाननिदानपुस्तकधरा रुद्राक्षमालाकरा वाग्देवी वदनाम्बुजे वसतु मे त्रैलोक्यमाताचिरम्।।<br><br>
-
-    		मूकं करोति वाचालं पङ्गुं लङ्घयते गिरिम् यत्कृपा तमहं वन्दे परमानन्दमाधवम्।<br>
-    		नमो भगवते तस्मै व्यासाय अमिततेजसे यस्य प्रसादाद् वक्ष्यामि नारायणकथामिमाम्।।<br><br>
-
-    		नारायणं नमस्कृत्य नरं चैव नरोत्तमम् देवीं सरस्वतीं व्यासं ततो जयमुदीरयेत्।<br>
-    		या कुन्देन्दुतुषारहारधवला या शुभ्रवस्त्रावृता या वीणावरदण्डमण्डितकरा या श्वेतपद्मासना।।
-	 </div>
-            
+            <h3>प्रत्येक दिन कथा (अध्याय) आरम्भ गर्नु भन्दा पहिले वाचनले यो मन्त्र स्तुति पढ्नु</h3>
+            <div class="mantra">   
+                यम् ब्रह्मा वरुणेन्द्ररुद्रमरुत: स्तुवन्ति दिव्यै: स्तवै: वेदै: साङ्गपदक्रमोपनिषदैर्गायन्ति यम् सामगा:।<br>
+                ध्यानावस्थिततद्गतेन मनसा पश्यन्ति यम् योगिनो यस्यान्तम् न विदु: सुरासुरगणा देवाय तस्मै नम:।<br>
+                श्रीमच्चन्दनचर्चितोज्ज्वलवपु: शुक्लाम्बरा मल्लिका मालाङ्कृतकुण्डला प्रविलसन्मुक्ता वलीशोभिता।<br> 
+                सर्वज्ञाननिदानपुस्तकधरा रुद्राक्षमालाकरा वाग्देवी वदनाम्बुजे वसतु मे त्रैलोक्यमाताचिरम्।<br>
+                मूकं करोति वाचालं पङ्गुं लङ्घयते गिरिम् यत्कृपा तमहं वन्दे परमानन्दमाधवम्।<br> 
+                नमो भगवते तस्मै व्यासाय अमिततेजसे यस्य प्रसादाद् वक्ष्यामि नारायणकथामिमाम्।<br>
+                नारायणं नमस्कृत्य नरं चैव नरोत्तमम् देवीं सरस्वतीं व्यासं ततो जयमुदीरयेत्।<br>
+                या कुन्देन्दुतुषारहारधवला या शुभ्रवस्त्रावृता या वीणावरदण्डमण्डितकरा या श्वेतपद्मासना।<br>
+                या ब्रह्माच्युतशङ्करप्रभृतिभिर्देवैः सदा वन्दिता सा मां पातु सरस्वती भगवती निःशेषजाड्यापहा।<br> 
+                कायेन वाचा मनसेन्द्रियैर्वा बुद्ध्यात्मना वा प्रकृतिस्वभावात् करोमि यद्यत्सकलं परस्मै नारायणायेति समर्पयामि।
+            </div>
+            <h3>प्रत्येक दिन कथा (अध्याय) पढिसकेपछि वाचनले यो मन्त्र स्तुति पढ्नु</h3>
+            <div class="mantra">   
+                यम् ब्रह्मा वरुणेन्द्ररुद्रमरुत: स्तुवन्ति दिव्यै: स्तवै: वेदै: साङ्गपदक्रमोपनिषदैर्गायन्ति यम् सामगा:।<br>
+                ध्यानावस्थिततद्गतेन मनसा पश्यन्ति यम् योगिनो यस्यान्तम् न विदु: सुरासुरगणा देवाय तस्मै नम:।।<br><br>
+                श्रीमच्चन्दनचर्चितोज्ज्वलवपु: शुक्लाम्बरा मल्लिका मालाङ्कृतकुण्डला प्रविलसन्मुक्ता वलीशोभिता।<br>
+                सर्वज्ञाननिदानपुस्तकधरा रुद्राक्षमालाकरा वाग्देवी वदनाम्बुजे वसतु मे त्रैलोक्यमाताचिरम्।।<br><br>
+                मूकं करोति वाचालं पङ्गुं लङ्घयते गिरिम् यत्कृपा तमहं वन्दे परमानन्दमाधवम्।<br>
+                नमो भगवते तस्मै व्यासाय अमिततेजसे यस्य प्रसादाद् वक्ष्यामि नारायणकथामिमाम्।।<br><br>
+                नारायणं नमस्कृत्य नरं चैव नरोत्तमम् देवीं सरस्वतीं व्यासं ततो जयमुदीरयेत्।<br>
+                या कुन्देन्दुतुषारहारधवला या शुभ्रवस्त्रावृता या वीणावरदण्डमण्डितकरा या श्वेतपद्मासना।।
+            </div>
         </section>
 
         <div class="divider">❁ ॐ ❁</div>
 
-        <!-- Section: Puja Vidhi -->
         <section id="vidhi">
             <h2>श्री स्वस्थानी व्रत पूजा विधि</h2>
             
             <h3>व्रतको आरम्भ र नियमहरू</h3>
-            <p>श्री स्वस्थानी परमेश्वरीको व्रत गर्ने पुरुष वा स्त्रीले पौष शुक्ल पूर्णिमाको दिन देखिन आरम्भ गर्नु। अघिल्लो दिन अर्थात् चतुर्दशीको दिन हात खुट्टाको नङ काटी पवित्र भएर एक छाक हविष्य भोजन गरी ब्रह्मचर्य पालन गरी खाट बिछ्यौना त्यागी भुइँमा शयन गर्नु। अनि भोलिपल्ट अर्थात् पौष शुक्ल पूर्णिमाको दिन पूजा गर्ने स्थानमा बसेर आचमन गरी मनले "आज देखिन म एक महिना सम्म श्री स्वस्थानी परमेश्वरीको व्रत गर्दछु" भनी प्रतिज्ञा गर्नु। त्यस दिन देखिन सकेसम्म कसैसँग झगडा नगर्नु, दुर्वाच्य वचन नबोल्नु, र सात्विक भाव हृदयमा राख्नु पर्दछ।</p>
+            <p>श्री स्वस्थानी परमेश्वरीको व्रत गर्ने पुरुष वा स्त्रीले पौष शुक्ल पूर्णिमाको दिन देखिन आरम्भ गर्नु। अघिल्लो दिन अर्थात् चतुर्दशीको दिन हात खुट्टाको नङ काटी पवित्र भएर एक छाक हविष्य भोजन गरी ब्रह्मचर्य पालन गरी खाट बिछ्यौना त्यागी भुइँमा शयन गर्नु। अनि भोलिपल्ट अर्थात् पौष शुक्ल पूर्णिमाको दिन पूजा गर्ने स्थानमा बसेर आचमन गरी मनले "आज देखिन म एक महिना सम्म श्री स्वस्थानी परमेश्वरीको व्रत गर्दछु" भनी प्रतिज्ञा गर्नु। त्यस दिन देखिन सकेसम्म कसैसँग झगडा नगर्नु, दुर्वाच्य वचन नबोल्नु, र सात्विक भाव हृदयमा राख्नु पर्दछ。</p>
 
             <h3>दैनिक पूजा र नित्यकर्म</h3>
-            <p>प्रतिदिन बिहान उठेर नित्यकर्म गरिसकी जो सकेको पत्र, पुष्प, फल, जलले स्वस्थानी परमेश्वरीको पूजा गर्नु। मध्य भएपछि श्री महादेवको आफ्नो शक्ति अनुसार सबै सामग्री तयार पारेर पूजन गर्नु। यो क्रम एक महिना सम्म टुटाउनु हुँदैन। सधैँ एकनासी त गर्दै रहनु पर्दछ।</p>
+            <p>प्रतिदिन बिहान उठेर नित्यकर्म गरिसकी जो सकेको पत्र, पुष्प, फल, जलले स्वस्थानी परमेश्वरीको पूजा गर्नु। मध्य भएपछि श्री महादेवको आफ्नो शक्ति अनुसार सबै सामग्री तयार पारेर पूजन गर्नु। यो क्रम एक महिना सम्म टुटाउनु हुँदैन। सधैँ एकनासी त गर्दै रहनु पर्दछ。</p>
 
             <h3>कथा वाचन तथा श्रवण विधि</h3>
-            <p>प्रत्येक दिन सूर्यास्त भएपछि सकेदेखिन नखाई, नसके हविष्य भोजन गरेर भए पनि श्री स्वस्थानी परमेश्वरीको कथा भन्नु वा भन्न लगाएर सुन्नु। आफ्ना इष्टमित्र र बन्धु बान्धवहरुलाई पनि कथा भन्न राख्नु वा सुन्न डाख्नु। कथा आरम्भ गर्नु भन्दा पहिले र भनिसकेपछि धुप, दीप, नैवेद्य चढाई पुस्तकको पूजा गर्नु र श्रोतालाई जति सबैलाई प्रसाद दिई आफूले पनि खानु।</p>
+            <p>प्रत्येक दिन सूर्यास्त भएपछि सकेदेखिन नखाई, नसके हविष्य भोजन गरेर भए पनि श्री स्वस्थानी परमेश्वरीको कथा भन्नु वा भन्न लगाएर सुन्नु। आफ्ना इष्टमित्र र बन्धु बान्धवहरुलाई पनि कथा भन्न राख्नु वा सुन्न डाख्नु। कथा आरम्भ गर्नु भन्दा पहिले र भनिसकेपछि धुप, दीप, नैवेद्य चढाई पुस्तकको पूजा गर्नु र श्रोतालाई जति सबैलाई प्रसाद दिई आफूले पनि खानु。</p>
         
-	    <h3>व्रत समापन तथा विशेष पूजा (माघ शुक्ल पूर्णिमा)</h3>
-	    <p>यस क्रमले जब माघ शुक्ल पूर्णिमाको दिन आउँछ तब नित्य भनिने कथा समाप्त गरी विशेष पूजाका लागि आरसी अर्थात् तामाको थालीमा ॐकार लेखी त्यसमा पवित्र बालुवाको शिवलिङ्ग बनाई त्यही थालीमा स्थापना गर्नु। त्यसपछि अक्षता, बेली पुष्प, यज्ञसूत्र, तिल, जौ, पान, सुपारी, रोटी, बत्ती तथा अरु पनि त्यस ऋतुमा पाइने फलफूल इत्यादि गनेर १०८ का दरले चढाउनु पर्दछ। पूजा थाल्नु भन्दा पहिले दीप, कलश, गणेश र वरुण आदि सबै देवताको विधिपूर्वक पूजा गर्नुपर्दछ।</p>
-	</section>
+            <h3>व्रत समापन तथा विशेष पूजा (माघ शुक्ल पूर्णिमा)</h3>
+            <p>यस क्रमले जब माघ शुक्ल पूर्णिमाको दिन आउँछ तब नित्य भनिने कथा समाप्त गरी विशेष पूजाका लागि आरसी अर्थात् तामाको थालीमा ॐकार लेखी त्यसमा पवित्र बालुवाको शिवलिङ्ग बनाई त्यही थालीमा स्थापना गर्नु। त्यसपछि अक्षता, बेली पुष्प, यज्ञसूत्र, तिल, जौ, पान, सुपारी, रोटी, बत्ती तथा अरु पनि त्यस ऋतुमा पाइने फलफूल इत्यादि गनेर १०८ का दरले चढाउनु पर्दछ। पूजा थाल्नु भन्दा पहिले दीप, कलश, गणेश र वरुण आदि सबै देवताको विधिपूर्वक पूजा गर्नुपर्दछ。</p>
+        </section>
 
-                <div class="divider">❁ ॐ ❁</div>
+        <div class="divider">❁ ॐ ❁</div>
 
-        <!-- Section: Chapter 1 -->
         <section id="chapter-1">
             <h2>प्रथम अध्याय: सृष्टि क्रम वर्णन</h2>
-            
             <h3>अगस्त्य मुनि र स्कन्दकुमार संवाद</h3>
             <p class="drop-cap">पू</p>
             <p>र्वकालमा समस्त मुनिहरुमा सबै प्रकारले ख्याति प्राप्त गरेका अगस्त्य मुनि आफ्नो आश्रममा तपमा लीन थिए। एकदिन मयुरमा चढेर स्कन्दकुमार त्यहीँ पाल्नुभयो। अगस्त्य मुनिले देखेर सम्मान साथ आसनमा बसाली स्वागत सत्कार गरेपछि नम्र प्राणीले सोधे, "हे कुमार, यो संसार कसरी सृष्टि भयो? यसको विषयमा जान्न इच्छा भयो, म उपर कृपा गरी आज्ञा भए आफूलाई धन्य सम्झिने थिएँ" ।</p>
-
             <h3>सृष्टिको आरम्भ</h3>
             <p>अगस्त्यको प्रश्न सुनेर कुमारजी भन्नुहुन्छ, "हे मुनि तिमी एकचित्त भई सुन, म तिमीलाई सृष्टिको क्रम सुनाउँछु। यो सृष्टि प्रारम्भ हुँदा पहिले परब्रह्म परमात्माको इच्छा स्वयं स्फुरण हुनासाथ त्यही इच्छाले प्रेरित समस्त गुणले युक्त ब्रह्मा, विष्णु र शिव प्रकट भए। तिनका शक्ति स्वरूप त्रिगुणले युक्त माया वा प्रकृति उत्पन्न भइन्। त्रिगुणात्मिका मायालाई जित्न वा वश गर्न अत्यन्त कठिन छ। उनै माया भन्दा पर प्रतिष्ठा युक्त निवृत्ति पद छ। त्यो भन्दा पर शान्ति पद र ऊ भन्दा पनि पर शान्त्यतित पद छ। त्यसपछि विद्या पद छ र विद्या भन्दा पनि पर निवृत्ति पद छ। जान्नेहरु त्यसलाई मोक्ष पद पनि भन्दछन्। यो संक्षेपमा भयो, अलि विस्तारले सृष्टिको क्रम बुझाउन र बुझ्न पनि निकै कठिन छ। संक्षेपमा भनेको कारण पनि मुख्य यही हो।"</p>
-
             <h3>प्रलय र मायाको चक्र</h3>
             <p>"प्रलय र सृष्टिको क्रम बेग्ला बेग्लै छ। एक नियमले सृष्टि हुन्छ र अर्को नियमले प्रलय हुन्छ। जो त्रिगुणात्मिका माया छन् ती शान्ति, विद्या, प्रतिष्ठा र निवृत्ति आदि पदमा रहन सक्दिनन्। माया भन्दा पनि टाढा रहने जो अव्यक्त छ, त्यो आत्मामा विद्यमान छ। जीव अज्ञानी र प्रकृति जड हुनाले समस्त परमाणु अचेतन छन्। कारण विना कुनै कार्य हुन सक्दैन। यसैकारण जगतको अधिष्ठाता परमात्माको इच्छा विना कुनै कार्य पनि हुन सक्दैन। यो कुरा वेद शास्त्रले पनि स्वीकारेका छन्। ता पनि वेदान्त आदि शास्त्रमा सबैको गति नपुग्ने हुनाले सबैलाई तुरुन्त निश्चय हुन सक्दैन। त्यसैकारण जन्म मरण रूप बन्धन नटुटेर त्यसैको सुख दुख केवल अनुभव गर्ने जीवद्वारा यो संसारको क्रम चलिरहेको छ।"</p>
-
             <h3>ब्रह्माण्डको स्वरूप र भ्रम</h3>
             <p>"यो क्रम कल्प कल्पको भेदले भिन्न भिन्न झैँ देखिने हुँदा अनेकौं कल्प मध्ये केवल पद्म कल्पको मात्र वर्णन गर्दछु। ब्रह्मा, विष्णु, शिव एक हुन्, यिनमा सानो र ठूलो भन्ने भेद छैन। हे मुनि, सृष्टि गर्ने चतुर्मुख ब्रह्मा, पालन गर्ने विष्णु, संहार गर्ने रुद्र हुन्। विष्णु र शिवका आयुको अवधि वा प्रमाण छैन। ब्रह्माको सय वर्ष परमायु कहिन्छ। उनको प्रथम ५० वर्षलाई परार्ध भन्दछन्। सय वर्ष पुगेपछि उनको पनि नाश हुन्छ वा प्रलय हुन्छ। प्रलय भएपछि समस्त संसार र यसमा रहेका वस्तुहरु केही रहन्नन्। अनि ईश्वरद्वारा अर्को सृष्टिको क्रम आरम्भ हुन्छ। त्यो नयाँ सृष्टि पनि अगाडि जुन क्रमले चलेको थियो स्वै प्रकारले चल्न थाल्दछ। प्रलय चाहिँ अनेक प्रकारले हुन सक्दछ। ब्रह्माको घर गृहस्थी सबै छ। उनले पनि खानु सुत्नु पर्दछ। उनी बस्ने लोकको नाम सत्यलोक हो। प्रातःकाल हुँदा उनले सृष्टि गर्दछन्। उनको एक दिनमै सत्य, त्रेता, द्वापर, कलि चार युग ७२ पल्ट घुमिरहन्छन्। रात परेपछि प्रलय गर्दछन्। त्यही क्रमले जब ब्रह्माको सय वर्ष पुग्दछ तब महाप्रलय हुन्छ।"</p>
-            
             <p>"त्यस महाप्रलय पछि फेरी पहिले जस्तै रजोगुणले युक्त ब्रह्मा उत्पन्न गराई अहंकार र पञ्चमहाभूत, ज्ञानेन्द्रिय, कर्मेन्द्रिय, पञ्चतन्मात्रा, शब्द, रूप, रस, गन्धले युक्त एउटा अण्ड उत्पन्न हुन्छ वा बन्दछ। त्यो अण्ड ब्राह्ममय हुनाले त्यसको नाम ब्रह्माण्ड रहेको हो। त्यही अण्ड फुटेर दुई भाग भएपछि एक भागको प्रकृति र अर्को भागको पुरुष बन्दछ। त्यसैबाट प्रथम सृष्टि चतुर्मुख ब्रह्मा भए, पालन गर्ने अनन्त कोटि ब्रह्माण्डका स्वामी विष्णु भए, संहार गर्ने महारुद्र भए। यिनैले यो सृष्टिको कार्य निर्वाद गतिले गर्दछन्। जसको इच्छाले त्यो अण्डको उत्पत्ति हुन्छ, त्यस परम ब्रह्म परमात्मालाई त्रिगुण, गुणातीत, चतुर्व्यूह, अनादि, अजन्मा, हिरण्यगर्भ, प्रजापति आदि भन्दछन्।"</p>
-
             <p>"सुमेरु पर्वत समुद्रको बीचमा समस्त जीवहरु गर्भाशयमा बालक रहेझैँ रहेका छन्। सूर्य, चन्द्र, ग्रह, नक्षत्र आदि पनि त्यही सुमेरीको चारैतिर स्थित छन्। निराकार आकाश र त्रिगुणात्मिका माया र पञ्चमहाभूतले बेरिए झैँ भई आकारवान् अर्थात् एक रूपबाट अर्को रूप देखिन्छ। तर त्यस आकाशलाई राम्ररी विचार गर्दा आदि, मध्य, अन्त्य नभएको अनादि, अनन्त परमेश्वरको लीला मात्र हो। यो संसार नै भ्रान्तिको रूप हो किनकि उनै ईश्वरको इच्छाले सृष्टि, स्थिति, संहार हुन्छ। धागोमा दाना उनिए झैँ यो संसार परब्रह्मामा उनिएको छ। अनन्त कोटि ब्रह्माण्डको गणना गर्न सकिन्न। जति ब्रह्माण्ड छन् उति नै ब्रह्मा, विष्णु, शिव, चन्द्र, सूर्य, इन्द्र, दिक्पालहरु भिन्न भिन्न छन्। जस्तै स्वप्नमा देखिएका अनेकौँ सुखदुखको अनुभव जागा हुनासाथ केही पनि रहन्न। त्यस्तै यो मिथ्या अनित्य संसारका सुखदुख पनि स्वप्न जस्तै छ।"</p>
-
             <p>"सुख दुख त मनको मात्र अनुभव गर्दछ। त्यसको भागी जुन मन हो त्यसलाई आफ्नो वशमा राख्नु नै ईश्वर प्राप्तिको मुख्य बाटो हो भन्ने कुरा पण्डितले राम्ररी बुझ्नुपर्दछ। हे मुनि, तिमी पनि एकाग्र मनले तपस्या गर, अवश्य सिद्ध मिल्नेछ। मैले यो सृष्टिको क्रम संक्षेपमा सुनाएँ, अब दोस्रो अध्यायमा पद्मकल्पको वर्णन गर्नेछु, ध्यानपूर्वक सुन।"</p>
-
             <p class="mantra">इति श्री स्कन्द पुराणे केदार खण्डे माघ महात्म्ये कुमार अगस्त्य संवादे श्री स्वस्थानी व्रत कथायाम् सृष्टि क्रम वर्ण नाम प्रथम अध्याय।</p>
         </section>
 
-                <div class="divider">❁ ॐ ❁</div>
+        <div class="divider">❁ ॐ ❁</div>
 
-        <!-- Section: Chapter 2 -->
         <section id="chapter-2">
             <h2>द्वितीय अध्याय: दिग्पाल र प्राणी सृष्टि वर्णन</h2>
-	  <figure class="image-container">
-    <img src="images/chapter-2.jpg" alt="Creation of the Universe" loading="lazy" class="chapter-image">
-    <figcaption class="image-caption">भगवान् विष्णुद्वारा मधु र कैटभ दैत्यको वध र सृष्टिको आरम्भ।</figcaption>
-</figure>
-            
+            <figure class="image-container">
+                <img src="images/chapter-2.jpg" alt="Creation of the Universe" loading="lazy" class="chapter-image">
+                <figcaption class="image-caption">भगवान् विष्णुद्वारा मधु र कैटभ दैत्यको वध र सृष्टिको आरम्भ।</figcaption>
+            </figure>
             <h3>कमलको उत्पत्ति र मधु-कैटभ युद्ध</h3>
             <p class="drop-cap">मु</p>
-            <p>नि, अघि यो संसार जलमय छँदा विष्णु भगवान्का नाभिबाट सहस्र दल कमल उत्पन्न भयो। त्यस कमलमा बसी ब्रह्मा सृष्टि गर्ने विचार गर्दै थिए। त्यही अवसरमा विष्णु भगवान्को कानेगुजीबाट अत्यन्त पराक्रमी मधु-कैटभ नामका दुई वीर उत्पन्न भए। ती दैत्यले जलमय संसारमा कहाँ के छ भनी घुम्दा ब्रह्मा बसेको स्थानमा पुगी कमलको डाँठ समातेर माथि गई हेर्दा ब्रह्माजीलाई देखे र उनलाई खसाल्न तयार भए। त्यो देखेर डराएका ब्रह्माले योगमायाको आराधना गरे। योगमाया प्रकट भएपछि ब्रह्माले, "हे ईश्वरी, विष्णुलाई जागा गराइदिनुहोस्," भनेर उनले ब्रह्माको कष्ट बुझी विष्णु भगवान्लाई जागा गराइदिइन्।</p>
-            
-            <p>भगवान् जागा भएर हेर्दा ती मधु-कैटभलाई देखी तत्काल युद्ध गर्न अघि सरे। दिव्य पाँच हजार वर्षसम्म जलमा युद्ध भयो तर हारजित हुन सकेन। अनि विष्णुले, "हे दानव हो, तिमीहरू पराक्रमी रहेछौ, म प्रसन्न भएँ, इच्छा भएको वर माग" भन्दा अहङ्कारी मधु-कैटभले भने, "हे विष्णु, यस युद्धमा हाम्रो जित भयो, तिमी हार्नेले के दिन सक्छौ? बरु तिमीलाई इच्छा लागेको वर हामीसँग माग"। दैत्यका त्यस्ता कुरा सुनि विष्णुले भन्नुभयो, "पहिले वाचा गर, अनि मात्र म वर माग्दछु"। अनि दानवहरूले, "तिमीहरूले जे मागे पनि अवश्य दिनेछौं" भनी वाचा गरेपछि विष्णु भगवान्ले "अरू वर के मागूँ, तिमी दुवैलाई म मार्दछु" भन्नुभयो। मेरा हातबाट मर भनेको सुनि मधु-कैटभले भने, "हे विष्णु, तिमी छली रहेछौ, कपट गरेर वर माग्यौ, वाचा हारेको हुनाले हामी दिन्छौं। अब के गर्ने भनी विचार गर्दा सारा संसार जलमग्न देखी भने, "हे विष्णु, हामीलाई जल नभएको स्थानमा मार"। दैत्यका त्यस्ता कुरा सुनि विष्णुले आफ्नो काखमा राखेर सजिलैसँग दुवैलाई मारे। तिनै दैत्यको बोसो शीतकालमा तुषारोको पानी जमेझैँ समुद्रको जलमा जमेर पृथ्वी भइन्, मासुले पर्वत र हाडले पत्थर भयो।</p>
-
+            <p>नि, अघि यो संसार जलमय छँदा विष्णु भगवान्का नाभिबाट सहस्र दल कमल उत्पन्न भयो। त्यस कमलमा बसी ब्रह्मा सृष्टि गर्ने विचार गर्दै थिए। त्यही अवसरमा विष्णु भगवान्को कानेगुजीबाट अत्यन्त पराक्रमी मधु-कैटभ नामका दुई वीर उत्पन्न भए। ती दैत्यले जलमय संसारमा कहाँ के छ भनी घुम्दा ब्रह्मा बसेको स्थानमा पुगी कमलको डाँठ समातेर माथि गई हेर्दा ब्रह्माजीलाई देखे र उनलाई खसाल्न तयार भए। त्यो देखेर डराएका ब्रह्माले योगमायाको आराधना गरे। योगमाया प्रकट भएपछि ब्रह्माले, "हे ईश्वरी, विष्णुलाई जागा गराइदिनुहोस्," भनेर उनले ब्रह्माको कष्ट बुझी विष्णु भगवान्लाई जागा गराइदिइन्。</p>
+            <p>भगवान् जागा भएर हेर्दा ती मधु-कैटभलाई देखी तत्काल युद्ध गर्न अघि सरे। दिव्य पाँच हजार वर्षसम्म जलमा युद्ध भयो तर हारजित हुन सकेन। अनि विष्णुले, "हे दानव हो, तिमीहरू पराक्रमी रहेछौ, म प्रसन्न भएँ, इच्छा भएको वर माग" भन्दा अहङ्कारी मधु-कैटभले भने, "हे विष्णु, यस युद्धमा हाम्रो जित भयो, तिमी हार्नेले के दिन सक्छौ? बरु तिमीलाई इच्छा लागेको वर हामीसँग माग"। दैत्यका त्यस्ता कुरा सुनि विष्णुले भन्नुभयो, "पहिले वाचा गर, अनि मात्र म वर माग्दछु"। अनि दानवहरूले, "तिमीहरूले जे मागे पनि अवश्य दिनेछौं" भनी वाचा गरेपछि विष्णु भगवान्ले "अरू वर के मागूँ, तिमी दुवैलाई म मार्दछु" भन्नुभयो। मेरा हातबाट मर भनेको सुनि मधु-कैटभले भने, "हे विष्णु, तिमी छली रहेछौ, कपट गरेर वर माग्यौ, वाचा हारेको हुनाले हामी दिन्छौं। अब के गर्ने भनी विचार गर्दा सारा संसार जलमग्न देखी भने, "हे विष्णु, हामीलाई जल नभएको स्थानमा मार"। दैत्यका त्यस्ता कुरा सुनि विष्णुले आफ्नो काखमा राखेर सजिलैसँग दुवैलाई मारे। तिनै दैत्यको बोसो शीतकालमा तुषारोको पानी जमेझैँ समुद्रको जलमा जमेर पृथ्वी भइन्, मासुले पर्वत र हाडले पत्थर भयो。</p>
             <h3>सृष्टिको आरम्भ: चौध भुवन र सात समुद्र</h3>
-            <p>त्यो देखेर ब्रह्माले संसार सृष्टि गर्न भनी पहिले चौध भुवन सृष्टि गरे। कुन कुन भने: भूर्लोक, भुवर्लोक, स्वर्लोक, महर्लोक, जनलोक, तपोलोक, सत्यलोक र अतल, वितल, सुतल, तलातल, महातल, रसातल, पाताल। यति तलका जम्मा चतुर्भुज भुवन र द्वीप सृष्टि गरे। कुन कुन भने: जम्बुद्वीप, प्लक्षद्वीप, शाल्मलीद्वीप, कुशद्वीप, क्रौञ्चद्वीप, शाकद्वीप, पुष्करद्वीप। त्यसपछि सात समुद्र सृष्टि गरे: क्षीरोद समुद्र, सुरोद समुद्र, इक्षुरसोद समुद्र, घृतोद समुद्र, दधिमण्डोद समुद्र, क्षीरोद समुद्र, शुद्धोद समुद्र। जम्बुद्वीप क्षीरोद समुद्रले वेष्टित छ, त्यहाँ अग्नीध्र राजा राज्य गर्दछन्। प्लक्षद्वीप इक्षुरसोद समुद्रले वेष्टित छ, त्यहाँ इध्मजिह्व राजा राज्य गर्दछन्। शाल्मलीद्वीप सुरोद समुद्रले वेष्टित छ, त्यहाँ यज्ञबाहु राजा छन्। कुशद्वीप घृतोद समुद्रले वेष्टित छ, त्यहाँ हिरण्यरेता राजा छन्। क्रौञ्चद्वीप क्षीरोद समुद्रले बेरिएको छ, त्यहाँ घृताप्रस्थ राजा छन्। शाकद्वीप दधिमण्डोद समुद्रले बेरिएको छ, त्यहाँ मेधातिथि राजा राज्य गर्दछन्। पुष्करद्वीप शुद्धोद समुद्रले वेष्टित छ, त्यहाँ वीतिहोत्र राजा राज्य गर्दछन्। जम्बुद्वीपको विस्तार चार लाख कोस छ। यसको आकार कमलगट्टा जस्तै छ। यसमा नौ-नौ हजार योजनका नौ खण्ड छन्।</p>
-
+            <p>त्यो देखेर ब्रह्माले संसार सृष्टि गर्न भनी पहिले चौध भुवन सृष्टि गरे। कुन कुन भने: भूर्लोक, भुवर्लोक, स्वर्लोक, महर्लोक, जनलोक, तपोलोक, सत्यलोक र अतल, वितल, सुतल, तलातल, महातल, रसातल, पाताल। यति तलका जम्मा चतुर्भुज भुवन र द्वीप सृष्टि गरे। कुन कुन भने: जम्बुद्वीप, प्लक्षद्वीप, शाल्मलीद्वीप, कुशद्वीप, क्रौञ्चद्वीप, शाकद्वीप, पुष्करद्वीप। त्यसपछि सात समुद्र सृष्टि गरे: क्षीरोद समुद्र, सुरोद समुद्र, इक्षुरसोद समुद्र, घृतोद समुद्र, दधिमण्डोद समुद्र, क्षीरोद समुद्र, शुद्धोद समुद्र। जम्बुद्वीप क्षीरोद समुद्रले वेष्टित छ, त्यहाँ अग्नीध्र राजा राज्य गर्दछन्। प्लक्षद्वीप इक्षुरसोद समुद्रले वेष्टित छ, त्यहाँ इध्मजिह्व राजा राज्य गर्दछन्। शाल्मलीद्वीप सुरोद समुद्रले वेष्टित छ, त्यहाँ यज्ञबाहु राजा छन्। कुशद्वीप घृतोद समुद्रले वेष्टित छ, त्यहाँ हिरण्यरेता राजा छन्। क्रौञ्चद्वीप क्षीरोद समुद्रले बेरिएको छ, त्यहाँ घृताप्रस्थ राजा छन्। शाकद्वीप दधिमण्डोद समुद्रले बेरिएको छ, त्यहाँ मेधातिथि राजा राज्य गर्दछन्। पुष्करद्वीप शुद्धोद समुद्रले वेष्टित छ, त्यहाँ वीतिहोत्र राजा राज्य गर्दछन्। जम्बुद्वीपको विस्तार चार लाख कोस छ। यसको आकार कमलगट्टा जस्तै छ। यसमा नौ-नौ हजार योजनका नौ खण्ड छन्。</p>
             <h3>पर्वत र प्राणीहरूको सृष्टि</h3>
-            <p>यस प्रकार सृष्टि गरिसकी अष्टपर्वत सृष्टि गरे। कुन कुन भने: सुमेरु पर्वत, गन्धमादन पर्वत, कैलास पर्वत, हिमालय पर्वत, त्रिकुट पर्वत, चित्रकूट पर्वत, चन्द्रकान्तक पर्वत, चन्द्रकुट पर्वत। त्यसपछि प्राणी सृष्टि गरौं भनेर महादेवको तपस्या गरे। दिव्य बाह्र हजार वर्ष कठोर तपस्या गरेपछि महादेव प्रकट भएर, "ब्राह्मण, तिम्रो तपस्याले म प्रसन्न भएँ, वर माग" भन्ने आज्ञा भएको सुनि ब्रह्माले अनेक उपचारले शिवको पूजा गरी स्तुति गर्न लागे। "हे ईश्वर, आफैले अनेक ब्रह्माण्डको रचना गरी आफ्नै मायामा भुलिरहेका यस्ता हजुरलाई कोटि कोटि नमस्कार, एक मूर्तिबाट तीन मूर्ति ब्रह्मा, विष्णु, शिव भइरहेका यस्ता हजुरलाई कोटि कोटि नमस्कार। हे ईश्वर, हजुरको महिमा वर्णन गर्न शेष र शारदाले पनि नसकेको म कसरी समर्थ हुनेछु? हजुरको कृपाले द्वीप, समुद्र, पर्वत सृष्टि गरेँ। अब प्राणी सृष्टि गर्न सकूँ, यही वर दिनुहोस्" भनी बिन्ती गरे। ब्रह्माजीले प्रार्थना र आग्रह बुझी महादेवले आज्ञा भयो, "ब्राह्मण, तिमी प्राणी सृष्टि गर्न सके" भनी वरदान दिनुभयो।</p>
-
+            <p>यस प्रकार सृष्टि गरिसकी अष्टपर्वत सृष्टि गरे। कुन कुन भने: सुमेरु पर्वत, गन्धमादन पर्वत, कैलास पर्वत, हिमालय पर्वत, त्रिकुट पर्वत, चित्रकूट पर्वत, चन्द्रकान्तक पर्वत, चन्द्रकुट पर्वत। त्यसपछि प्राणी सृष्टि गरौं भनेर महादेवको तपस्या गरे। दिव्य बाह्र हजार वर्ष कठोर तपस्या गरेपछि महादेव प्रकट भएर, "ब्राह्मण, तिम्रो तपस्याले म प्रसन्न भएँ, वर माग" भन्ने आज्ञा भएको सुनि ब्रह्माले अनेक उपचारले शिवको पूजा गरी स्तुति गर्न लागे। "हे ईश्वर, आफैले अनेक ब्रह्माण्डको रचना गरी आफ्नै मायामा भुलिरहेका यस्ता हजुरलाई कोटि कोटि नमस्कार, एक मूर्तिबाट तीन मूर्ति ब्रह्मा, विष्णु, शिव भइरहेका यस्ता हजुरलाई कोटि कोटि नमस्कार। हे ईश्वर, हजुरको महिमा वर्णन गर्न शेष र शारदाले पनि नसकेको म कसरी समर्थ हुनेछु? हजुरको कृपाले द्वीप, समुद्र, पर्वत सृष्टि गरेँ। अब प्राणी सृष्टि गर्न सकूँ, यही वर दिनुहोस्" भनी बिन्ती गरे। ब्रह्माजीले प्रार्थना र आग्रह बुझी महादेवले आज्ञा भयो, "ब्राह्मण, तिमी प्राणी सृष्टि गर्न सके" भनी वरदान दिनुभयो。</p>
             <h3>सुमेरु पर्वत र देवताहरूको वासस्थान</h3>
-            <p>अनि ब्रह्माले महादेवलाई दण्डवत् गरी प्राणी सृष्टि गर्न सुमेरु पर्वतमा गए। पहिले शिवलोक, विष्णुलोक, ब्रह्मलोक, उमालोक, स्कन्दलोक र अरु अनेक लोक सृष्टि गरे। तिनमा सबैभन्दा माथि सत्यलोक सृष्टि गरे। अनि सुमेरु पर्वतको पूर्व दिशामा अमरावती, आग्नेय कोणमा शुद्धावती, दक्षिण दिशामा यमपुरी, नैऋत्य कोणमा कृष्णावती, पश्चिम दिशामा श्रद्धावती, ईशान कोणमा यशोवती नामका पुरीहरू रचना गरे। त्यसपछि स्थावर जङ्गम सृष्टि गरे। अनि प्राणी सृष्टि गर्ने इच्छा भयो, ब्रह्माले चिताउनासाथ कश्यप प्रवृत्ति एक सय ऋषि सृष्टि भए।</p>
-
+            <p>अनि ब्रह्माले महादेवलाई दण्डवत् गरी प्राणी सृष्टि गर्न सुमेरु पर्वतमा गए। पहिले शिवलोक, विष्णुलोक, ब्रह्मलोक, उमालोक, स्कन्दलोक र अरु अनेक लोक सृष्टि गरे। तिनमा सबैभन्दा माथि सत्यलोक सृष्टि गरे। अनि सुमेरु पर्वतको पूर्व दिशामा अमरावती, आग्नेय कोणमा शुद्धावती, दक्षिण दिशामा यमपुरी, नैऋत्य कोणमा कृष्णावती, पश्चिम दिशामा श्रद्धावती, ईशान कोणमा यशोवती नामका पुरीहरू रचना गरे। त्यसपछि स्थावर जङ्गम सृष्टि गरे। अनि प्राणी सृष्टि गर्ने इच्छा भयो, ब्रह्माले चिताउनासाथ कश्यप प्रवृत्ति एक सय ऋषि सृष्टि भए。</p>
             <h3>दिग्पालहरूको उत्पत्ति</h3>
-            <p>यति सुनेर अगस्त्य मुनिले सोधे, "हे कुमारजी, हजुरको वचन रूपी अमृत मेरो कान रूपी पिउन माग्दैछ। अब देव, दानव, पशु, पन्छी, मनुष्य कसरी सृष्टि भए, त्यो सुन्ने इच्छा छ"। मुनिको इच्छा जानेर कुमारजी आज्ञा गर्नुहुन्छ, "हे मुनि, कश्यप ऋषिका अदिति, दिति, दनु, काष्ठा, अरिष्टा, सुरसा, इला, मुनि, क्रोधा, प्राधा, वरिष्ठा, विनता, कपिला, कद्रु र मनु यस्ता स्त्रीहरू थिए। अतः दितिका गर्भबाट हिरण्यकशिपु आदि दैत्य जन्मे। अदितिका गर्भबाट चन्द्र-सूर्य आदि तेत्तीस कोटि देवताहरू जन्मे। दनुका गर्भबाट दानवहरू जन्मे। कारा-घोराका गर्भबाट गन्धर्वहरू जन्मे। सिंहिकाको गर्भबाट राहु जन्म्यो। प्राधाका गर्भबाट उर्वशी आदि अप्सराहरू जन्मे। क्रोधाका गर्भबाट क्रोध जन्म्यो। मनुका गर्भबाट ब्राह्मण, क्षत्रिय, वैश्य, शूद्र यी चार थरी मनुष्य जन्मे। वरिष्ठा र विनताका गर्भबाट अरुण, गरुड, सम्पाती, मयुर, कोकिल, सुँगा, ढुकुर, परेवा, जीवनजीव, मुनिया, धोबिनी, राजहंस आदि पन्छीहरू जन्मे। कपिलाका गर्भबाट कामधेनु, सिंह, शार्दूल, बाघ, हात्ती, घोडा, मृग, बँदेल, राँगो, खरायो आदि पशुहरू जन्मे। कद्रुका गर्भबाट शेषनाग, अनन्तनाग, पद्मनाग, वासुकीनाग, कुलिकनाग, कर्कोटकनाग, तक्षकनाग, शंखनाग आदि अष्टनागहरू जन्मे"। यसरी देवता, ऋषि, यक्ष, गन्धर्व, किन्नर, अप्सरा, नाग, मनुष्य, पशु-पन्छीहरू सृष्टि भएको देखि ब्रह्माले तिनीहरूलाई खाने आहारा धान, जौ, तिल आदि अनेक तरहका अन्न र फलफूल सृष्टि गरे।</p>
-
+            <p>यति सुनेर अगस्त्य मुनिले सोधे, "हे कुमारजी, हजुरको वचन रूपी अमृत मेरो कान रूपी पिउन माग्दैछ। अब देव, दानव, पशु, पन्छी, मनुष्य कसरी सृष्टि भए, त्यो सुन्ने इच्छा छ"। मुनिको इच्छा जानेर कुमारजी आज्ञा गर्नुहुन्छ, "हे मुनि, कश्यप ऋषिका अदिति, दिति, दनु, काष्ठा, अरिष्टा, सुरसा, इला, मुनि, क्रोधा, प्राधा, वरिष्ठा, विनता, कपिला, कद्रु र मनु यस्ता स्त्रीहरू थिए। अतः दितिका गर्भबाट हिरण्यकशिपु आदि दैत्य जन्मे। अदितिका गर्भबाट चन्द्र-सूर्य आदि तेत्तीस कोटि देवताहरू जन्मे। दनुका गर्भबाट दानवहरू जन्मे। कारा-घोराका गर्भबाट गन्धर्वहरू जन्मे। सिंहिकाको गर्भबाट राहु जन्म्यो। प्राधाका गर्भबाट उर्वशी आदि अप्सराहरू जन्मे। क्रोधाका गर्भबाट क्रोध जन्म्यो। मनुका गर्भबाट ब्राह्मण, क्षत्रिय, वैश्य, शूद्र यी चार थरी मनुष्य जन्मे। वरिष्ठा र विनताका गर्भबाट अरुण, गरुड, सम्पाती, मयुर, कोकिल, सुँगा, ढुकुर, परेवा, जीवनजीव, मुनिया, धोबिनी, राजहंस आदि पन्छीहरू जन्मे। कपिलाका गर्भबाट कामधेनु, सिंह, शार्दूल, बाघ, हात्ती, घोडा, मृग, बँदेल, राँगो, खरायो आदि पशुहरू जन्मे। कद्रुका गर्भबाट शेषनाग, अनन्तनाग, पद्मनाग, वासुकीनाग, कुलिकनाग, कर्कोटकनाग, तक्षकनाग, शंखनाग आदि अष्टनागहरू जन्मे"। यसरी देवता, ऋषि, यक्ष, गन्धर्व, किन्नर, अप्सरा, नाग, मनुष्य, पशु-पन्छीहरू सृष्टि भएको देखि ब्रह्माले तिनीहरूलाई खाने आहारा धान, जौ, तिल आदि अनेक तरहका अन्न र फलफूल सृष्टि गरे。</p>
             <h3>दिग्पालहरूको तपस्या र वरदान</h3>
-            <p>"हे मुनि, यो मैले अत्यन्त संक्षेपमा भनें, अरु पुराणबाट विस्तारले बुझ्नेछौ"। "यो सृष्टिका कुरा सुनाएँ, अब के सुन्ने इच्छा छ भन?" भन्दा अगस्त्य मुनि भन्छन्, "हे कुमार, कुन-कुन भुवनमा कुन-कुन देवता छन् र दिक्पाल कसरी भए? यो सुन्ने इच्छा छ"। यति सुनि कुमारजी आज्ञा गर्नुहुन्छ, "हे मुनि, कैलाश भुवनमा महादेव हुनुहुन्छ, वैकुण्ठ भुवनमा विष्णु भगवान छन्, सत्य भुवनमा ब्रह्मा छन्, उमा भुवनमा पार्वती छन्, स्कन्द भुवनमा म छु, ध्रुव भुवनमा ध्रुव ऋषि छन्, नैशृंग्य भुवनमा अन्य ऋषिहरू छन्। यति भुवनका कुरा कहँे, अब दिक्पाल भएका कुरा भन्दछु"।</p>
-            
-            <p>"कश्यप ऋषिका छोरा इन्द्रले हिमालमा गई धेरै कालसम्म कठोर तपस्या गरे। महादेव प्रसन्न भई, 'हे इन्द्र, तिम्रो तपस्याले म प्रसन्न भएँ' भनी वरदान दिई अमरावतीको अधिपति र पूर्व दिशाको दिक्पाल बनाई पठाए। फेरि एउटाले गई उसैगरी तपस्या गर्दा महादेव प्रसन्न भएर अग्नि नाम राखी अग्निकोणको दिक्पाल बनाई शुद्धावतीको अधिपति गरी पठाइए। फेरि अर्कोले गई त्यसैगरी तपस्या गरे, महादेव प्रसन्न भई यम नाम राखी दक्षिण दिशाको दिक्पाल बनाई यमपुरीको अधिपति गराई पठाए। फेरि एउटाले गई त्यसैगरी तपस्या गरे, महादेव खुसी भई निरृति नाम राखी नैऋत्यकोणको दिक्पाल र कृष्णावतीको अधिपति गराई पठाए। फेरि अर्कोले गई त्यसैगरी तपस्या गरे, महादेव प्रसन्न भई वरुण नाम राखी पश्चिम दिशाको दिक्पाल र श्रद्धावतीको अधिपति गराई पठाए। फेरि उनन्चास वायुले गई त्यसैगरी तपस्या गरे, महादेव प्रसन्न भई 'वरदान माग' भन्दा ती वायुले, 'हामी उनन्चासै जना एक हुन सकौं र हामीलाई कोही नदेखून्, केवल शब्द मात्र सुनून्, बलमा पनि कसैले जित्न नसकून्' भनी माग्दा महादेवले 'तथास्तु' भनी वरदान दिएर वायु नाम राखी वायव्यकोणको अधिपति बनाई पठाए। फेरि एउटाले गई त्यसैगरी तपस्या गरे, महादेव खुसी भई कुबेर नाम राखी उत्तर दिशाको दिक्पाल र अलकापुरीको अधिपति गराई पठाए। फेरि एउटाले गई त्यसैगरी तपस्या गरे, महादेव प्रसन्न भई विश्वकर्मा नाम राखी ईशान कोणको दिक्पाल र यशोवतीको अधिपति बनाई पठाए"।</p>
-            
-            <p>"हे मुनि, यति दिक्पाल भएका कुरा कहँे, अब के सुन्ने इच्छा छ भन"। कुमारको यस्ता वचन सुनी अगस्त्य मुनि भन्छन्, "महादेव र सतीदेवीको विवाह भएको र सतीदेवी मर्दा उत्पन्न भएको, फेरि सतीदेवी महादेवकी पत्नी कसरी भइन् र कस्तो कारण परेर उनको मृत्यु भयो, यो सबै विस्तारमा आज्ञा होस्"। मुनिको इच्छा जानी प्रसन्न भएका कुमारजीले "यो कुरा तेस्रो अध्यायमा वर्णन गर्नेछु" भन्नुभयो।</p>
-
+            <p>"हे मुनि, यो मैले अत्यन्त संक्षेपमा भनें, अरु पुराणबाट विस्तारले बुझ्नेछौ"। "यो सृष्टिका कुरा सुनाएँ, अब के सुन्ने इच्छा छ भन?" भन्दा अगस्त्य मुनि भन्छन्, "हे कुमार, कुन-कुन भुवनमा कुन-कुन देवता छन् र दिक्पाल कसरी भए? यो सुन्ने इच्छा छ"। यति सुनि कुमारजी आज्ञा गर्नुहुन्छ, "हे मुनि, कैलाश भुवनमा महादेव हुनुहुन्छ, वैकुण्ठ भुवनमा विष्णु भगवान छन्, सत्य भुवनमा ब्रह्मा छन्, उमा भुवनमा पार्वती छन्, स्कन्द भुवनमा म छु, ध्रुव भुवनमा ध्रुव ऋषि छन्, नैशृंग्य भुवनमा अन्य ऋषिहरू छन्। यति भुवनका कुरा कहँे, अब दिक्पाल भएका कुरा भन्दछु"。</p>
+            <p>"कश्यप ऋषिका छोरा इन्द्रले हिमालमा गई धेरै कालसम्म कठोर तपस्या गरे। महादेव प्रसन्न भई, 'हे इन्द्र, तिम्रो तपस्याले म प्रसन्न भएँ' भनी वरदान दिई अमरावतीको अधिपति र पूर्व दिशाको दिक्पाल बनाई पठाए। फेरि एउटाले गई उसैगरी तपस्या गर्दा महादेव प्रसन्न भएर अग्नि नाम राखी अग्निकोणको दिक्पाल बनाई शुद्धावतीको अधिपति गरी पठाइए। फेरि अर्कोले गई त्यसैगरी तपस्या गरे, महादेव प्रसन्न भई यम नाम राखी दक्षिण दिशाको दिक्पाल बनाई यमपुरीको अधिपति गराई पठाए। फेरि एउटाले गई त्यसैगरी तपस्या गरे, महादेव खुसी भई निरृति नाम राखी नैऋत्यकोणको दिक्पाल र कृष्णावतीको अधिपति गराई पठाए। फेरि अर्कोले गई त्यसैगरी तपस्या गरे, महादेव प्रसन्न भई वरुण नाम राखी पश्चिम दिशाको दिक्पाल र श्रद्धावतीको अधिपति गराई पठाए। फेरि उनन्चास वायुले गई त्यसैगरी तपस्या गरे, महादेव प्रसन्न भई 'वरदान माग' भन्दा ती वायुले, 'हामी उनन्चासै जना एक हुन सकौं र हामीलाई कोही नदेखून्, केवल शब्द मात्र सुनून्, बलमा पनि कसैले जित्न नसकून्' भनी माग्दा महादेवले 'तथास्तु' भनी वरदान दिएर वायु नाम राखी वायव्यकोणको अधिपति बनाई पठाए। फेरि एउटाले गई त्यसैगरी तपस्या गरे, महादेव खुसी भई कुबेर नाम राखी उत्तर दिशाको दिक्पाल र अलकापुरीको अधिपति गराई पठाए। फेरि एउटाले गई त्यसैगरी तपस्या गरे, महादेव प्रसन्न भई विश्वकर्मा नाम राखी ईशान कोणको दिक्पाल र यशोवतीको अधिपति बनाई पठाए"。</p>
+            <p>"हे मुनि, यति दिक्पाल भएका कुरा कहँे, अब के सुन्ने इच्छा छ भन"। कुमारको यस्ता वचन सुनी अगस्त्य मुनि भन्छन्, "महादेव र सतीदेवीको विवाह भएको र सतीदेवी मर्दा उत्पन्न भएको, फेरि सतीदेवी महादेवकी पत्नी कसरी भइन् र कस्तो कारण परेर उनको मृत्यु भयो, यो सबै विस्तारमा आज्ञा होस्"। मुनिको इच्छा जानी प्रसन्न भएका कुमारजीले "यो कुरा तेस्रो अध्यायमा वर्णन गर्नेछु" भन्नुभयो。</p>
             <p class="mantra">इति श्री स्कन्द पुराणे केदार खण्डे माघ महात्म्ये कुमार अगस्त्य संवादे श्री स्वस्थानी व्रत कथायाम् दिग्पाल वर्णन नाम द्वितीय अध्याय।</p>
         </section>
 
         <div class="divider">❁ ॐ ❁</div>
-<section id="chapter-3">
-    <h2>तृतीय अध्याय: दक्ष कन्या विवाह वर्णन</h2>
-    <h3>दक्ष प्रजापतिका कन्याहरूको जन्म</h3>
-    <p class="drop-cap">कु</p>
-    <p>कुमारजी आज्ञा गर्नुहुन्छ, "हे अगस्त्य मुनि, अष्ट प्रजापतिमा सबभन्दा जेठा दक्ष प्रजापति थिए। तिनकी वीरिणी नामकी सातवी एवं पतिव्रता स्त्री थिइन्। वीरिणी गर्भिणी भइन् र दश मास पूर्ण भएपछि पुत्री जन्मिन्। कस्ती कन्या भने हजार सूर्यको जस्तो तेज भएकी, बत्तीस लक्षणले युक्त, पद्मपत्र जस्तो नेत्र भएकी, अरुण उदय भए जस्तो रक्त वर्ण भएकी, हात्तीका सुँड जस्तो हात भएकी, कदली स्तम्भ जस्तो फिला भएकी, चन्द्रमाको जस्तो उज्ज्वल र शान्त मुख भएकी। यस्ती परम सुन्दरी कन्या जन्मेकी देखी दक्ष प्रजापतिले आनन्द मान्दै आफ्ना गुरु पुरोहित वशिष्ठ आदि ज्योतिषलाई डाकी विधिपूर्वक न्वारन गराए। सबै ऋषि ज्योतिषले गणना गरेर भने, 'हे दक्ष प्रजापति, यी बालिकाको नाम सतीदेवी भन्ने तिनै भुवनमा प्रख्यात हुनेछ।' दक्ष प्रजापतिले भोजन गराई दक्षिणा दिई बिदा गरे। सबै जना आ-आफ्ना आश्रमतिर लागे। हे मुनि, यो कुरा धेरै लामो छ तथापि म संक्षेपमा भन्दछु। त्यसपछि वीरिणीका क्रमैले तेत्तीस कोटि कन्या जन्मे। ती सबैलाई दुवै दम्पतीले यथायोग्य रूपमा पालन गरे।"
-</p>
 
-<h3>तेत्तीस कोटि कन्याको देवताहरूसँग विवाह प्रस्ताव</h3>
-<p>अनि अगस्त्य मुनिले सोधे, "हे कुमार, ती कन्याहरूको विवाह तेत्तीस कोटि देवतासँग कसरी भयो? त्यो पनि सुन्ने इच्छा छ।" त्यति सुनी कुमार आज्ञा गर्दछन्, "हे अगस्त्य मुनि, एक दिन स्वर्गका देवता, ऋषि, यक्ष, गन्धर्व, किन्नर, दश दिक्पाल जम्मा भई सल्लाह गरेर 'हाम्रा स्त्री छैनन्, दक्ष प्रजापतिका तेत्तीस कोटि कन्या विवाह गरौं' भने। तर कन्या माग्न कसलाई पठाउने भनी मत मिलाई नारदजीलाई डाकी सबै कुरा बुझाएर 'दक्ष प्रजापतिकहाँ कन्या माग्न जाऊ' भनी नारदजीलाई स्वीकार गराई पठाए। दक्ष प्रजापतिका घरमा नारदजी कन्या माग्न गए। दक्ष प्रजापतिले उचित शिष्टाचार गरेर 'के कामले पाल्नुभयो' भनी सोधेपछि आफूलाई देवताहरूले पठाएको कुरा सुनाए, 'हे दक्ष, तिम्रा तेत्तीस कोटि कन्या तेत्तीस कोटि देवताहरूलाई देऊ' भने। नारदजीका कुरा सुनी दक्ष प्रजापति प्रसन्न भएर 'हे नारद, तिमीले असल कुरा गर्यौ, म धन्य रहेछु। मेरा तेत्तीस कोटि कन्या तेत्तीस कोटि देवताहरूलाई मेरो वचनले दिने भएँ। एउटी सतीदेवी मात्र दिने छैन किनकि मेरा पुत्र छैनन्, सम्पत्तिको रक्षा कसले गर्ला। अन्य सबै कन्या तिमी जसले भन्छौ, जसरी भन्छौ र जसलाई दिने भन्दछौ, उसैलाई दिनेछु। अब यहाँबाट गएर विवाहको दिन ठहराई पठाउन लगाऊ' भनी अनेक उपचारले पूजा गरे।"<p>
+        <section id="chapter-3">
+            <h2>तृतीय अध्याय: दक्ष कन्या विवाह वर्णन</h2>
+            <h3>दक्ष प्रजापतिका कन्याहरूको जन्म</h3>
+            <p class="drop-cap">कु</p>
+            <p>मारजी आज्ञा गर्नुहुन्छ, "हे अगस्त्य मुनि, अष्ट प्रजापतिमा सबभन्दा जेठा दक्ष प्रजापति थिए। तिनकी वीरिणी नामकी सातवी एवं पतिव्रता स्त्री थिइन्। वीरिणी गर्भिणी भइन् र दश मास पूर्ण भएपछि पुत्री जन्मिन्। कस्ती कन्या भने हजार सूर्यको जस्तो तेज भएकी, बत्तीस लक्षणले युक्त, पद्मपत्र जस्तो नेत्र भएकी, अरुण उदय भए जस्तो रक्त वर्ण भएकी, हात्तीका सुँड जस्तो हात भएकी, कदली स्तम्भ जस्तो फिला भएकी, चन्द्रमाको जस्तो उज्ज्वल र शान्त मुख भएकी। यस्ती परम सुन्दरी कन्या जन्मेकी देखी दक्ष प्रजापतिले आनन्द मान्दै आफ्ना गुरु पुरोहित वशिष्ठ आदि ज्योतिषलाई डाकी विधिपूर्वक न्वारन गराए। सबै ऋषि ज्योतिषले गणना गरेर भने, 'हे दक्ष प्रजापति, यी बालिकाको नाम सतीदेवी भन्ने तिनै भुवनमा प्रख्यात हुनेछ।' दक्ष प्रजापतिले भोजन गराई दक्षिणा दिई बिदा गरे। सबै जना आ-आफ्ना आश्रमतिर लागे। हे मुनि, यो कुरा धेरै लामो छ तथापि म संक्षेपमा भन्दछु। त्यसपछि वीरिणीका क्रमैले तेत्तीस कोटि कन्या जन्मे। ती सबैलाई दुवै दम्पतीले यथायोग्य रूपमा पालन गरे।"</p>
 
-<h3>देवताहरूको विवाह र महादेवको चिन्ता</h3>
-<p>"नारदजी दक्षसित बिदा मागी सरासर स्वर्ग गए। नारद आएको देखी देवताहरूले प्रसन्न भई 'तिमी गएको काम कस्तो भयो' भनी सोधे। नारदले सतीदेवी बाहेक अन्य सबै कन्या दिन्छु भनेको कुरा सुनाए। अनि देवताहरूलाई धन्य नारद मुनि भन्दै प्रशंसा गरी विवाहको दिन ठहराउन पठाए। त्यसपछि विवाहको सामग्री तयार गरी देवताहरू कन्यादान लिन भनी दक्षका घरमा पुगे। उनीहरूले देवताहरू आएको देखी आनन्द मान्दै मंगल यात्रा गर्दै आफ्नो मर्यादाले सतीदेवी बाहेक तेत्तीस कोटि कन्या नारदजीको आज्ञा अनुसार तेत्तीस कोटि देवतालाई कन्यादान दिए। देवताहरू कन्यादान पाई हर्षपूर्वक आ-आफ्ना स्त्री लिई आ-आफ्ना आश्रममा गए। यो वृत्तान्त कैलाश पर्वतमा रहेका शिवजीले थाहा पाएर 'देवताहरूले मलाई बाहेक पारे, एक वचन पनि नसोध्नु आफू-आफूले कन्यादान लिएछन्। कैलाशको स्वामी भएर पनि मेरा स्त्री छैनन्, अब मलाई कसले कन्या देला' भनी ध्यान दृष्टिले विचार गरी हेर्दा दक्षकी तेत्तीस कोटि कन्यामा सबभन्दा जेठी बाँकी रहिछन्। 'देवताहरूले मेरो मर्यादा त राखेका रहेछन्। अब ती कन्या माग्न कसलाई पठाऊँ, आफैं जान्छु' भनी दक्ष घर गए।"<p>
+            <h3>तेत्तीस कोटि कन्याको देवताहरूसँग विवाह प्रस्ताव</h3>
+            <p>अनि अगस्त्य मुनिले सोधे, "हे कुमार, ती कन्याहरूको विवाह तेत्तीस कोटि देवतासँग कसरी भयो? त्यो पनि सुन्ने इच्छा छ।" त्यति सुनी कुमार आज्ञा गर्दछन्, "हे अगस्त्य मुनि, एक दिन स्वर्गका देवता, ऋषि, यक्ष, गन्धर्व, किन्नर, दश दिक्पाल जम्मा भई सल्लाह गरेर 'हाम्रा स्त्री छैनन्, दक्ष प्रजापतिका तेत्तीस कोटि कन्या विवाह गरौं' भने। तर कन्या माग्न कसलाई पठाउने भनी मत मिलाई नारदजीलाई डाकी सबै कुरा बुझाएर 'दक्ष प्रजापतिकहाँ कन्या माग्न जाऊ' भनी नारदजीलाई स्वीकार गराई पठाए। दक्ष प्रजापतिका घरमा नारदजी कन्या माग्न गए। दक्ष प्रजापतिले उचित शिष्टाचार गरेर 'के कामले पाल्नुभयो' भनी सोधेपछि आफूलाई देवताहरूले पठाएको कुरा सुनाए, 'हे दक्ष, तिम्रा तेत्तीस कोटि कन्या तेत्तीस कोटि देवताहरूलाई देऊ' भने। नारदजीका कुरा सुनी दक्ष प्रजापति प्रसन्न भएर 'हे नारद, तिमीले असल कुरा गर्यौ, म धन्य रहेछु। मेरा तेत्तीस कोटि कन्या तेत्तीस कोटि देवताहरूलाई मेरो वचनले दिने भएँ। एउटी सतीदेवी मात्र दिने छैन किनकि मेरा पुत्र छैनन्, सम्पत्तिको रक्षा कसले गर्ला। अन्य सबै कन्या तिमी जसले भन्छौ, जसरी भन्छौ र जसलाई दिने भन्दछौ, उसैलाई दिनेछु। अब यहाँबाट गएर विवाहको दिन ठहराई पठाउन लगाऊ' भनी अनेक उपचारले पूजा गरे।"</p>
 
-<h3>दक्षद्वारा महादेवको अपमान र विष्णुको सहयोग</h3>
-<p>"दक्षले महादेव आउन लागेको परैबाट देखी विरक्तसित भने, 'हे पापिष्ट महादेव, मेरी कन्या सतीदेवी तेरो योग्य कसरी होली? तँ कस्तो भने मसानको खरानी घस्ने, सर्पको गहना लगाई बाघको छाला ओढेर डमरु त्रिशूल लिई बुढो साँढेमा चढेर हिँड्ने मान्छे। विष भाङ धतुरो खाई भूत प्रेत लिई मसानमा बस्ने, दिगम्बर भई देख्दैमा पनि घिन लाग्ने। यस्तो तैले मेरो मुख अगाडि आई यस्तो अयोग्य कुरा गरिस्। जा मेरो घरमा नबस्' भनी महादेवलाई पाखुरामा समातेर घरबाट धपाए। महादेवले यस्तो किसिमले दक्षले क्षुद्र वचनद्वारा निन्दा गरेको सुनी साह्रै नै चित्त दुखाई बाहिर आएर 'नदिने भए दिन्न भन्नु पर्थ्यो नि। यस्तो निन्दा गर्ने काम थिएन। अब कहाँ जाऊँ, के गरूँ, ती कन्या कसले मलाई पारिदेला' भन्ने तर्क वितर्क गर्दै विष्णुको वैकुण्ठ धाममा महादेव पुग्नुभयो। विष्णुले शंकरजी आएको देखी हत्तपत्त उठेर उच्च आसनमा बसाली 'के कामले आज परिश्रम गर्नुभयो' भनी सोधे। अनि महादेवले आफू दक्षका घर गएको र उसले दुर्बचन बोली अपमान गरेको सबै कुरा विस्तारमा सुनाए। 'हे विष्णु, मेरा स्त्री छैनन्, त्यसैले घर पनि छैन, यही कुरा गर्न आएको हुँ। अब जसरी ती कन्या मेरी हुनेछन्, त्यही काम गर' भन्नुभयो।"<p>
+            <h3>देवताहरूको विवाह र महादेवको चिन्ता</h3>
+            <p>"नारदजी दक्षसित बिदा मागी सरासर स्वर्ग गए। नारद आएको देखी देवताहरूले प्रसन्न भई 'तिमी गएको काम कस्तो भयो' भनी सोधे। नारदले सतीदेवी बाहेक अन्य सबै कन्या दिन्छु भनेको कुरा सुनाए। अनि देवताहरूलाई धन्य नारद मुनि भन्दै प्रशंसा गरी विवाहको दिन ठहराउन पठाए। त्यसपछि विवाहको सामग्री तयार गरी देवताहरू कन्यादान लिन भनी दक्षका घरमा पुगे। उनीहरूले देवताहरू आएको देखी आनन्द मान्दै मंगल यात्रा गर्दै आफ्नो मर्यादाले सतीदेवी बाहेक तेत्तीस कोटि कन्या नारदजीको आज्ञा अनुसार तेत्तीस कोटि देवतालाई कन्यादान दिए। देवताहरू कन्यादान पाई हर्षपूर्वक आ-आफ्ना स्त्री लिई आ-आफ्ना आश्रममा गए। यो वृत्तान्त कैलाश पर्वतमा रहेका शिवजीले थाहा पाएर 'देवताहरूले मलाई बाहेक पारे, एक वचन पनि नसोध्नु आफू-आफूले कन्यादान लिएछन्। कैलाशको स्वामी भएर पनि मेरा स्त्री छैनन्, अब मलाई कसले कन्या देला' भनी ध्यान दृष्टिले विचार गरी हेर्दा दक्षकी तेत्तीस कोटि कन्यामा सबभन्दा जेठी बाँकी रहिछन्। 'देवताहरूले मेरो मर्यादा त राखेका रहेछन्। अब ती कन्या माग्न कसलाई पठाऊँ, आफैं जान्छु' भनी दक्ष घर गए।"</p>
 
-<h3>विष्णुको जुक्ति र सतीदेवीको विवाह योजना</h3>
-<p>"महादेवको वचन सुनी विष्णुले भन्नुभयो, 'हे ईश्वर, यो काम म पार लगाउँला, हजुरले सन्देह गर्नु पर्दैन। म दक्षको घर जान्छु, म नआउन्जेल हजुर यहीँ राज होस्' भनी महादेवलाई त्यहीँ राखी आफू दक्ष प्रजापतिको घर जानुभयो। दक्षले विष्णु आएको देखेर माथि डाकेर आदरपूर्वक बसाली 'हे विष्णु, आज मेरो घर किन पवित्र गर्नुभयो, आज्ञा होस्' भनी सोधेपछि विष्णुले आज्ञा गर्नुभयो, 'हे दक्ष प्रजापति, केही माग्न आएको हुँ, दिने भए मात्र माग्दछु।' यति सुन्नासाथ दक्षले भने, 'हे विष्णु, तिमीले मागेपछि जे वस्तु भए पनि दिनेछु। के चाहियो आज्ञा गर।' यति सुनी विष्णु भन्नुहुन्छ, 'हे दक्ष प्रजापति, म वैकुण्ठको अधिपति भएर पनि मेरा स्त्री छैनन्। तिमीले कृपा गर्नाले तेत्तीस कोटि देवताले कन्यादान पाई उद्धार भए। अब सतीदेवी छन्, ती मलाई कृपा गर।' विष्णुका यस्ता वचन सुनी दक्ष चिन्तित हुँदै भने, 'हे विष्णु, मेरा पुत्र नहुनाले सम्पत्तिको रक्षा गर्न राखेको हुँ, दिन त उचित थिएन तर वाचा गरेको हुनाले दिन कर लाग्यो। ती कन्या तिम्री भइन्।' अब सुदिन ठहराई कन्यादान लिन आऊ भनी यति दक्षको वचन सुनी विष्णुले हुन्छ भनी बैकुण्ठ जानुभयो।"
-"अनि विष्णुले आएको देखेर महादेवले सोध्नुभयो, 'हे विष्णु, तिमी गएको काम कस्तो भयो?' अनि विष्णुले उत्तर दिए, 'हे ईश्वर, म गएको काम पुग्यो तर आफैलाई भनी मागेर आएको छु। हजुर वृद्ध सन्यासीको रूप धारण गरी कन्यादान दिने ठाउँमा आउनु भिक्षा माग्नु र म भिक्षा नदिई कन्यादान दिनेछु, नत्रसरासर हजुरलाई दिनेछैन भनी आफू बसेकै ठाउँमा बसाली राख्नेछु र दक्षले कन्यादान दिँदा आँखा छली सतीदेवीको हात हजुरको हातमा पारिदिनेछु। यस दिन यो बेला आउनुहोला' भनी दक्षसित भएको सबै विवरण एक-एक गरी सुनाउनुभयो। विष्णुका कुरा सुनेर प्रसन्न भएका महादेव 'अवश्य आउनेछु' भनी गतगत चित्तले कैलाशमा जानुभयो।"
-<p>
-<p class="mantra">इति श्री स्कन्द पुराणे केदार खण्डे माघ महात्म्ये कुमार अगस्त्य संवादे श्री स्वस्थानी व्रत कथायाम् दक्ष कन्या विवाह वर्णन नाम तृतीय अध्याय।</p>
+            <h3>दक्षद्वारा महादेवको अपमान र विष्णुको सहयोग</h3>
+            <p>"दक्षले महादेव आउन लागेको परैबाट देखी विरक्तसित भने, 'हे पापिष्ट महादेव, मेरी कन्या सतीदेवी तेरो योग्य कसरी होली? तँ कस्तो भने मसानको खरानी घस्ने, सर्पको गहना लगाई बाघको छाला ओढेर डमरु त्रिशूल लिई बुढो साँढेमा चढेर हिँड्ने मान्छे। विष भाङ धतुरो खाई भूत प्रेत लिई मसानमा बस्ने, दिगम्बर भई देख्दैमा पनि घिन लाग्ने। यस्तो तैले मेरो मुख अगाडि आई यस्तो अयोग्य कुरा गरिस्। जा मेरो घरमा नबस्' भनी महादेवलाई पाखुरामा समातेर घरबाट धपाए। महादेवले यस्तो किसिमले दक्षले क्षुद्र वचनद्वारा निन्दा गरेको सुनी साह्रै नै चित्त दुखाई बाहिर आएर 'नदिने भए दिन्न भन्नु पर्थ्यो नि। यस्तो निन्दा गर्ने काम थिएन। अब कहाँ जाऊँ, के गरूँ, ती कन्या कसले मलाई पारिदेला' भन्ने तर्क वितर्क गर्दै विष्णुको वैकुण्ठ धाममा महादेव पुग्नुभयो। विष्णुले शंकरजी आएको देखी हत्तपत्त उठेर उच्च आसनमा बसाली 'के कामले आज परिश्रम गर्नुभयो' भनी सोधे। अनि महादेवले आफू दक्षका घर गएको र उसले दुर्बचन बोली अपमान गरेको सबै कुरा विस्तारमा सुनाए। 'हे विष्णु, मेरा स्त्री छैनन्, त्यसैले घर पनि छैन, यही कुरा गर्न आएको हुँ। अब जसरी ती कन्या मेरी हुनेछन्, त्यही काम गर' भन्नुभयो।"</p>
 
-</section>
+            <h3>विष्णुको जुक्ति र सतीदेवीको विवाह योजना</h3>
+            <p>"महादेवको वचन सुनी विष्णुले भन्नुभयो, 'हे ईश्वर, यो काम म पार लगाउँला, हजुरले सन्देह गर्नु पर्दैन। म दक्षको घर जान्छु, म नआउन्जेल हजुर यहीँ राज होस्' भनी महादेवलाई त्यहीँ राखी आफू दक्ष प्रजापतिको घर जानुभयो। दक्षले विष्णु आएको देखेर माथि डाकेर आदरपूर्वक बसाली 'हे विष्णु, आज मेरो घर किन पवित्र गर्नुभयो, आज्ञा होस्' भनी सोधेपछि विष्णुले आज्ञा गर्नुभयो, 'हे दक्ष प्रजापति, केही माग्न आएको हुँ, दिने भए मात्र माग्दछु।' यति सुन्नासाथ दक्षले भने, 'हे विष्णु, तिमीले मागेपछि जे वस्तु भए पनि दिनेछु। के चाहियो आज्ञा गर।' यति सुनी विष्णु भन्नुहुन्छ, 'हे दक्ष प्रजापति, म वैकुण्ठको अधिपति भएर पनि मेरा स्त्री छैनन्। तिमीले कृपा गर्नाले तेत्तीस कोटि देवताले कन्यादान पाई उद्धार भए। अब सतीदेवी छन्, ती मलाई कृपा गर।' विष्णुका यस्ता वचन सुनी दक्ष चिन्तित हुँदै भने, 'हे विष्णु, मेरा पुत्र नहुनाले सम्पत्तिको रक्षा गर्न राखेको हुँ, दिन त उचित थिएन तर वाचा गरेको हुनाले दिन कर लाग्यो। ती कन्या तिम्री भइन्।' अब सुदिन ठहराई कन्यादान लिन आऊ भनी यति दक्षको वचन सुनी विष्णुले हुन्छ भनी बैकुण्ठ जानुभयो।"</p>
+            <p>"अनि विष्णुले आएको देखेर महादेवले सोध्नुभयो, 'हे विष्णु, तिमी गएको काम कस्तो भयो?' अनि विष्णुले उत्तर दिए, 'हे ईश्वर, म गएको काम पुग्यो तर आफैलाई भनी मागेर आएको छु। हजुर वृद्ध सन्यासीको रूप धारण गरी कन्यादान दिने ठाउँमा आउनु भिक्षा माग्नु र म भिक्षा नदिई कन्यादान दिनेछु, नत्रसरासर हजुरलाई दिनेछैन भनी आफू बसेकै ठाउँमा बसाली राख्नेछु र दक्षले कन्यादान दिँदा आँखा छली सतीदेवीको हात हजुरको हातमा पारिदिनेछु। यस दिन यो बेला आउनुहोला' भनी दक्षसित भएको सबै विवरण एक-एक गरी सुनाउनुभयो। विष्णुका कुरा सुनेर प्रसन्न भएका महादेव 'अवश्य आउनेछु' भनी गतगत चित्तले कैलाशमा जानुभयो।"</p>
+
+            <p class="mantra">इति श्री स्कन्द पुराणे केदार खण्डे माघ महात्म्ये कुमार अगस्त्य संवादे श्री स्वस्थानी व्रत कथायाम् दक्ष कन्या विवाह वर्णन नाम तृतीय अध्याय।</p>
+        </section>
 
         <div class="divider">❁ ॐ ❁</div>
 
-        <!-- Section: Chapter 4 -->
         <section id="chapter-4">
             <h2>चतुर्थ अध्याय: सतीदेवी विवाह वर्णन</h2>
-            
             <h3>महादेवको सन्यासी रूप र विष्णुको छल</h3>
             <p class="drop-cap">कु</p>
             <p>मारजी आज्ञा गर्नुहुन्छ, "हे अगस्त्य मुनि, त्यसपछि कन्यादान लिने दिने दिन आयो र महादेव आउनुहोला भन्ने विचार गर्दै विष्णु दक्षको घर पुग्नुभयो। उनले सम्पूर्ण सामग्री तयार गराई अन्य विधान पूरा गरेर कन्यादान गर्न तयार भए। उता महादेव दक्षको घर जान बिर्सेर बीस भाङ, धतुरो खाई अचेत जस्तै भएर सुतिरहे। अनि विष्णुले 'अझसम्म महादेव आउनुभएन, कन्यादानको बेला बितिसक्यो, आफ्नो हातमा थापौं भने महादेवलाई हुँदैन। अब के गरौं' भनी व्याकुल हुन लागे। उता महादेव अकस्मात् झसङ्ग भई 'कन्यादान दिने आजै हो, विष्णु पुगिसके होलान्, बेला पनि भयो होला।' यस्तो सम्झी तत्काल वृद्ध सन्यासीको रूप धारण गरी दक्षको घर पुगी भिक्षा माग्न थाले। "हे विष्णु, म परैबाट आएको छु, भोक लागिरहेछ। पहिले मलाई भिक्षा नदिई कन्यादान गरे लिने दिने दुवैलाई श्राप दिनेछु।" सन्यास रूपी महादेवको यस्तो वचन सुनी विष्णु भन्नुहुन्छ, "हे भिक्षुक, लग्नको समय बित्न लाग्यो। कन्यादान भइसकेपछि भिक्षा लिएर सन्तुष्ट गराउँला। अहिले म बसेको ठाउँमा नजिकै आएर बस" भनी आफू बसेकै सिंहासनको छेउमा बसाउनुभयो। महादेव कस्तो समयमा पुग्नुभयो भनी वीरिणीले सुनको कमण्डलुले धारा दिई दक्ष प्रजापतिले सतीदेवीको हात समाती विष्णुको हातमा सुम्पन्न लागेको त्यस्तो समयमा पुग्नुभयो। र विष्णुले आफ्नो माया ढाकेर दक्ष दम्पतीको आँखा छली सतीदेवीको हात सन्यास रूपी महादेवको हातमा पारिदिनुभयो।"</p>
@@ -798,69 +665,59 @@ body {
             <p>त्यो देखेर दक्षले अत्यन्त दुःखी भई विष्णुको मुखमा हेरी "तिमी भारी कपटी रहेछौ। तिम्रो विश्वास गर्दा आज मेरी पुत्री सतीदेवी यो अवस्थामा पर्न गई" भनी यस्ता कुरा सुनेर पनि केही उत्तर नदिई सन्यास रूपी महादेवसित जान्छु भनेर वैकुण्ठ गए। त्यसपछि दक्षले छोरी तर्फ हेरेर भने, "हे सती, पापिष्ट विष्णुको छलीमा परेर यो वृद्ध सन्यासी स्वामी पाए पनि चिन्ता गर्नु पर्दैन। हामी छँदैछौं, तँलाई दुःख दिन दिनेछैनौं। अहिले उसैसित जाऊ।" पिताको यस्तो वचन सुनेर सबै बहिनीहरूले देवता स्वामी पाएको र म चाहिँ धिक्कार रहेछु भनी विषादमा सतीदेवी रुन लागिन्। फेरि विधाताले मेरो निधारमा यस्तै लेखेको रहेछ, अब रुनु व्यर्थ छ। जस्तो भए पनि माता-पिताले दिएको मेरा स्वामी यिनै हुन् भनी धैर्य धारण गरिन्। त्यसपछि सन्यास रूपी महादेवले सतीदेवी तर्फ हेरेर भने, "हे स्त्री, अब यहाँ बसेर के गर्नु? आफ्नो घर जानुपर्छ। माता-पितासित बिदा मागेर आऊ।" स्वामीको यस्तो आज्ञा सुनी हवस् भनी माता-पिताको नजिक गएर "हे माता-पिता, अब आज्ञा पाए म जाने थिएँ" भनिन्। अनि दक्ष प्रजापति र वीरिणीले धैर्य धारण गरेर "जाऊ" भन्दै बिदा गरे। सतीदेवीले माता-पितालाई प्रणाम गरी सन्यास रूपी महादेवको अगाडि लागेर हिँडिन्।</p>
 
             <h3>कैलाशको यात्रा र खरको झुप्रो</h3>
-            <p>निकै पर पुगेपछि सन्यास रूपी महादेवले आज्ञा गर्नुहुन्छ, "हे प्रिये, घरबाट कहिल्यै बाहिर ननिस्केकी, सदा सुखमा पालिएकी, अत्यन्त कोमल अङ्ग भएकी तिमीलाई परिश्रम पर्ला। सुस्त सुस्त हिँड।" पतिको मधुर वचन सुनेर सतीदेवीले भन्न लागिन्, "हे स्वामी, म त हिँड्न सक्दछु, हजुरको वृद्धावस्था छ, परिश्रम पर्ला। विस्तार विस्तार हिँडिबक्सियोस्।" यस्तै किसिमका अनेक कुरा गर्दै उनीहरू बाटो लाग्दै गए। सतीदेवीले आफ्ना स्वामीको वृद्धावस्था देखी "यी वृद्धावस्था भएका मेरा स्वामीलाई कसैले केही गरी मेरो अपहरण गरे के गर्ने होला" भन्ने चिन्ता गर्दै एकछिन पनि उनको साथ नछोडी पछि लागेर गइन्। कैलाशमा पुगेर महादेवले सतीदेवीको चरित्र हेर्नका लागि कैलाशकै टाकुरामा एउटा खरको झुपडी उत्पन्न गरी "हे स्त्री, हाम्रो घर यही हो, आइपुग्यो" भन्दै औंलाले देखाए। अनि तिमी घरभित्र जाऊ, भोक पनि लाग्यो होला, जे छ झिकेर खाऊ, मलाई परिश्रम भयो, म एकैछिन विश्राम गर्दछु भनी भाङ, धतुरो, विष खाई बाहिरै सुते। सतीदेवीले त्यो खरको झुप्रो देखी आफ्ना पिताको घर सम्झेर सुवर्णको घरमा बसेकी मलाई यस्तो घरको झुपडीमा बस्नु पर्यो भनी मनमा विषाद गरी आँखाबाट आँसुको धारा बगाउन थालिन्।</p>
+            <p>निकै पर पुगेपछि सन्यास रूपी महादेवले आज्ञा गर्नुहुन्छ, "हे प्रिये, घरबाट कहिल्यै बाहिर ननिस्केकी, सदा सुखमा पालिएकी, अत्यन्त कोमल अङ्ग भएकी तिमीलाई परिश्रम पर्ला। सुस्त सुस्त हिँड।" पतिको मधुर वचन सुनेर सतीदेवीले भन्न लागिन्, "हे स्वामी, म त हिँड्न सक्दछु, हजुरको वृद्धावस्था छ, परिश्रम पर्ला। विस्तार विस्तार हिँडिबक्सियोस्।" यस्तै किसिमका अनेक कुरा गर्दै उनीहरू बाटो लाग्दै गए। सतीदेवीले आफ्ना स्वामीको वृद्धावस्था देखी "यी वृद्धावस्था भएका मेरा स्वामीलाई कसैले केही गरी मेरो अपहरण गरे के गर्ने होला" भन्ने चिन्ता गर्दै एकछिन पनि उनको साथ नछोडी पछि लागेर गइन्। कैलाशमा पुगेर महादेवले सतीदेवीको चरित्र हेर्नका लागि कैलाशकै टाकुरामा एउटा खरको झुपडी उत्पन्न गरी "हे स्त्री, हाम्रो घर यही हो, आइपुग्यो" भन्दै औंलाले देखाए। अनि तिमी घरभित्र जाऊ, भोक पनि लाग्यो होला, जे छ झिकेर खाऊ, मलाई परिश्रम भयो, म एकैछिन विश्राम गर्दछु भनी भाङ, धतुरो, विष खाई बाहिरै सुते। सतीदेवीले त्यो खरको झुप्रो देखी आफ्ना पिताको घर सम्झेर सुवर्णको घरमा बसेकी मलाई यस्तो घरको झुपडीमा बस्नु पर्यो भनी मनमा विषाद गरी आँखाबाट आँसुको धारा बगाउन थालिन्。</p>
 
             <h3>महादेवको सक्कली रूप दर्शन र सतीदेवीको हर्ष</h3>
-            <p>फेरि मेरो कर्मले यस्तै जुरायो, के गरूँ भनी मन बुझाइन् र पछ्यौराले आँसु पुछी घरभित्र पसिन्। हेर्दा त सबै ठाउँमा माकुराको जालो र कसिङ्गर मात्र देखिन्। अनि कुचोले माकुराको जालो फाली राम्रोसित बढाएर सफा पारिन्। अनि स्वामी जागा भएपछि खान के दिने भनेर भण्डारमा हेर्न पुगिन् तर त्यहाँ केही फेला पारिनन् र मनमा विषाद गरी महादेव सुतेको स्थानमा गई खुट्टा मुनि बसिरहिन्। चार दिन बितेपछि महादेव जागा हुनुभयो र सतीदेवीको मुखमा हेरी भन्नुभयो, "हे पापिनी स्त्री, मलाई बाहिर एक्लै सुताई आफू भित्र सुतिस्। त्यसो गरे पनि तँलाई केही खानु पर्दैन थियो? के खाइस् कि खाएकै छैनस्?" भन्दै अनेक तरहले रिसाउन महादेव लागेको देखी हँसिलो मुख गरी स्वामीको मुखमा हेरी सतीदेवीले भनिन्, "हे स्वामी, हजुरलाई गहिरो निद्रा परेको देखी जागा गराउन सकिनँ र म पनि सुतेकी छैन, यहीँ चार दिनदेखि बसिरहेकी छु। मैले त भण्डारमा जे भएको थियो, त्यो खाएँ। अब हजुरले के खानुहुन्छ?" भनिन्। सतीदेवी कस्ती भने सबै शृङ्गार गरी रिसमा पनि, रसमा पनि उज्यालो मुख गरी स्वामीकै भक्तिमा चित्त लगाइरहन्थिन्। सतीदेवीले त्यति भनेपछि त्यहाँ के थियो र खाई होली भनी करुणा मूर्ति शिवलाई अत्यन्त करुणा भयो र "हे प्रिये, हाम्रो घर यो होइन, त्यो खरको भित्ता च्यातेर हेर त" भन्नुभयो। र सतीदेवी भन्दछिन्, "हे स्वामी, भएको घर नासी नभएको घर कहाँ हेर्न सकिन्छ र?" फेरि बनाउनुपरेमा हजुर वृद्ध, म नारी जाति कसले बनाइदेला। यस्तो सतीदेवीको वचन सुनी महादेव जुरुक्क उठेर खरको भित्तामा लात्तीले हानी उज्वल कैलाशको दर्शन दिनुभयो। अनेक मणि माणिक्य जडेको, सुनै सुनले बनेको त्यस्तो दिव्य महल देखेर सतीदेवी प्रसन्न भई "मेरा पिता दक्ष प्रजापतिको घर भन्दा पनि अत्यन्त राम्रो यो घर कसको होला" भन्ने विचार गर्न थालिन्।</p>
-
-            <p>अनि सन्यास रूपी महादेवले आफ्नो दिव्य रूपको दर्शन दिई सतीदेवीलाई चोकमा डाकेर लगे। अनि भने, "हे स्त्री, यो चोकको माझमा गाईको गोबरले मण्डलाकार गरी लिपिदेऊ।" सतीदेवीले तत्काल आज्ञा पालन गरिन्। अनि महादेवले पोतेको स्थानमा बसी निर्मल स्फटिकको जस्तो दिगम्बर मूर्तिको दर्शन दिनुभयो। अनि सतीदेवीले मनमा आनन्द मानी हर्षको आँसु बगाइन्। "म धन्य रहेछु, जगदीश्वर महादेव स्वामी पाएँ" भनी फूलको माला पहिराई तीन पल्ट प्रदक्षिणा गरी साष्टाङ्ग दण्डवत् गरिन्। त्यसपछि ती दुवै शिव-शक्ति स्वरूपले रहँदा भए।</p>
+            <p>फेरि मेरो कर्मले यस्तै जुरायो, के गरूँ भनी मन बुझाइन् र पछ्यौराले आँसु पुछी घरभित्र पसिन्। हेर्दा त सबै ठाउँमा माकुराको जालो र कसिङ्गर मात्र देखिन्। अनि कुचोले माकुराको जालो फाली राम्रोसित बढाएर सफा पारिन्। अनि स्वामी जागा भएपछि खान के दिने भनेर भण्डारमा हेर्न पुगिन् तर त्यहाँ केही फेला पारिनन् र मनमा विषाद गरी महादेव सुतेको स्थानमा गई खुट्टा मुनि बसिरहिन्। चार दिन बितेपछि महादेव जागा हुनुभयो र सतीदेवीको मुखमा हेरी भन्नुभयो, "हे पापिनी स्त्री, मलाई बाहिर एक्लै सुताई आफू भित्र सुतिस्। त्यसो गरे पनि तँलाई केही खानु पर्दैन थियो? के खाइस् कि खाएकै छैनस्?" भन्दै अनेक तरहले रिसाउन महादेव लागेको देखी हँसिलो मुख गरी स्वामीको मुखमा हेरी सतीदेवीले भनिन्, "हे स्वामी, हजुरलाई गहिरो निद्रा परेको देखी जागा गराउन सकिनँ र म पनि सुतेकी छैन, यहीँ चार दिनदेखि बसिरहेकी छु। मैले त भण्डारमा जे भएको थियो, त्यो खाएँ। अब हजुरले के खानुहुन्छ?" भनिन्। सतीदेवी कस्ती भने सबै शृङ्गार गरी रिसमा पनि, रसमा पनि उज्यालो मुख गरी स्वामीकै भक्तिमा चित्त लगाइरहन्थिन्। सतीदेवीले त्यति भनेपछि त्यहाँ के थियो र खाई होली भनी करुणा मूर्ति शिवलाई अत्यन्त करुणा भयो र "हे प्रिये, हाम्रो घर यो होइन, त्यो खरको भित्ता च्यातेर हेर त" भन्नुभयो। र सतीदेवी भन्दछिन्, "हे स्वामी, भएको घर नासी नभएको घर कहाँ हेर्न सकिन्छ र?" फेरि बनाउनुपरेमा हजुर वृद्ध, म नारी जाति कसले बनाइदेला। यस्तो सतीदेवीको वचन सुनी महादेव जुरुक्क उठेर खरको भित्तामा लात्तीले हानी उज्वल कैलाशको दर्शन दिनुभयो। अनेक मणि माणिक्य जडेको, सुनै सुनले बनेको त्यस्तो दिव्य महल देखेर सतीदेवी प्रसन्न भई "मेरा पिता दक्ष प्रजापतिको घर भन्दा पनि अत्यन्त राम्रो यो घर कसको होला" भन्ने विचार गर्न थालिन्。</p>
+            <p>अनि सन्यास रूपी महादेवले आफ्नो दिव्य रूपको दर्शन दिई सतीदेवीलाई चोकमा डाकेर लगे। अनि भने, "हे स्त्री, यो चोकको माझमा गाईको गोबरले मण्डलाकार गरी लिपिदेऊ।" सतीदेवीले तत्काल आज्ञा पालन गरिन्। अनि महादेवले पोतेको स्थानमा बसी निर्मल स्फटिकको जस्तो दिगम्बर मूर्तिको दर्शन दिनुभयो। अनि सतीदेवीले मनमा आनन्द मानी हर्षको आँसु बगाइन्। "म धन्य रहेछु, जगदीश्वर महादेव स्वामी पाएँ" भनी फूलको माला पहिराई तीन पल्ट प्रदक्षिणा गरी साष्टाङ्ग दण्डवत् गरिन्। त्यसपछि ती दुवै शिव-शक्ति स्वरूपले रहँदा भए。</p>
 
             <p class="mantra">इति श्री स्कन्द पुराणे केदार खण्डे माघ महात्म्ये कुमार अगस्त्य संवादे श्री स्वस्थानी व्रत कथायाम् सतीदेवी विवाह वर्णन नाम चतुर्थो अध्याय।</p>
         </section>
 
         <div class="divider">❁ ॐ ❁</div>
 
-        <!-- Section: Chapter 5 -->
         <section id="chapter-5">
             <h2>पञ्चम अध्याय: त्रिपुरासुर दाह वर्णन</h2>
-            
             <h3>मय दानवको तपस्या र ब्रह्माको वरदान</h3>
             <p class="drop-cap">कु</p>
             <p>मारजी आज्ञा गर्नुहुन्छ, "हे अगस्त्य मुनि! तिमीले सोधेको सबै प्रश्नको उत्तर दिइसकेँ। अब के सुन्ने इच्छा छ भन, म सबै सुनाउन तयार छु।" त्यति सुनी अगस्त्य मुनिले बिन्ती गरे, "हे कुमारजी! त्रिपुरासुरले कसरी तपस्या गर्यो? त्यसलाई श्री महादेवले कसरी भस्म पार्नुभयो? यो सुन्ने इच्छा छ, त्यो सबै आज्ञा होस्।" यस्तो मुनिको प्रश्न सुनेर कुमारजी आज्ञा गर्नुहुन्छ, "हे मुनि! अघि विष्णु भगवान्ले हिरण्याक्ष दैत्यको वध गर्नुभयो। अनि समस्त दैत्यहरू दुःखी भएर खेद गर्न लागे। तब 'मय' नामको दैत्यले मनमा विचार गर्न लाग्यो- जस्तो कामदेव नहुँदा रती भइन्, त्यस्तै त्यो दानवराज मय पनि भयो। अनि बलवान् तारकाक्ष र विद्युन्माली नामका आफ्ना मित्र समेत भई मयले कठोर तपस्या गर्न लाग्यो। ती तीनै जना दैत्यहरू माघ-पुसको जाडोमा हिमालयमा गई तपस्या गर्दथे, वैशाख-जेठको घाममा पञ्चाग्नि तापी गर्मी प्रदेशमा तपस्या गर्दथे। यस्तै प्रकारले तपस्या गर्दा-गर्दै दश हजार वर्ष बिते। तिनका देहमा केवल हाड र छाला मात्र बाँकी रह्यो। फेरि ती ठूलो सुखबाट पनि वञ्चित भए। तैपनि तिनीहरू सूर्य जस्तै तेजिला देखिन लागे। तिनको तपस्याले ब्रह्माजी प्रसन्न भएर ती तीनै जनाको सामुन्ने पुगी नम्र स्वरले आज्ञा भयो, 'हे दैत्यहरूमा श्रेष्ठ भएका वीर हो! तिमीहरूको तपस्याले म प्रसन्न भएँ, जे इच्छा छ सो वर माग।'"</p>
-            
             <p>"ब्रह्माजीको त्यस्तो वाचा सुनेर साष्टाङ्ग दण्डवत् गरी केवल घुँडाले मात्र भूमिमा स्पर्श गरी हात जोडेर बिन्ती गरे, 'हे प्रभु! हजुर प्रसन्न हुनुहुन्छ भने हामीलाई अवध्यत्व (कहिले नमर्ने, अमर हुने) वर दिनुहोस्। बल, पराक्रम पनि ठूलो होस्। फेरि विमान समान जो हामी तीन पुर (शहर) बनाउने छौं, त्यसमा मनुष्यको गति नहोस्। हामी ठूला बलवान् हौं, यही वरदान दिनुहोस्।' ती दैत्यहरूले यस्तो वर मागेको सुनी ब्रह्माजीले आज्ञा हुन्छ, 'हे दैत्य हो! त्यस्तो अवध्य वर दिन म असमर्थ छु। मृत्युको अवकाश राखेर अर्को वर माग, म दिन्छु। त्यसमा अन्यथा नमान।' ब्रह्माजीको त्यस्तो आज्ञा सुनेर मयले फेरि बिन्ती गरे, 'हे प्रभु! अघि मैले भने जति सबै कुरा होस्। मृत्युलाई ती मैले बनाएका पुरहरू एकै स्थानमा रहने छैनन्। जब दश हजार वर्ष पुग्ला, तब ती पुरको केवल आधा निमेष मात्र मेल होस् र त्यही आधा निमेष भित्रमै जो एक बाणले ती तीनै पुरलाई नष्ट गर्न सकोस्, उसै पुरुषले हामीलाई मार्न सकोस्।' मयका यस्ता वचन सुनेर 'तथास्तु' भनी ब्रह्माजी आफ्नो लोकतर्फ जानुभयो।"</p>
 
             <h3>त्रिपुराको निर्माण</h3>
             <p>"तब त्यो मय दानवले संसार नै नाश गर्ने इच्छा लिएर आदिकल्पमा तीन पुरको रचना गर्दो भयो। ती तीन पुरमा पहिलो फलामको, दोस्रो चाँदीको र तेस्रो सुनको बनायो। ती तीन पुर आकाशमा सुमेरु पर्वतका शृङ्ग (टाकुरा) हुन् कि जस्तो देखिन लागे। ती पुरहरू चन्द्रमाका किरण लाग्नाले अति शीतल भएका, स्थान-स्थानमा आँखीझ्यालहरू बनेका, घरका अट्टालिकाहरू पनि अति अग्ला, आँगनहरूमा पनि राम्रा-राम्रा देख्दै मनलाई मोह गर्ने शिलाहरूले छापेको, स्थान-स्थानमा सुनले मढेका उत्तम पुर द्वारहरूमा रङ्ग-बिरङ्गीका रत्न जडेका, मुगा, मोती, माणिक्यहरू स्थान-स्थानमा जडिएका, बिजुलीको प्रकाश समान रत्नहरूको चारैतिर प्रकाश फैलिएको बनायो। चित्र-विचित्र प्रकाश फैलाउने गरी हीरा, मोती आदि रत्न जडेको, वायुको वेग लाग्नाले फरफराएका पताकाहरूले शोभायमान भएका घरहरूमा पङ्क्तिहरू पनि रत्न समूहका थुप्रै नै हुन् कि भन्ने भान पार्ने खालका मार्गहरू पनि सिँगारिएका अत्यन्त राम्रा पुर तयार गरायो।"</p>
-            
             <p>"घर, महलहरू पनि अनेक रङ्गका मन हरण गर्ने रत्नहरूले सुशोभित, ध्वजा-पताकाहरूले सिँगारिएर ती विमान जस्ता ती तीन पुरलाई शोभायुक्त बनायो। अनेक रत्न जडेका गमलाहरूमा रङ्गी-बिरङ्गी जात-जातका उत्तम सबै ऋतुमा फुल्ने फूलहरू र त्यस्तै सबै ऋतुमा फल्ने फलका वृक्षहरू लगायो। तलाउहरू पनि अनेक प्रकारका कमल, कमलिनी, कुमुदिनीका पुष्पले शोभायमान भएका तयार गरायो। यस्ता प्रकारले त्रिपुर वासीहरूको शोभाले युक्त महल तयार भयो। फेरि मयुर, डाँफे, उत्तम पक्षीगणले युक्त र अत्यन्त सुन्दरीहरूले व्याप्त भएको त्यो त्रिपुर परैबाट पनि अत्यन्त रमणीय देखिन लाग्यो। त्यस्तो त्रिपुर मध्ये जो फलामको थियो त्यो मयले तारकाक्ष नामको आफ्नो मित्रलाई दियो। अर्को चाँदीको जुन सुन्दर पुर थियो त्यो विद्युन्मालीलाई दियो। जुन सुवर्णले बनेको सबभन्दा उत्तम थियो त्यो मयले आफूले लियो।"</p>
 
             <h3>दानवहरूको अत्याचार र देवताहरूको पुकार</h3>
             <p>"अनि त्यो त्रिपुर दैत्यराज आफ्ना शत्रुहरू र तिनका सेनालाई परास्त गरेर आफ्ना हितैषी ब्राह्मण वर्ग र भृत्य वर्गले सहित भई आफ्ना-आफ्ना सुन्दरी स्त्रीहरू साथमा लिई रहँदा स्वर्ग भन्दा पनि बढ्ता सुखभोग गर्न लागे। अनि तिनै लोकका आनन्दलाई ध्वंस गर्न लागे। साथै अभिमानले भरिएर देवताहरू सबै विजित भए भन्ने मनमा ठान्न लागे। तिनीहरूलाई मार्न लागे, उनका बगैंचाका असल-असल वृक्ष र बिरुवाहरू उखेली फाल्न लागे, केही आफ्ना बगैंचामा सार्न लगाए। अनि देवताहरूलाई दुःख दिएको निकै समय व्यतीत भयो। तब तिनीहरूदेखि सबै देवताहरू क्रोधित भई ब्रह्माका सामु गई त्रिपुर निवासी दैत्यहरूको सारा अन्याय, उपद्रव विस्तार गर्दा भए। अनि ब्रह्माजीले समस्त देवताहरूलाई शान्त गराई आज्ञा भयो, 'हे देवगण हो! त्रिपुरासुर दैत्यहरू बडो बलवान् छन्। तिमीहरूद्वारा तिनको नाश हुन सक्दैन। तसर्थ नारायण आदि सकल देवता महादेवका शरणमा जाऊ। उनैले हाम्रो उद्धार गरिदिन्छन्। उनले हाम्रा शत्रु ती दैत्यहरूको अवश्य नाश गर्नेछन्।' ब्रह्माजीको त्यस्तो हित वचन सुनेर स्वीकार गरी ब्रह्मा, विष्णु, इन्द्र, यम, चन्द्र, कुबेर, वायु समेत सबै देवता ब्रह्मालाई अघि लगाई कैलाश पर्वत पुगे। त्यहाँ महादेवको दर्शन पाई हात जोडेर स्तुति गर्न लागे।"</p>
-            
             <p>"यस्तो देवताहरूले कातर भएर स्तुति गरेको सुनी तिनका मनको भाव जानी आज्ञा गर्नुभयो, 'हे देवता हो! जे इच्छा छ सो वर माग। मैले नदिने संसारमा केही वस्तु छैन। म इच्छा पूर्ण गर्न तयार छु, जे इच्छा छ निशङ्क भएर माग।' यस्तो महादेवको आज्ञा सुनी प्रसन्न भएका देवताहरूले विनम्र स्वरमा बिन्ती गरे, 'हे प्रभो! ब्रह्माको वरले उन्मत्त भएका मय आदि दानवहरूले हाम्रा उर्वशी, मेनका आदि अप्सराहरू बलजफती लुटेर लगे। देवताको नाश गर्ने भन्दै हामीलाई अनेक तरहको कष्ट दिइरहेका छन्। अमरावतीबाट पनि निकालियौं। भगवान् ती दैत्यको संहार गर्न ब्रह्मा, विष्णु पनि समर्थ छैनन्। हे प्रभु! हामी उपर प्रसन्न भएर त्यो अजेय त्रिपुरासुरलाई स्वयं संहार गरिबक्सनुहोस्। ब्रह्माजीको वरदान अनुसार दिव्य दश हजार वर्ष बितेपछि आधा निमेष ती त्रिपुराको मिलन हुनेछ। उही आधा निमेष भित्रमै त्यो त्रिपुरालाई जसले एकै बाणले भस्म पार्ला, उसैद्वारा ती दैत्यहरूको संहार होला। अन्यथा तिनको मृत्यु हुनेछैन। हे शशिशेखर! हामीदेखि प्रसन्न भई पापिष्ट त्रिपुरासुरको नाश गरिबक्सियोस्।'"</p>
 
             <h3>महादेवको रथ निर्माण र युद्धको तयारी</h3>
             <p>"देवताहरूको त्यस्तो प्रार्थना सुनी शिवजीले फेरि आज्ञा भयो, 'हे देवता हो! त्यस्तो अभेद्य त्रिपुर छ भने तिमीहरूको हितका निम्ति म एउटै बाणले ती तीनै पुरलाई भस्म पारिदिनेछु। त्यस्ता अजेय दानवहरूका साथ युद्ध गर्दा मेरो शक्ति थाम्न सक्ने हिमालय समान मेरो निम्ति एउटा रथ तयार पार, अनि म युद्धमा जानेछु।' महादेवको त्यस्तो आज्ञा सुनी प्रसन्न भएका देवताहरूले तत्काल विश्वकर्मालाई डाकी महादेवको निमित्त समस्त देवरूपी अवयव भएको सुवर्णमय रथ तयार पारे। त्यस रथका दुवै पाङ्ग्रा सूर्य-चन्द्र भए। दक्षिण पाङ्ग्रामा बाह्र सूर्यको भूषण बनाइयो। बायाँ चक्रमा तेईस नक्षत्र र षोडश कलाभूषण बनाइयो। षट्ऋतु रथका दायाँ-बायाँ राखिए। आकाशको गजुर र पाङ्ग्रा अड्याउने दण्ड मन्दराचलको बनाए। अयन र संवत्सर रथका वेग भए। चार समुद्र रथका कुण्डलीका भए। गङ्गादि समस्त तीर्थ राम्रा-राम्रा वस्त्र-आभूषण पहिरी स्त्री रूप धारण गरेर हातमा चमर लिई रथमा उभिए। सारथि स्वयं ब्रह्माजी भए। ॐकारको कोर्रा बनाए र विन्ध्याचलको छत्र निरूपण गरे। मन्दराचलको पाश्वदण्ड बनाए। सरस्वती घण्ट भइन्। श्रीनारायण अग्निवाणको टुप्पो भए। चार वेद चार घोडा भए। ताराहरू घोडाका गहना भए। हे अगस्त्य मुनि! यसरी समस्त वस्तु त्यस रथका अवयव भए। जसरी जब धनुवाण सहित रथ तयार भयो, तब पृथ्वी र आकाश कम्पित पार्दै भगवान् शिव त्यस रथमा आरूढ हुनुभयो। त्यस रथका अघि-पछि शिवका गण, शङ्कुकर्ण, चण्डेश्वर, गणेश, नन्दी आदि प्रमथ गणहरू शूल, पट्टिश आदि अनेक शस्त्रास्त्र लिएर शंख, भेरी, मृदङ्ग आदि बाजा बजाउँदै महादेव माथि अनेक थरीका पुष्पको वर्षा गराउँदा भए।"</p>
 
             <h3>त्रिपुराको विनाश र मय दानवको रक्षा</h3>
-            <p>"त्यसपछि नारद मुनि ती दैत्यहरू कहाँ गएर भन्न लाग्नुभयो, 'हे दैत्यराज! देवताहरूको स्तुतिले प्रसन्न भएका महादेव स्वयं तिमीहरूको संहार गर्न भनी आइरहनुभएको छ। अब तिमीहरूको जे इच्छा छ सो गर, नभए तिमीहरूको अविलम्ब नाश हुनेछ।' नारदका यस्ता वचन सुनी दैत्यराज मयले आफ्ना मित्रहरूलाई डाकी सुनायो। दानवहरूले युद्ध गर्ने निश्चय गरे र अनेक तरहका शस्त्रास्त्रले सज्जित भई लड्न तयार भए। परस्पर घोर घमासान सङ्ग्राम चल्न लाग्यो। महादेवको आज्ञा पाएका शिवगणहरूले गजराजले कदली वन ध्वस्त पारे झैँ ती दानवहरूलाई छिन्न-भिन्न पारी मार्न लागे। त्यस युद्धमा रगतको नदी बगेझैं भयो। मयका घरमा अमृतको कुण्ड थियो, त्यसमा चोपी मरेका जति सबै दानवलाई जिउँताइन्थ्यो। ब्रह्माजीको सङ्केत पाएर शिवले एक बाण प्रहार गरी सारा अमृत सोसिलिनुभयो। अनि ब्रह्माजीले फेरि बिन्ती गरे, 'हे प्रभु! ठीक उसै बेला ती तीन पुरहरू आधा निमेषसम्म जोडिई फेरि छुट्टिनेछन्। तत्काल बाण प्रहार गरेर त्यस त्रिपुरालाई भस्म गरिबक्सियोस्।'"</p>
-            
+            <p>"त्यसपछि नारद मुनि ती दैत्यहरू कहाँ गएर भन्न लाग्नुभयो, 'हे दैत्यराज! देवताहरूको स्तुतिले प्रसन्न भएका महादेव स्वयं तिमीहरूको संहार गर्न भनी आइरहनुभएको छ। अब तिमीहरूको जे इच्छा छ सो गर, नभए तिमीहरूको अविलम्ब नाश हुनेछ।' नारदका यस्ता वचन सुनी दैत्यराज मयले आफ्ना मित्रहरूलाई डाकी सुनायो। दानवहरूले युद्ध गर्ने निश्चय गरे र अनेक तरहका शस्त्रास्त्रले सज्जित भई लड्न तयार भए। परस्पर घोर घमासान सङ्ग्राम चल्न लाग्यो। महादेवको आज्ञा पाएका शिवगणहरूले गजराजले कदली वन ध्वस्त पारे झैँ ती दानवहरूलाई छिन्न-भिन्न पारी मार्न लागे। त्यस युद्धमा रगतको नदी बगेझैं भयो। मयका घरमा अमृतको कुण्ड थियो, त्यसमा चोपी मरेका जति सबै दानवलाई जिउँताइन्थ्यो। ब्रह्माजीको सङ्केत पाएर शिवले एक बाण प्रहार गरी सारा अमृत सोसिलिनुभयो। अनि ब्रह्माजीले फेरि बिन्ती गरे, 'हे प्रभु! ठीक उसै बेला ती तीन पुरहरू आधा निमेषसम्म जोडिई फेरि छुट्टिनेछन्। तत्काल बाण प्रहार गरेर त्यस त्रिपुरालाई भस्म गरिबक्सियोस्。'"</p>
             <p>"ब्रह्माजीको त्यस्तो बिन्ती सुनेर शिवले अमोघ बाण धनुमा राखी आधा निमेषका लागि त्रिपुर जोडिँदा प्रहार गर्नुभयो। त्यो बाण छुट्नासाथ त्रिपुरका भव्य महलहरूमा आगो लागेर चारैतिर दन्कन लाग्यो। महादेवले तत्काल नन्दीलाई भन्नुभयो, 'त्यो मय दानव मेरो प्रिय भक्त छ। त्यसलाई अग्निले नडराउनू।' नन्दीले शिवको आज्ञा अग्निदेवलाई सुनाइदिए। तब अग्निले मय दानवलाई नजलाई त्रिपुरका अन्य दानवहरूलाई भस्म पारे। यस प्रकार त्यो अमोघ अग्नि सोम बाणले त्रिपुर भस्म पारी शेष नगर समुद्रमा डुबाई फेरि भगवान् शिवको हातमा आइपुग्यो।"</p>
 
             <h3>उपसंहार</h3>
-            <p>"त्यस्ता प्रकारले अभेद्य त्रिपुर भस्म भएपछि देवताहरूले आफ्ना-आफ्ना अधिकार पाई शिवजीलाई प्रणाम गरेर स्तुति गर्न लागे। महादेव प्रसन्न भएर आज्ञा भयो, 'हे देवता हो! आज त्रिपुरावासी दानवहरूको संहार हुन गएकोले तिमीहरूको इच्छा पूर्ण भयो। अब तिमीहरू खुसीसाथ आ-आफ्ना आश्रममा जाऊ।' देवताहरू गएपछि नन्दी, भृङ्गी, भूत, प्रेत सहित भएर शिवजी कैलाशपुरी पाल्नुभयो।"</p>
-
+            <p>"त्यस्ता प्रकारले अभेद्य त्रिपुर भस्म भएपछि देवताहरूले आफ्ना-आफ्ना अधिकार पाई शिवजीलाई प्रणाम गरेर स्तुति गर्न लागे। महादेव प्रसन्न भएर आज्ञा भयो, 'हे देवता हो! आज त्रिपुरावासी दानवहरूको संहार हुन गएकोले तिमीहरूको इच्छा पूर्ण भयो। अब तिमीहरू खुसीसाथ आ-आफ्ना आश्रममा जाऊ।' देवताहरू गएपछि नन्दी, भृङ्गी, भूत, प्रेत सहित भएर शिवजी कैलाशपुरी पाल्नुभयो。"</p>
             <p>"हे अगस्त्य मुनि! त्यो सहसा कसैले वर्णन गर्न नसक्ने त्रिपुरादाह मैले सुनाएँ। जो शिवभक्त खुसीसाथ यो कथा सुन्ला वा सुनाउला, त्यो समस्त पापबाट मुक्त भएर मरेपछि शिवको पार्षद भएर सधैँ कैलाशमै बस्न पाउनेछ।"</p>
-
             <p class="mantra">इति श्री स्कन्द पुराणे केदार खण्डे माघ महात्म्ये कुमार अगस्त्य संवादे श्री स्वस्थानी परमेश्वर्या व्रत कथायाम् त्रिपुरादाह वर्ण नाम पञ्चमो अध्याय।</p>
         </section>
+
         <div class="divider">❁ ॐ ❁</div>
 
-        <!-- Section: Chapter 6 -->
         <section id="chapter-6">
             <h2>षष्ठ अध्याय: सतीदेवी देह त्याग वर्णन</h2>
-	    <figure class="image-container">
-    <img src="images/chapter-6.jpg" alt="Sati Devi Sacrifice" loading="lazy" class="chapter-image">
-    <figcaption class="image-caption">दक्ष प्रजापतिको यज्ञ कुण्डमा सतीदेवीद्वारा देह त्याग।</figcaption>
-</figure>
-            
+            <figure class="image-container">
+                <img src="images/chapter-6.jpg" alt="Sati Devi Sacrifice" loading="lazy" class="chapter-image">
+                <figcaption class="image-caption">दक्ष प्रजापतिको यज्ञ कुण्डमा सतीदेवीद्वारा देह त्याग।</figcaption>
+            </figure>
             <h3>दक्षको यज्ञको तयारी र देवताहरूलाई निमन्त्रणा</h3>
             <p class="drop-cap">कु</p>
             <p>मारजी आज्ञा गर्नुहुन्छ, "हे अगस्त्य मुनि! त्यस्तो किसिमसँग मैले त्रिपुर दाह सुनाएँ। अब के सुन्ने इच्छा छ?" यस्तो कुरा सुनी अगस्त्य मुनि बिन्ती गर्छन्, "हे कुमारजी! दक्ष प्रजापतिका तेत्तीस कोटि कन्या तेत्तीस कोटि देवताले विवाह गरे। सतीदेवीलाई विष्णु भगवान्को छलले शिवजीले प्राप्त गर्नुभयो। त्यसपछि सतीको मृत्यु के कारणले परेर भयो? यस विषयमा सुन्ने इच्छा छ, सुनाई बक्सियोस्।" त्यस्तो आग्रह सुनेको सुनी कुमारजी भन्नुहुन्छ, "हे मुनि! एक दिन दक्ष प्रजापतिले यज्ञ गर्ने इच्छा गरेको धेरै समय भयो। अब त्यो यज्ञ गर्ने इच्छा बलवती भयो र सम्पूर्ण सामग्री तयार गरे। अनि महादेव र सतीदेवी बाहेक अरु छोरी, ज्वाइँ, ब्रह्मा, विष्णु आदि समस्त देवता, यक्ष, गन्धर्व, किन्नर, नाग, दैत्य, अप्सरा, १० दिक्पाललाई निमन्त्रणा गर्न पठाऊ भनी आफ्ना स्वामीको आज्ञा पाई वीरिणीले सम्पूर्ण सामग्री तयार पारी महादेव र सतीदेवी बाहेक सबै छोरी, ज्वाइँ, ब्रह्मा, विष्णु, यक्ष, गन्धर्व, किन्नर, नाग, अप्सरा, १० दिक्पालहरूलाई निमन्त्रणा पठाइन्। दक्षका सबै छोरी, ज्वाइँहरू नाना वस्त्रालङ्कार पहिरी यज्ञमा होम गर्न अनेक मणि, माणिक्य, फलफूल र व्रतादि यज्ञमा होम गर्ने सामग्री लिएर दक्ष प्रजापतिको यज्ञ हेर्न भनी आए। दक्षले पनि सबै आएका व्यक्तिहरूलाई यथायोग्य सेवा सत्कार गरे।"</p>
 
             <h3>यज्ञ प्रारम्भ र नारदको प्रश्न</h3>
-            <p>"सुदिनमा यज्ञ प्रारम्भ भयो। त्यो अश्वमेध कस्तो भने नन्दी, भृङ्गी, चतुःषष्टी योगिनी, भूत, प्रेत, पिशाच प्रथम गणसहित भई श्री महादेव बस्दा जस्तो शोभा हुन्छ, त्यस्तै तेत्तीस कोटि छोरी, ज्वाइँ र ब्रह्मा, विष्णु आदि देवता, ऋषि, यक्ष, गन्धर्व, किन्नर, दैत्य, नाग, अप्सराहरू नाना वस्त्र, अलंकार पहिरी उता भन्दा उता राम्री, उता भन्दा उता राम्री भई नाचगान गरी मंगलाको निमित्त सुवर्णमय कलशसहित अश्वमेध गर्दा शोभमान देखियो। त्यसरी अश्वमेध चलिरहेको बखतमा नारद मुनिले को आए को आएनन् भनी आसनबाट उठेर चारैतर्फ हेर्न लागे। दक्षका तेत्तीस कोटि कन्या, ब्रह्मा, विष्णु, प्रकृतिसकल देवता, यक्ष, ऋषि, गन्धर्व, किन्नर, नाग, अप्सरा आदि सबैलाई देखे तर महादेव र सतीलाई देखेनन्। बिना महादेवको यो दक्ष प्रजापतिको यज्ञ कसरी सम्पूर्ण होला? के कारण हो? निम्ता पठाउन पो बिर्सेका हुन् कि अथवा अरु कुनै कारण छ भनी मनमा तर्क गर्दै तुरुन्त त्यहाँबाट अन्तर्ध्यान भई कैलाश पर्वतमा गए।"</p>
+            <p>"सुदिनमा यज्ञ प्रारम्भ भयो। त्यो अश्वमेध कस्तो भने नन्दी, भृङ्गी, चतुःषष्टी योगिनी, भूत, प्रेत, पिशाच प्रथम गणसहित भई श्री महादेव बस्दा जस्तो शोभा हुन्छ, त्यस्तै तेत्तीस कोटि छोरी, ज्वाइँ र ब्रह्मा, विष्णु आदि देवता, ऋषि, यक्ष, गन्धर्व, किन्नर, नाग, दैत्य, अप्सराहरू नाना वस्त्र, अलंकार पहिरी उता भन्दा उता राम्री, उता भन्दा उता राम्री भई नाचगान गरी मंगलाको निमित्त सुवर्णमय कलशसहित अश्वमेध गर्दा शोभमान देखियो। त्यसरी अश्वमेध चलिरहेको बखतमा नारद मुनिले को आए को आएनन् भनी आसनबाट उठेर चारैतर्फ हेर्न लागे। दक्षका तेत्तीस कोटि कन्या, ब्रह्मा, विष्णु, प्रकृतिसकल देवता, यक्ष, ऋषि, गन्धर्व, किन्नर, नाग, अप्सरा आदि सबैलाई देखे तर महादेव र सतीलाई देखेनन्। बिना महादेवको यो दक्ष प्रजापतिको यज्ञ कसरी सम्पूर्ण होला? के कारण हो? निम्ता पठाउन पो बिर्सेका हुन् कि अथवा अरु कुनै कारण छ भनी मनमा तर्क गर्दै तुरुन्त त्यहाँबाट अन्तर्ध्यान भई कैलाश पर्वतमा गए।"</p>
 
             <h3>महादेव र सतीदेवीको जुवा खेल</h3>
             <p>"त्यसै बेला उता महादेवले सतीदेवीलाई 'हे प्रिये, आज हामी दुवैजना जुवा खेलौं, आऊ' भन्नुभयो। सतीदेवीले 'हवस्' भनी पासा ल्याइन् र दुवैजना प्रेमसाथ जुवा खेल्न लागे। खेलमा सतीदेवीले जितिन् र स्वामीलाई गिज्याउन लागिन्। अनि शिवजी झोकिएर झोली थापे, त्यो पनि जितिन्। अनि नाग रूपी गहना थापे, त्यो पनि जितिन्। त्यसै बेला दक्षको निम्ता पाएर देवता, दानव, यक्ष, किन्नरहरू विमानमा बसेर गइरहेका थिए। तिनीहरूलाई देखेर सतीले स्वामीसित 'ती विमानमा बसेर जाने को हुन्? आज्ञा होस्' भनी सोधिन्। र महादेवले 'तिमीलाई केको धन्दा पर्यो? आफ्नो काम गर' भन्दा सतीदेवी चिन्तित भएर माथितिर नै हेरिरहिन्। अनि शिवले हाँसेर मुकुट थाप्नुभयो, त्यो पनि जितिन्। त्यसरी निकै पल्ट हारेकोले शिवजी केही पनि नभनी हाँसिरहनुभयो।"</p>
@@ -873,15 +730,13 @@ body {
 
             <h3>सतीदेवीको देह त्याग</h3>
             <p>"दक्ष प्रजापतिले जगदीश्वर महादेवलाई क्षुद्र वचनले निन्दा गरेको सुनेर मनले सहन नसकी राता-राता आँखा पारी क्रोधले नाग जस्तै लामो श्वास फेर्दै सुस्केरा हाल्दै दारा किटी जुरुक्क उठेर भूमिमा लात्ताले हानी स्वामीको निन्दा गरेको सम्झी चित्तले सहन नसकी छातीमा मुड्कीले हानी 'शिव, शिव' भन्दै स्वामीको नाम उच्चारण गरी यज्ञकुण्डमा हाम फाली प्राण छाडिदिइन्। अनि हिमालय पर्वतकी स्त्री मेनकाको गर्भमा बास लिन पुगिन्।"</p>
-            
             <p class="mantra">इति श्री स्कन्द पुराणे केदार खण्डे माघ महात्म्ये कुमार अगस्त्य संवादे श्री स्वस्थानी परमेश्वर्या व्रत कथायाम् सतीदेवी देह त्याग वर्णनाम षष्ठो अध्याय।</p>
         </section>
+
         <div class="divider">❁ ॐ ❁</div>
 
-        <!-- Section: Chapter 7 -->
         <section id="chapter-7">
             <h2>सप्तम अध्याय: दक्ष यज्ञ विध्वंश वर्णन</h2>
-            
             <h3>सतीदेवीको देह त्याग पछिको हाहाकार</h3>
             <p class="drop-cap">कु</p>
             <p>मारजी आज्ञा गर्नुहुन्छ, "हे अगस्त्य मुनि! सतीदेवीले त्यसरी प्राण त्यागेको देखेर देवता, यक्ष, गन्धर्व, किन्नर, नाग, दैत्य र ऋषि मुनि सबैले 'ओहो साह्रै अनर्थ भयो' भन्दै आश्चर्य माने। उसै बेला अकस्मात् आँधी चलेर धुलो उडी सारा आकाश ढाक्यो र विपरीत हावा चल्न लाग्यो। बिना बादलकै मेघ गर्जन लाग्यो। यज्ञमा उपस्थित सबै देवता, यक्ष, गन्धर्व, किन्नर, दैत्य, नागहरू धुलो उडेर आँखामा परी हेर्न असमर्थ भए। वायुको वेगमा अडिन नसकी भूमिमा घोप्टिए। वायुको त्यो उग्र वेगले कतिलाई उडाएर लग्यो, कति भूमिमा पछारिए, कति रुन कराउन लागे। त्यस हुरीमा परेर कतिको हात भाँचियो, कतिको खुट्टा मर्कियो। कतिले भुइँमा टाउको टेक्ने पुगे, कतिको मुख भूमिमा घोप्टिएर माटो खान लागे। उठ्न असमर्थ भएका जति रुन कराउन लागे, 'कति रक्षा गर, रक्षा गर, मरेँ बचाऊ, बचाऊ' भन्न लागे। यस्ता प्रकारले यज्ञमा उत्पात भएको केही बेरपछि हुरीको वेग कम भयो र दक्ष प्रजापतिले चिन्ता गरी सबै छोरी ज्वाइँलाई 'नडराऊ, डराउनु पर्दैन' भनी सान्त्वना दिइसकेपछि चित्त व्याकुल गरी अब कसो गरूँ भन्दै गुरु बृहस्पति कहाँ गएर बिन्ती गरे, 'हे गुरु! अनर्थ भयो, अब कसो गर्ने? असम्भव कुरा प्रत्यक्ष भयो' भन्दै भयभीत स्वरमा कराउन लागे।"</p>
@@ -899,8 +754,7 @@ body {
             <p>"दक्षको यज्ञमा पनि अनेक किसिमका उत्पात हुन लागे। आकाशमा काग र गिद्ध मण्डलाकार गरी उड्दै कराउन थाले। स्यालहरू आँखा र मुखबाट आगोको ज्वाला निकाल्दै कराउन र दगुर्न लागे। रगतको वृष्टि भयो, विपरीत वायु चल्न लाग्यो। यस्तो उत्पात हुन लागेको देखेर यज्ञमण्डपमा बसेका सबै हाहाकार गर्दै यताउता भाग्न लागे। स्त्री, बालक, बुढाहरू भाग्न नसकी भुइँमा घोप्टिएर रुन कराउन लागे। कोही अझ के हुने हो भन्ने डराई त्राहि त्राहि हुन लागे। ठीक उसै बेला शिवको आज्ञा पाएर उन्मत्त भएका वीरभद्र र महाकाली नन्दी, भृङ्गी आदि शिवका गण मेघ गर्जे जस्तै गर्जंदै हात्तीका बथानमा सिंह पसे झैं दक्षका यज्ञमा पुगे र दक्षद्वारा डाकिएका देवता, यक्ष, गन्धर्व, किन्नर, नाग, दैत्यगणसहित परस्पर जुधे। त्यो देखेर दक्षका कन्याहरू, देवकन्या, नागकन्या, ब्राह्मण, ऋषिमुनि आदि सबै त्राहि त्राहि नारायण भन्दै रोइकराइ दस दिशातिर भाग्न लागे। कोही भाग्न नसकेर लडे, कसैको हात खुट्टा भाँचियो, कोही टाउकोको भरले पल्टिएर माटो खान लागे। कति मूर्छा परी असहाय जस्तै भूमिमा लडे।"</p>
 
             <h3>देवताहरूको पराजय र नारायणको पलायन</h3>
-            <p>"तर विष्णु प्रवृत्ति देवता, यक्ष, गन्धर्व, किन्नर आदि सबैले दक्ष प्रजापतिको रक्षा गर्न शस्त्र अस्त्र लिएर वीरभद्र र महाकाली माथि प्रहार गर्न लागे। यसरी परस्पर घमासान संग्राम भयो। इन्द्रादि देवताहरूले कुन-कुन अस्त्र प्रहार गरे भने इन्द्रास्त्र, अग्न्यास्त्र, देवास्त्र, वरुणास्त्र, पाशुपतास्त्र, ब्रह्मास्त्र, तोमर, गदा, खड्ग र मुसल, नागपाश आदिले वीरभद्र, महाकाली र चौसट्ठी योगिनी, भूत, प्रेत, प्रमथगण र विषम ज्वर माथि प्रहार गरे। त्यस्ता तरहले आफूमाथि सशस्त्र प्रहार गरेको देखेर वीरभद्रका गणहरूले पनि कठोर स्वरले गर्जेर दक्षका सैन्यभित्र पसी जति भेटे उतिको टाउको समाती निमोठी हातखुट्टा भाँची मुड्कीले रगत छँदाई देवताहरूको संहार गरे। उता महाकालीले प्रत्यक्ष काल जस्तै खड्ग लिई वर्षाकालको प्रचण्ड मेघ गर्जे झैं गर्जी सिंहनाद गर्दै मृगका फौजमा सिंह पसे झैं र सुकेका परालमा आगो लागे झैं दक्षका सेनाको संहार गरिन्। वीरभद्र समेत नन्दी, भृङ्गी, चतुःषष्टी योगिनी, भूत, प्रेत, पिशाच, प्रमथगण समेतले शत्रु तिरका कसैको शिर, कसैको हातखुट्टा छुट्टाए। कसैलाई निमोटी रगत पिएर नाच्न लागे, कोही हाँस्न थाले। कसैको मासु लुछेर खाए, कसैको कोखामा प्वाल पारेर रगत पिउन लागे। केही देवता भागे।"</p>
-            
+            <p>"तर विष्णु प्रवृत्ति देवता, यक्ष, गन्धर्व, किन्नर आदि सबैले दक्ष प्रजापतिको रक्षा गर्न शस्त्र अस्त्र लिएर वीरभद्र र महाकाली माथि प्रहार गर्न लागे। यसरी परस्पर घमासान संग्राम भयो। इन्द्रादि देवताहरूले कुन-कुन अस्त्र प्रहार गरे भने इन्द्रास्त्र, अग्न्यास्त्र, देवास्त्र, वरुणास्त्र, पाशुपतास्त्र, ब्रह्मास्त्र, तोमर, गदा, खड्ग र मुसल, नागपाश आदिले वीरभद्र, महाकाली र चौसट्ठी योगिनी, भूत, प्रेत, प्रमथगण र विषम ज्वर माथि प्रहार गरे। त्यस्ता तरहले आफूमाथि सशस्त्र प्रहार गरेको देखेर वीरभद्रका गणहरूले पनि कठोर स्वरले गर्जेर दक्षका सेनाभित्र पसी जति भेटे उतिको टाउको समाती निमोठी हातखुट्टा भाँची मुड्कीले रगत छँदाई देवताहरूको संहार गरे। उता महाकालीले प्रत्यक्ष काल जस्तै खड्ग लिई वर्षाकालको प्रचण्ड मेघ गर्जे झैं गर्जी सिंहनाद गर्दै मृगका फौजमा सिंह पसे झैं र सुकेका परालमा आगो लागे झैं दक्षका सेनाको संहार गरिन्। वीरभद्र समेत नन्दी, भृङ्गी, चतुःषष्टी योगिनी, भूत, प्रेत, पिशाच, प्रमथगण समेतले शत्रु तिरका कसैको शिर, कसैको हातखुट्टा छुट्टाए। कसैलाई निमोटी रगत पिएर नाच्न लागे, कोही हाँस्न थाले। कसैको मासु लुछेर खाए, कसैको कोखामा प्वाल पारेर रगत पिउन लागे। केही देवता भागे।"</p>
             <p>"यसरी दक्षका सेना र कोटि-कोटि देवताको संहार गरे। त्यसरी संहार गरेको देखेर दक्षका सेना र देवताले वीरभद्र र महाकाली माथि आफ्ना सशस्त्र प्रहार गरे। तर ती सम्पूर्ण सशस्त्र महाकालीको शरीरमा छुनासाथ आफैं भस्म भएर जान्थे। फेरि शिवगण र महाकालीले दक्ष सैन्य र देवगण यज्ञमा आएका सबै वीरहरू मारिदिए। विषम ज्वरले पनि सबैका शरीरमा प्रवेश गरी अचेत पारिदिए। अनि वैकुण्ठका स्वामी श्री विष्णुले सम्पूर्ण देवता, यक्ष, गन्धर्व, किन्नर, दैत्य, नाग आदि सहित दक्षका सबै सेना अचेत भएका देखेर आफ्नो देहबाट शीत ज्वर उत्पन्न गरेर सबैलाई सचेत गराए। फेरि अनेक शस्त्र अस्त्र लिएर बत्तीमा पुतली गए झैं वीरभद्र र महाकाली माथि जाइलागे। वीरभद्रले पनि त्रिशूल लिई सिंहनाद गर्दै सुकेको खरमा आगो लगाए झैं एक क्षणमै दक्षका अनेक सेनाहरू काटी मारिदिए। तिनमा कसैको शिर छैन, कसैको हात छैन, कसैका खुट्टा छैनन्। त्यस्तो स्थिति देखेर कोही रक्षा गर रक्षा गर भन्दै भाग्न पनि नसकी भुइँमा लडिरहे। यसरी सबै देवताहरूको संहार गरी अन्य दैत्य दानवलाई समाती अग्निकुण्डमा होम्न लागे।"</p>
 
             <h3>सुदर्शन चक्रको प्रयोग र वीरभद्रको विजय</h3>
@@ -908,16 +762,15 @@ body {
 
             <p class="mantra">इति श्री स्कन्द पुराणे केदार खण्डे माघ महात्म्ये कुमार अगस्त्य संवादे श्री स्वस्थानी परमेश्वर्या व्रत कथायाम् दक्ष सेना वधु नाम सप्तमो अध्याय।</p>
         </section>
+
         <div class="divider">❁ ॐ ❁</div>
 
-        <!-- Section: Chapter 8 -->
         <section id="chapter-8">
             <h2>अष्टम अध्याय: महादेव पृथ्वी भ्रमण वर्णन</h2>
-	    <figure class="image-container">
-    <img src="images/chapter-8.jpg" alt="Shiva carrying Sati" loading="lazy" class="chapter-image">
-    <figcaption class="image-caption">सतीदेवीको मृत शरीर बोकेर पृथ्वी भ्रमण गर्दै शोकाकुल महादेव।</figcaption>
-</figure>
-            
+            <figure class="image-container">
+                <img src="images/chapter-8.jpg" alt="Shiva carrying Sati" loading="lazy" class="chapter-image">
+                <figcaption class="image-caption">सतीदेवीको मृत शरीर बोकेर पृथ्वी भ्रमण गर्दै शोकाकुल महादेव।</figcaption>
+            </figure>
             <h3>नारायणको सुदर्शन चक्रको असफलता</h3>
             <p class="drop-cap">कु</p>
             <p>मारजी आज्ञा गर्नुहुन्छ, "हे अगस्त्य मुनि! विष्णु भगवान् संग्रामबाट अन्तर्धान भएपछि बाँकी बचेका देवता, यक्ष, गन्धर्व, किन्नर र दैत्य सबै हाहाकार गरेर दस दिशा तर्फ भागे। ती परस्पर भन्दथे, अब दक्ष प्रजापतिको प्राण रहन्न किनकि नारायण जस्ताको सुदर्शन चक्र मिथ्या भयो। जुन चक्र लिई विष्णु खडा हुँदा स्वयं शिव पनि टिक्न सक्दैनथे, त्यस्ता नारायण पनि भागे। अब हाम्रो क्षुद्र पराक्रमले के होला? तस्मात् अब आ-आफ्नो प्राण रक्षा गर्नु नै उचित हो भन्दै दस दिशा तर्फ भागे। नारायण सहित देवता, यक्ष, गन्धर्व, नाग आदि आ-आफ्नो जीवन बचाई भागेको देखी वीरभद्र नागले झैँ निश्वास फेरे। वर्षाकालको मेघ झैँ गर्जी तत्काल दक्षको टुपी समाती भुइँमा ढलाई बोध गराए, 'हे पापिष्ट दक्ष! तैँले महादेवको अनेक निन्दा गरिस्, आफ्नी छोरीको हत्या गरिस्, तँ जस्तो पापी यस संसारमा खोजे पनि पाइन्न। त्यो बौलाहा हो जसलाई नडाके मलाई के होला भनी त्रिलोकको ईश्वरको निन्दा गरिस्। अब यस बखतमा तेरा रक्षक ज्वाइँहरू कता गए? तिनीहरूको सहायता मागी आफ्नो प्राण बचा। तेरो यज्ञ बिना शंकर नै पूरा गराउन लगाऊ यिनीहरूले। अब तँलाई पनि यही यज्ञमा होम्न सके हामीलाई सन्तोष होला' भनी अनेक तरहले बोध गराई दक्ष प्रजापतिको शिर काटेर अग्निकुण्डमा होमी दिए।"</p>
@@ -927,24 +780,21 @@ body {
 
             <h3>दक्ष प्रजापतिको पुनर्जीवन र महादेवको विलाप</h3>
             <p>"यस्तो वीरभद्रको वचन सुनेर वीरिणीले 'हुन्छ' भनी अञ्जलि जोरी उभिइन्। अनि वीरभद्रले यज्ञशालाबाट बोकाको शिर मगाई पसलतिर मुख फर्काई जोरी दक्ष प्रजापतिलाई बिउँझाइदिए। दक्ष प्रजापति जीवित भएपछि वीरिणीले मनमा सन्तोष मानी छाग मुख अर्थात् बोकाको टाउको भएका स्वामीसहित वीरभद्र र महाकालीलाई दण्डवत् प्रणाम गरी आफ्नो घरतर्फ लागिन्। यता वीरभद्र र महाकाली पनि देवता, यक्ष, गन्धर्व, किन्नर आदिको संहार गरी दक्षको यज्ञ विध्वंस पारी नन्दी, भृङ्गी, चतुःषष्टी योगिनी, भूत, प्रेत, प्रमथ गणसमेत त्यहाँबाट अन्तर्धान भई कैलाशमा पुगी शिवजीलाई दण्डवत् प्रणाम गरेर, 'हे ईश्वर! हजुरको आज्ञा अनुसार दक्षको यज्ञ विध्वंस पारी, देवता, यक्ष, गन्धर्व र उसका समस्त रक्षक मारी, दक्षको शिर छुट्याई अग्निकुण्डमा होमिसकेपछि उसकी स्त्री वीरिणीले आफ्ना स्वामी मरेको देखी साह्रै नै दिन भावले विलाप गर्न लागिन्। त्यो देखेर मैले अग्निकुण्डमा बलि दिएको बोकाको शिर ल्याएर पछाडि मुख फर्काई जोडेर दक्ष प्रजापतिलाई बिउँझाई आएँ' भनी बिन्ती गरे। र महादेव प्रसन्न भई 'हे वीरभद्र! महाकाली! तिमी धन्य रहेछौ, म प्रसन्न भएँ' यति भनी ती दुवैलाई आफ्नो शरीरमा लीन गराए।"</p>
-            
             <p>"त्यसपछि महादेवले प्राणप्रिया सतीलाई सम्झी दक्ष प्रजापतिको यज्ञ गरेको स्थानमा पुगी हेर्दा अग्निकुण्डमा सुतिरहेकी सतीदेवीलाई देखी 'हा सती! कैलाश शून्य तुल्याई मलाई एक्लै छोडेर कहाँ गयौ?' भन्दै साह्रै नै अधैर्य भई भित्ता ढले झैँ भूमिमा लडी मूर्छा परे। केही बेरमा चेत आयो र 'हे प्यारी! अब मैले यस संसारमा बाँच्नु नै व्यर्थ भयो। मलाई एक क्षण पनि एक्लै नछाडी मेरै मुख्याजी बसेर मैले भनेका कथा पुराणहरू सुनिरहन्थ्यौ। मेरो वचन नमान्दा तिम्रो यो गति भयो। यस स्थितिमा पुगेँ' भन्दै मुड्कीले छातीमा ठोकी वर्षा कालमा आकाशबाट पानी परे झैँ मोतीका दाना जस्ता आँसुका ढिका खसाली फेरि विलाप गर्न लाग्नुभयो। 'हे प्रिये! म कतै गएर आउँदा सुनको कमण्डलु लिई गोडा धोइदिन आउँथ्यौ। हे प्यारी! मेरो खाने वस्तु भनेर बीस भाङ, धतुरो जतन गरेर राख्थ्यौ। अब को राखिदेला? तिमी विना यो चित्त कसरी स्थिर रहला?' यसरी भन्दै कहिले काखमा लिने, कहिले अङ्कमाल गर्ने, कहिले मोही खाने, कहिले छातीमा हात राख्ने, कहिले सतीदेवीको हात समाती आफ्नो छातीमा राख्ने, यसरी अनेक प्रकारले शोक गरी सतीदेवीको मृत शरीर आफ्नो पिठ्युँमा बोकी बौलाहा जस्तै भएर पृथ्वी भ्रमण गरी हिँडे। महादेवले पीठमा बोकेकी हुनाले गलित वा दुर्गन्ध केही भइनन्, केवल निदाए जस्तै भएर पिठ्युँमा रहिरहिन्।"</p>
 
             <p class="mantra">इति श्री स्कन्द पुराणे केदार खण्डे माघ महात्म्ये कुमार अगस्त्य संवादे श्री स्वस्थानी परमेश्वर्या व्रत कथायाम् महादेव पृथ्वी भ्रमण वर्णनाम अष्टमो अध्याय।</p>
         </section>
+
         <div class="divider">❁ ॐ ❁</div>
 
-        <!-- Section: Chapter 9 -->
         <section id="chapter-9">
             <h2>नवम अध्याय: सतीदेवी अङ्ग पतन वर्णन (भाग १)</h2>
-            
             <h3>विष्णुको योजना र सतीदेवीको देह गल्न सुरु</h3>
             <p class="drop-cap">कु</p>
             <p>मारजी आज्ञा गर्नुहुन्छ, "हे अगस्त्य मुनि! त्यहाँ पछि इन्द्रादि समस्त देवताहरू महादेवले सतीदेवीलाई त्यसरी पीठमा बोकेर पृथ्वी भ्रमण गरेको देखेर वैकुण्ठ गएर विष्णु भगवान्सित बिन्ती गरे। 'हे परमेश्वर! महादेवले शोक गरेको देखेर दुःखी नहुने यो समस्त ब्रह्माण्डमा एउटा पनि जीव बाँकी छैनन्। हजुरले यो ब्रह्माण्डको रचना गर्ने र शिवजीले रक्षा गर्ने हो। हजुर दुईले नगरे विश्वको सुरक्षा अरु कसले गर्ला? यस बखत शिवजी दक्षको यज्ञबाट सतीदेवीलाई पीठमा बोकेर पृथ्वी भ्रमण गरिरहेका छन्। जबसम्म सतीदेवीको मृत देह रहला, तबसम्म शिवजी भ्रमण गरि नै रहनेछन्। अब हजुरको मायाले माखा वा झिँगा सिर्जना गरी औंसा वा कीरा पारी सतीदेवीको अङ्ग गलाएर पतन गरिदिनुहोस्।' यस्तो सकल देवताको बिन्ती सुनी विष्णु भगवान् भन्नुहुन्छ, 'हे देवता हो! तिमीहरूको कल्याणका लागि म आफ्नो मायाले झिँगा उत्पन्न गरी औंसा पारी सतीको देह गलाई पतन गराउँला। यसमा शङ्का नगरे हुन्छ। अब तिमीहरू अमरावती जाओ।' भगवान् विष्णुको यस्तो आश्वासन पाएपछि देवताहरू 'हवस्' भनी विष्णुलाई दण्डवत् प्रणाम गरी आ-आफ्नो लोकमा फर्के।"</p>
 
             <h3>सतीदेवीका अङ्गहरूको पतन र शक्तिपीठहरूको उत्पत्ति</h3>
             <p>"अनि विष्णु भगवान्ले आफ्नो मायाद्वारा झिँगा उत्पन्न गरी औंसा पारिदिए। अनि सतीदेवीको शरीर टुक्रा-टुक्रा भएर पतन भयो। जहाँ-जहाँ अङ्ग पतन भयो, त्यहाँ-त्यहाँ एक-एक पीठ उत्पन्न भयो। त्यहीँ त्यहीँ ब्रह्माजीले एक-एक स्वयम्भू लिङ्ग स्थापना गरे।</p>
-            
             <ul>
                 <li><strong>गुह्य पतन (नेपाल):</strong> सबभन्दा पहिले नेपालमा गुह्य पतन भयो। नेपाल पीठ, गुह्येश्वरी देवी, चन्द्रघण्टा योगिनी, सिद्धेश्वर महादेव उत्पन्न भए। शिवशक्ति स्वरूपले रहे। त्यस पुण्य भूमिमा इन्द्रादि देवता आई तपस्या गरे। ईश्वरी प्रसन्न भई 'सत्य, त्रेता, द्वापर र कलि यी चारै युगमा देवताकै नामले प्रख्यात भए' भनी वरदान दिइन्।</li>
                 <li><strong>शिर पतन (वाराणसी):</strong> फेरि वाराणसीमा शिर पतन भयो। वाराणसी पीठ, विशालकाक्षी देवी, संकटा योगिनी, विश्वेश्वर महादेव उत्पन्न भए। शिवशक्ति स्वरूपले रहे। त्यस मोक्ष भूमिमा गन्धर्वहरू आई नाचगानद्वारा तपस्या गरे। ईश्वरी प्रसन्न भई 'वाक्य सिद्धि हुने' वरदान दिइन्।</li>
@@ -976,63 +826,38 @@ body {
 
             <p class="mantra">इति श्री स्कन्द पुराणे केदार खण्डे माघ महात्म्ये कुमार अगस्त्य संवादे श्री स्वस्थानी परमेश्वर्या व्रत कथायाम् सतीदेवी अङ्ग पतन नाम नवमो अध्याय।</p>
         </section>
+
         <div class="divider">❁ ॐ ❁</div>
 
-        <!-- Section: Chapter 10 -->
         <section id="chapter-10">
             <h2>दशम अध्याय: सतीदेवी अङ्ग पतन तथा पीठोत्पत्ति वर्णन (भाग २)</h2>
-            
             <h3>बाँकी अङ्गहरूको पतन र पीठहरूको स्थापना</h3>
             <p class="drop-cap">कु</p>
             <p>मारजी आज्ञा गर्नुहुन्छ, "हे अगस्त्य मुनि! अघिल्लो अध्यायमा वर्णन गरिए झैँ सतीदेवीका बाँकी अङ्गहरू पनि पृथ्वीका विभिन्न स्थानहरूमा पतन हुँदै गए र त्यहाँ अनेकौं पीठहरू उत्पन्न भए:</p>
-            
             <ul>
                 <li><strong>दाहिना कुहिना पतन (राजगृह):</strong> राजगृहमा गएर दाहिना कुहिना पतन भयो। राजगृह पीठ, राजेश्वरी देवी, उल्कामुखी योगिनी र हरेश्वर महादेव उत्पन्न भए, शिवशक्ति स्वरूपले रहे। त्यस पुण्य भूमिमा वायु आएर अनेक तरहले मीठो सुगन्ध बहाई तपस्या गरे। ईश्वरी प्रसन्न भएर 'संसारमा जति जीवात्मा छन्, तिनको प्राण वायु हुन सकूँ' भनी मागेको वरदान दिइन्।</li>
-                
                 <li><strong>उदर पतन (कोल्हापुर):</strong> कोल्हापुरमा गई उदर पतन भयो। कोल्हापुर पीठ, महालक्ष्मी देवी, नन्दा योगिनी, श्मशानेश्वर महादेव उत्पन्न भए। त्यहाँ गरुड आएर नाना रत्न एवं फलफूल चढाई तपस्या गरे र 'नागहरू मेरा आहारा हुन्' भनी वरदान पाए।</li>
-                
                 <li><strong>बायाँ कुहिनो पतन (महापन्थ):</strong> महापन्थमा गएर बायाँ कुहिनो पतन भयो। महापन्थ पीठ, प्रचण्ड चण्डिका देवी, रेणुका योगिनी, विश्वामित्रेश्वर महादेव उत्पन्न भए। त्यहाँ अप्सराहरू आएर नाचगानसहित तपस्या गरे र 'इन्द्रादि देवताहरूलाई सधैं मोहित पार्न सकौं' भनी वर मागे।</li>
-                
                 <li><strong>दाहिने घुँडा पतन (एकापुर):</strong> एकापुरमा पुगी दाहिने घुँडा पतन भयो। एकापुर पीठ, साधुक्षी देवी, शङ्कुपा योगिनी, उन्मत्तेश्वर महादेव उत्पन्न भए। त्यस मोक्ष भूमिमा शिलाहरू आएर तपस्या गरे र 'देवताका अङ्गमा लागौं' भनी वरदान पाए।</li>
-                
                 <li><strong>माथिल्लो ओठ पतन (ओमकारपुर):</strong> ओमकारपुरमा गएपछि माथिल्लो ओठ पतन भयो। ओमकार पीठ, मातृका देवी, पूर्णोदया योगिनी, सन्तानेश्वर महादेव उत्पन्न भए। कल्पवृक्ष आएर पूजा र तपस्या गरे र 'जहिले जे चितायो सो फलाउन सकूँ' भनी वरदान मागे।</li>
-                
                 <li><strong>रगतको डल्लो पतन (उज्जयनी):</strong> उज्जयनीमा पुग्दा रगतको डल्लो पतन भयो। उज्जयनी पीठ, महाकाली देवी, ललजिल्ह्वा योगिनी, झङ्केश्वर महादेव उत्पन्न भए। हिमालय पर्वत आएर तपस्या गरे र 'देवता, दैत्य, मनुष्य सबैलाई मुक्ति दिन सकूँ' भनी वरदान पाए।</li>
-                
                 <li><strong>कलेजो पतन (जयन्तीपुर):</strong> जयन्तीपुरमा पुग्दा कलेजो पतन भयो। जयन्तीपुर पीठ, जयन्ती देवी, खेचरा योगिनी, कल्पेश्वर महादेव उत्पन्न भए। तुलसी र कुश आएर तपस्या गरे र 'स्वर्ग, मर्त्य, पाताल तीनै लोकले हामीलाई मानून्' भनी वरदान पाए।</li>
-                
                 <li><strong>दाहिने करङ पतन (चरित्र नगर):</strong> चरित्र नगरमा पुग्दा दाहिने करङ पतन भयो। चरित्रपुर पीठ, सर्वेश्वरी देवी, चित्रवर्णा योगिनी, वागेश्वरी महादेव उत्पन्न भए। योगिनी गण आएर तपस्या गरे र 'योग सिद्ध होस्' भनी वरदान पाए।</li>
-                
                 <li><strong>भुँडी पतन (छिरिकापुर):</strong> छिरिकापुरमा गएर भुँडी पतन भयो। छिरिकापुर पीठ, युगधरा देवी, कलङ्का योगिनी, शस्त्रनेत्रेश्वर महादेव उत्पन्न भए। मातृगण आएर तपस्या गरे र 'हामी स्थानका स्वामी होऔं' भनी वरदान पाए।</li>
-                
                 <li><strong>दाहिने कुम पतन (हस्तिनापुर):</strong> हस्तिनापुरमा पुग्दा दाहिने कुम पतन भयो। हस्तिनापुर पीठ, चण्डेश्वरी देवी, कोटराक्षी योगिनी, सुमुखारेश्वर महादेव उत्पन्न भए। सुदर्शन चक्र आएर तपस्या गरे र 'संहारकर्ता हुँ' भनी वरदान मागे।</li>
-                
                 <li><strong>शिर पतन (उड्डियन):</strong> उड्डियनमा पुगेपछि शिर पतन भयो। उड्डियन पीठ, चित्रकला देवी, पिङ्गलाक्षी योगिनी, योगेश्वर महादेव उत्पन्न भए। हनुमानले नाची-उफ्री तपस्या गरे र 'रामचन्द्रको सेवक भएर लङ्का पोल्न सकूँ' भनी वरदान पाए।</li>
-                
                 <li><strong>मृगौला पतन (विश्व):</strong> विश्वमा पुग्दा मृगौला पतन भयो। विश्व पीठ, झङ्केश्वरी देवी, झङ्काली योगिनी, कुण्डलेश्वर महादेव उत्पन्न भए। विश्वकर्मा आएर सुन्दर देवालयहरू बनाई तपस्या गरे र 'मेरो कीर्ति सत्य, त्रेता, द्वापर र कलि चारै युगमा स्थिर रहोस्' भनी वरदान पाए।</li>
-                
                 <li><strong>फोक्सो पतन (प्रयाग):</strong> प्रयागमा पुग्दा फोक्सो पतन भयो। प्रयाग पीठ, सुन्दरी देवी, सिंहजङ्घा योगिनी, महिदेश्वर महादेव उत्पन्न भए। दश अवतार आएर तपस्या गरे र 'चारै युगमा दैत्य संहार गर्न सकौं' भनी वरदान पाए।</li>
-                
                 <li><strong>फियो पतन (मायापुर):</strong> मायापुरमा गएपछि फियो पतन भयो। मायापुर पीठ, माया देवी, चञ्चला योगिनी, तापसेश्वर महादेव उत्पन्न भए। चौसट्ठी लिङ्ग आएर जप ध्यानद्वारा तपस्या गरे र 'स्वयम्भू लिङ्ग भएर रहन पाऊँ' भनी वरदान पाए।</li>
-                
                 <li><strong>बायाँ कुम पतन (मल्लगीरी):</strong> मल्लगीरीमा पुग्दा बायाँ कुम पतन भयो। मल्लगीरी पीठ, मल्लिका देवी, कोकुरा योगिनी, उत्पन्नेश्वर महादेव उत्पन्न भए। भूत, प्रेत, पिशाच आदि आएर तपस्या गरे र 'सधैं तिम्रो नगीचमा बस्न पाऊँ' भनी वरदान पाए।</li>
-                
                 <li><strong>आसन पतन (मलेयागीरी):</strong> मलेयागीरीमा पुग्दा आसन पतन भयो। मलेयागीरी पीठ, वज्रेश्वरी देवी, कोमला योगिनी, जागेश्वर महादेव उत्पन्न भए। सत्य आएर तपस्या गरे र 'सत्यमा रहनेलाई उद्धार गर्न सकूँ' भनी वरदान पाए।</li>
-                
                 <li><strong>सूचीस्थान पतन (मेरुगीरी):</strong> मेरुगीरीमा पुगेपछि सूचीस्थान पतन भयो। मेरुगीरी पीठ, पूर्णा देवी, कपालानी योगिनी, जिव्हापतेश्वर महादेव उत्पन्न भए। सप्त नाग आएर तपस्या गरे र 'हाम्रो शरीर अगम्य रहोस्' भनी वरदान पाए।</li>
-                
                 <li><strong>मुकुट पतन (सेना):</strong> सेनामा गएर मुकुट पतन भयो। सेना पीठ, उमा देवी, अष्टावक्त्रा योगिनी, कामेश्वर महादेव उत्पन्न भए। नवग्रह आएर तपस्या गरे र 'लाभ हानिको अधिकार पाऊँ' भनी वरदान पाए।</li>
-                
                 <li><strong>दाहिने तिघ्रा पतन (महेन्द्र):</strong> महेन्द्रमा पुग्दा दाहिने तिघ्रा पतन भयो। महेन्द्र पीठ, इन्द्राणी देवी, उर्ध्वभागिनी योगिनी, टाकेश्वर महादेव उत्पन्न भए। लक्ष्मी आएर तपस्या गरिन् र 'कार्तिक कृष्ण औंसीका दिन सम्पूर्ण लोकले मेरो पूजा गरुन्' भनी वरदान मागिन्।</li>
-                
                 <li><strong>सुतस्तन पतन (हिरण्यपुर):</strong> हिरण्यपुरमा पुगेर सुतस्तन पतन भयो। हिरण्य पीठ, नवरत्नेश्वरी देवी, त्रिपुरेन्द्रा योगिनी, नारदेश्वर महादेव उत्पन्न भए। सरस्वती आएर तपस्या गरिन् र 'समस्त जीवात्माको बोलीमा मेरो निवास होस्' भनी वरदान मागिन्।</li>
-                
                 <li><strong>दायाँ तिघ्रा पतन (वानरपुर):</strong> वानरपुरमा पुगेर दायाँ तिघ्रा पतन भयो। वानर पीठ, कामेश्वरी देवी, भेरुण्डा योगिनी, वेदान्तेश्वर महादेव उत्पन्न भए। कमलादि पुष्प आएर मीठो सुगन्ध फिजाई तपस्या गरे र 'पूजा कालमा प्रशस्त होऔं' भनी वरदान पाए।</li>
-                
                 <li><strong>बायाँ करङ पतन (महालक्ष्मीपुर):</strong> महालक्ष्मीपुरमा गएर बायाँ करङ पतन भयो। महालक्ष्मीपुर पीठ, कमलाक्षी देवी, दिगम्बरा योगिनी, त्रिकुटेश्वर महादेव उत्पन्न भए। अणिमादि अष्टसिद्धि आएर योग मार्गले तपस्या गरे र 'अमर होऔं' भनी वरदान पाए।</li>
-                
                 <li><strong>कण्ड्याउलो पतन (उद्यान):</strong> उद्यानमा पुग्दा कण्ड्याउलो पतन भयो। उद्यान पीठ, त्रिपुरासुन्दरी देवी, सुशङ्कोदरा योगिनी, भैरवेश्वर महादेव उत्पन्न भए। मेघ आएर मानसोपचारले पूजा गरेर तपस्या गरे र 'समस्त संसारलाई जलदान गरी उद्धार गर्न सकूँ' भनी वरदान पाए।</li>
-                
                 <li><strong>शेष अङ्ग पतन (छायाछत्र):</strong> छायाछत्रमा पुगेर शेष रहेका सबै अङ्ग पतन भए। छायाछत्र पीठ, छत्रेश्वरी देवी, सुसुकोदरा योगिनी, पिशाचेश्वर महादेव उत्पन्न भए। अष्टभैरव आएर नाना उपचारले पूजा गरी तपस्या गरे र 'मातृका गणको अधिपति होऔं' भनी वरदान मागे। ईश्वरीले 'तथास्तु' भनी वरदान दिइन्।</li>
             </ul>
 
@@ -1041,12 +866,11 @@ body {
 
             <p class="mantra">इति श्री स्कन्द पुराणे केदार खण्डे माघ महात्म्ये कुमार अगस्त्य संवादे श्री स्वस्थानी परमेश्वर्या व्रत कथायाम् अङ्ग पतन पीठोत्पत्ति वर्णनाम दशमो अध्याय।</p>
         </section>
+
         <div class="divider">❁ ॐ ❁</div>
 
-        <!-- Section: Chapter 11 -->
         <section id="chapter-11">
             <h2>एकादश अध्याय: इन्द्रादि देवता मृगस्थली गमन वर्णन</h2>
-            
             <h3>सतीदेवीको पूर्ण अङ्ग पतन र महादेवको विलाप</h3>
             <p class="drop-cap">कु</p>
             <p>मारजी आज्ञा गर्नुहुन्छ, "हे अगस्त्य मुनि! त्यहाँ उपरान्त सतीदेवीको प्रत्येक अङ्ग पतन भयो र महादेवले चित्त दृढ गर्न नसकी 'हा सती' भन्दै भूमिमा ढली मूर्छा परे। निकै बेरपछि होस आयो र लामो सास फेरि चित्तले सतीलाई नै सम्झी बौलाहा जस्तै जतात्यतै डुल्न लागे। त्यस्ता तौरले महादेव हिँडेको देखी तारकासुर दानवले आफ्ना मन्त्रीगण डाकी भन्यो, 'हे मन्त्री हो! हेर सतीदेवीको वियोगमा महादेव बौलाहा जस्तै भएर हा सती भन्दै हिँडिरहेका छन्। यसै अवसरमा देवताहरूलाई युद्धमा जितेर इन्द्रको अमरावती हात लगाउनुपर्दछ। अब हामीलाई कसैले पनि केही गर्न सक्दैन। अहिले जाऊँ' भनी तत्काल आफ्ना सेनाहरू अघि लगाएर सेनापति र मन्त्रीसहित भई लडाइँ गर्न अमरावती गयो।"</p>
@@ -1065,16 +889,15 @@ body {
 
             <p class="mantra">इति श्री स्कन्द पुराणे केदार खण्डे माघ महात्म्ये कुमार अगस्त्य संवादे श्री स्वस्थानी परमेश्वर्या व्रत कथायाम् इन्द्रादि देवता मृगस्थली गमन नाम एकादशो अध्याय।</p>
         </section>
+
         <div class="divider">❁ ॐ ❁</div>
 
-        <!-- Section: Chapter 12 -->
         <section id="chapter-12">
             <h2>द्वादश अध्याय: श्री स्वस्थानी व्रतोपदेश वर्णन</h2>
-	    <figure class="image-container">
-    <img src="images/chapter-12.jpg" alt="Vishnu advising Parvati" loading="lazy" class="chapter-image">
-    <figcaption class="image-caption">तपस्यारत पार्वतीलाई भगवान् विष्णुद्वारा श्री स्वस्थानी व्रतको उपदेश।</figcaption>
-</figure>
-            
+            <figure class="image-container">
+                <img src="images/chapter-12.jpg" alt="Vishnu advising Parvati" loading="lazy" class="chapter-image">
+                <figcaption class="image-caption">तपस्यारत पार्वतीलाई भगवान् विष्णुद्वारा श्री स्वस्थानी व्रतको उपदेश।</figcaption>
+            </figure>
             <h3>हिमालय पुत्री पार्वतीको जन्म र न्वारन</h3>
             <p class="drop-cap">कु</p>
             <p>मारजी आज्ञा गर्नुहुन्छ, "हे अगस्त्य मुनि! त्यसपछि हिमालय पर्वतले आफ्नी पत्नी मेनका गर्भिणी भएको थाहा पाई अत्यन्त हर्षपूर्वक आफ्ना मर्यादा अनुसार उचित कर्म गरिदिए। दश महिना पूरा भएपछि मेनकाको गर्भबाट हिमालयकी कन्या जन्मिन्। ती कस्ती कन्या थिइन् भने हजार सूर्यको तेज जस्तै तेज भएकी, रक्तवर्ण र कोमल अङ्ग एवं परम सुन्दरी, पद्मपत्र जस्तो नेत्र भएकी, बत्तीस लक्षणले युक्त कन्या जन्मेकी देखेर हिमालयले वशिष्ठ प्रवृत्ति ऋषि ज्योतिषहरूलाई डाक्न पठाएर विधिपूर्वक न्वारन गराए। अनि वशिष्ठ प्रवृत्ति ऋषिहरूले विदा हुने बखतमा भने, 'हे हिमालय! यस बालिकाको नाम पार्वती राख्यौं। गिरिराज, तिमी धन्य रहेछौ! यी बालिकाले श्री महादेव स्वामी पाएर चौधै भुवनकी स्वामी हुनेछिन्। समस्त पापी र दुष्टहरूको संहार गर्नेछिन्। तिम्रो श्रद्धाभक्तिले हामी सन्तुष्ट भयौं। अब आज्ञा पाए आ-आफ्ना आश्रममा जाने थियौं।' यति वशिष्ठ आदि ऋषि ज्योतिषहरूले यस्तो भनेको सुनी हिमालय पर्वतले प्रसन्न भई नाना मणि-माणिक्य, सुवर्ण, द्रव्यादि दक्षिणा दिई प्रणाम गरेर विदा दिए। अनि समस्त आगन्तुकहरू र वशिष्ठ प्रवृत्ति ऋषि ज्योतिष आ-आफ्ना आश्रममा गए।"</p>
@@ -1084,12 +907,10 @@ body {
 
             <h3>पार्वतीको वैराग्य र तपस्या</h3>
             <p>"यति नारद मुनिको कुरा सुनेर विष्णु प्रसन्न भएर भन्दछन्, 'हे नारद! तिमी धन्य रहेछौ। अब आफ्नो आश्रममा जाऊ' भनेर विदा दिएपछि नारद मुनि आफ्नो आश्रममा गए। त्यसपछि हिमालय पर्वतले पार्वती कन्यादान दिन भनी सामग्री तयार पारी नारद मुनि डाकेर विष्णु कहाँ पठाई आफ्नो लग्न ठहराई आफ्ना गुरु बृहस्पति आदि सम्पूर्ण देवता, यक्ष, गन्धर्व, किन्नर, दैत्य र नाग सबैलाई निमन्त्रणा पठाए। अनि विष्णु भगवान् पार्वती कन्यादान लिन हिमालय कहाँ पुगे। उता मेनकाले हीरा-मोती, मणि-माणिक्य नाना रत्नले झकाझक पारेर वस्त्रालङ्कार पहिराई सिंगारिरहेकी थिइन्। त्यो देखेर जया, विजया, अजिता, अपराजिता आदि सखीहरूले पार्वतीलाई भने, 'हे सखी! तिम्रो आज विवाह हुनेछ, विष्णुलाई कन्यादान दिनेछन्।' यति सखीहरूले भनेको सुनी पार्वतीले मनमा शङ्का उत्पन्न भयो। 'मैले बाल्यकालदेखि नै श्री महादेवलाई स्वामी पाऊँ भनेर धाइरहेकी छु। अझ पनि महादेवलाई नदिएर अरु कसैलाई दिए भने म आत्महत्या गरेर मर्नेछु।' तिनको कुरा सुनेर सखीहरूले भने, 'हे पार्वती! त्यसो हो भने तिमी यहाँ नबस। हामी कसैलाई पनि नदेख्ने अवस्थामा लुकाएर तिमीलाई राखिदिन्छौं। लौ हिँड।' यति सखीहरूले भनेको सुनी 'हे सखी हो! जेसो गर्ने हो गर, म केही पनि जान्दिनँ' भनिन्। त्यसपछि सखीहरूले नदी तटको वनमा लगेर पार्वतीलाई कसैले नदेख्ने एकान्त ठाउँमा लुकाएर आए।"</p>
-            
             <p>"त्यसपछि हिमालय पर्वतले आफ्ना गुरु बृहस्पतिलाई यज्ञमा बसाली सारा विधि गरिसकेपछि कन्यादान दिन पार्वतीलाई लिन पठाए। तर घरमा देखेनन् र यता-उता सबै खोज्न लगाए। कहीँ पनि पाउन सकेनन र हिमालय पर्वतले अत्यन्त व्याकुल भई गुरु बृहस्पति कहाँ गएर पार्वती कहीँ पनि छैनन्, अब के कसो गरूँ भने। यति हिमालय पर्वतले भनेको सुनी गुरु बृहस्पतिले यस लग्नमा भएन भने विष्णुलाई बिन्ती गरे। अनि आएका जति सबै फर्केर आ-आफ्ना आश्रममा जाँदा भए। उता सखीहरूले पार्वतीलाई वनमा लुकाएर आएपछि पार्वतीले नदी तटमा बसेर बालुवा ल्याई त्यसको पार्थिव शिवलिङ्ग बनाएर श्री महादेवको आराधना गर्न लागिन्। उसै बेला दुई दैत्य प्रघोष र दम्घोष आएर पार्वतीको सौन्दर्यमा लोभिएर अनेक प्रकारका नराम्रा चेष्टा देखाउन लागे। तिनको चेष्टा देखेर पार्वतीलाई रिस उठ्यो र तिनले हेर्नासाथ दुवै भस्म भए। अनि पार्वतीले बनाएको शिवलिङ्गबाट स्वयं महादेव प्रकट भई आफ्नो ज्योति स्वरूपको दर्शन दिनुभयो र 'हे पार्वती! तिमीले मेरो किन आराधना गरेकी हौ?' पार्वतीले बिन्ती गरिन्, 'हे जगदीश्वर! मैले बालकालदेखि नै श्री महादेव स्वामी पाऊँ भनेर हजुरलाई धाइरहेकी छु। मेरा पिता हिमालय पर्वतले विष्णुलाई कन्यादान दिन लाग्न खोज्दा मैले भागेर यहाँ लुक्न आएकी हुँ। म देखि प्रसन्न भई रक्षा गर, हे प्रभु! मेरो इच्छा पूर्ण गराऊ।' पार्वतीको यस्तो प्रार्थना सुनेर महादेव आज्ञा गर्नुहुन्छ, 'हे पार्वती! तिम्रा माता-पितालाई कन्यादान नदिई मैले तिमीलाई मेरो भन्न मिलेन। फेरि विष्णु आएर तिमीलाई जस्तो उपदेश दिन्छन्, उसै माफिक गर्नु। इच्छा पूर्ण हुनेछ।' महादेवको यस्तो शिक्षा सुनेर पार्वतीले 'जो इच्छा' भनी साष्टाङ्ग प्रणाम गरिन्। अनि महादेव अन्तर्ध्यान हुनुभयो।"</p>
 
             <h3>श्री स्वस्थानी व्रतोपदेश</h3>
-            <p>"त्यसपछि सखीहरू आएर पार्वती घर गइन्। छोरी आएकी देखेर रिसाएका हिमालयले भने, 'हे पुत्री! तिमी कहाँ गएकी थियौ?' पार्वतीले बिन्ती गरिन्, 'हे पिता! म बाल्यकालदेखि नै श्री महादेव स्वामी पाऊँ भनी उनैलाई धाइरहेकी छु। र उनैको ध्यान भक्ति पनि मेरो हृदयले सदैव गरिरहेको छ। हजुरले श्री विष्णुलाई दिन लाग्दा लुक्न गएकी थिएँ।' आफ्नी पुत्री पार्वतीले यति भनेको सुनी उनको न्वारनका दिन वशिष्ठ प्रवृत्ति ऋषि र ज्योतिषहरूले पार्वतीको विषयमा भविष्यवाणी गरेको सम्झी चुप लागेर बसे। त्यसपछि पार्वतीले विष्णु कहिले आउलान् र श्री महादेव स्वामी पाउला भनी अनेक तीर्थ, व्रत, दान, धर्म, जप, तप, नियम पालना गर्न लागिन्। फेरि निकै दिन बालुवाको शिवलिङ्ग बनाई पार्थिव पूजा पनि गरिन्। तिनको अडिग श्रद्धा एवं भक्तिभाव देखेर विष्णु भगवान् गरुडमा चढी शङ्ख, चक्र, गदा, पद्म धारण गरी पार्वतीको सामुन्ने आएर आज्ञा गर्नुभयो, 'हे पार्वती! तिमीले अनेक तीर्थ, व्रत, दान, धर्म, पूजा, पाठ, यज्ञ आदि गरेको देखेर म अत्यन्त प्रसन्न भएँ। तिम्रो मनमा जे इच्छा छ सो वरदान माग, म दिन तयार छु।' विष्णु भगवान्ले यस्तो आज्ञा सुनेर पार्वती बिन्ती गर्दछिन्, 'हे ईश्वर! हे परब्रह्म परमात्मा! मलाई केही वरदानको इच्छा छैन, केवल महादेव स्वामी प्राप्त हुने वरदान गरिबक्सियोस्।' पार्वतीको यस्तो प्रार्थना सुनी विष्णु भगवान् आज्ञा गर्नुहुन्छ, 'हे पार्वती! तिमीले परिश्रम साथ गरेको यी तीर्थ, व्रत, दान, धर्म, व्रत, उपवास भन्दा पनि एउटा अति उत्तम र योग्य कुरा भन्दछु। तिमी एकचित्त भएर ध्यानपूर्वक सुन। श्री स्वस्थानी परमेश्वरको व्रत गर। त्यस व्रतको प्रभावले जगदीश्वर श्री महादेव स्वामी पाउनेछौ। यसमा शङ्का छैन।' श्री विष्णुले यति आज्ञा भएको सुनी पार्वतीले फेरि बिन्ती गरिन्, 'हे ईश्वर! त्यस व्रतको विधान के हो? त्यसमा के-के गर्नुपर्दछ? यो सबै विस्तारपूर्वक आज्ञा होस्।'"</p>
-            
+            <p>"त्यसपछि सखीहरू आएर पार्वती घर गइन्। छोरी आएकी देखेर रिसाएका हिमालयले भने, 'हे पुत्री! तिमी कहाँ गएकी थियौ?' पार्वतीले बिन्ती गरिन्, 'हे पिता! म बाल्यकालदेखि नै श्री महादेव स्वामी पाऊँ भनी उनैलाई धाइरहेकी छु। र उनैको ध्यान भक्ति पनि मेरो हृदयले सदैव गरिरहेको छ। हजुरले श्री विष्णुलाई दिन लाग्दा लुक्न गएकी थिएँ।' आफ्नी पुत्री पार्वतीले यति भनेको सुनी उनको न्वारनका दिन वशिष्ठ प्रवृत्ति ऋषि र ज्योतिषहरूले पार्वतीको विषयमा भविष्यवाणी गरेको सम्झी चुप लागेर बसे। त्यसपछि पार्वतीले विष्णु कहिले आउलान् र श्री महादेव स्वामी पाउला भनी अनेक तीर्थ, व्रत, दान, धर्म, जप, तप, नियम पालना गर्न लागिन्। फेरि निकै दिन बालुवाको शिवलिङ्ग बनाई पार्थिव पूजा पनि गरिन्। तिनको अडिग श्रद्धा एवं भक्तिभाव देखेर विष्णु भगवान् गरुडमा चढी शङ्ख, चक्र, गदा, पद्म धारण गरी पार्वतीको सामुन्ने आएर आज्ञा गर्नुभयो, 'हे पार्वती! तिमीले अनेक तीर्थ, व्रत, दान, धर्म, पूजा, पाठ, यज्ञ आदि गरेको देखेर म अत्यन्त प्रसन्न भएँ। तिम्रो मनमा जे इच्छा छ सो वरदान माग, म दिन तयार छु।' विष्णु भगवान्ले यस्तो आज्ञा सुनेर पार्वती बिन्ती गर्दछिन्, 'हे ईश्वर! हे परब्रह्म परमात्मा! मलाई केही वरदानको इच्छा छैन, केवल महादेव स्वामी प्राप्त हुने वरदान गरिबक्सियोस्।' पार्वतीको यस्तो प्रार्थना सुनी विष्णु भगवान् आज्ञा गर्नुहुन्छ, 'हे पार्वती! तिमीले परिश्रम साथ गरेको यी तीर्थ, व्रत, दान, धर्म, व्रत, उपवास भन्दा पनि एउटा अति उत्तम और योग्य कुरा भन्दछु। तिमी एकचित्त भएर ध्यानपूर्वक सुन। श्री स्वस्थानी परमेश्वरको व्रत गर। त्यस व्रतको प्रभावले जगदीश्वर श्री महादेव स्वामी पाउनेछौ। यसमा शङ्का छैन।' श्री विष्णुले यति आज्ञा भएको सुनी पार्वतीले फेरि बिन्ती गरिन्, 'हे ईश्वर! त्यस व्रतको विधान के हो? त्यसमा के-के गर्नुपर्दछ? यो सबै विस्तारपूर्वक आज्ञा होस्।'"</p>
             <p>"पार्वतीको प्रार्थना सुनी विष्णु भगवान् आज्ञा गर्नुहुन्छ, 'हे पार्वती! पौष शुक्ल पूर्णिमाको दिनदेखि व्रत प्रारम्भ गर्नुपर्दछ। एक दिन पहिलेदेखि नै हात-खुट्टाका नङ काटी स्नान गरेर पवित्र भई एकभक्त रही एकचित्त गरी नित्य मध्यकालमा श्री महादेवको पूजा गर्नुपर्दछ। र एक महिनासम्म अर्थात् माघ शुक्ल पूर्णिमाको दिन अष्टोत्तर सय रोटी, अष्टोत्तर सय अक्षता, अष्टोत्तर सय बेली पुष्प, अष्टोत्तर सय कुचका सुपारी, अष्टोत्तर सय पान र जात-जातका फलफूल, नैवेद्य आदि सबै वस्तु तयार गरी आरसी अर्थात् तामाको थालीमा ॐकार लेखी गङ्गाजलले स्नान गराउनु र श्रीखण्ड, रक्तचन्दन लगाई पीताम्बर वस्त्र पहिराई धूप, दीप, नैवेद्य, कस्तुरी भेटी दक्षिणा चढाई षोडशोपचार वा पञ्चोपचारले पूजन गरिसकी स्तोत्र पाठ, जप, ध्यान गरिसकी अर्घ्य दिनु। अनि हे पार्वती! स्वस्थानी परमेश्वरी भनेकी कस्ती छिन् भने:"</p>
 
             <div class="mantra">
@@ -1103,12 +924,11 @@ body {
 
             <p class="mantra">इति श्री स्कन्द पुराणे केदार खण्डे माघ महात्म्ये कुमार अगस्त्य संवादे श्री स्वस्थानी परमेश्वर्या व्रत कथायाम् श्री स्वस्थानी व्रतोपदेश वर्णन नाम द्वादशो अध्याय।</p>
         </section>
+
         <div class="divider">❁ ॐ ❁</div>
 
-        <!-- Section: Chapter 13 -->
         <section id="chapter-13">
             <h2>त्रयोदश अध्याय: श्री स्वस्थानी व्रत विधान र तारकासुर वध वर्णन</h2>
-            
             <h3>पार्वतीको व्रत र इन्द्रको चिन्ता</h3>
             <p class="drop-cap">कु</p>
             <p>मारजी आज्ञा गर्नुहुन्छ, "हे अगस्त्य मुनि! त्यसपछि पौष शुक्ल पूर्णिमाको दिन आयो र पार्वतीले श्री विष्णुको उपदेश अनुसार सखी समेत भई हातखुट्टाका नङ काटी स्नान गरी पवित्र भई एकभक्त रही एकचित्त गरी नित्य मध्यकालमा श्री महादेवको पूजा गर्न लागिन्। महिना दिन पूरा भयो र माघ शुक्ल पूर्णिमाको दिन सम्पूर्ण सामग्री तयार गरी श्री स्वस्थानी परमेश्वरको विधिपूर्वक पूजा, ध्यान, जप र स्तोत्र पाठ गरिन्। देवराज इन्द्रले त्यो समाचार पाएर देवताहरूसित भने, 'हे देवता हो! अब पापिष्ट तारकासुरको नाश हुने समय आयो किनकि हिमालय पर्वतकी पुत्री पार्वतीले महादेव स्वामी पाएपछि तिनका गर्भबाट पुत्र जन्मनेछन्। तिनै कुमारले हाम्रो शत्रु तारकासुर दैत्यलाई मारिदिनेछन्। अनि हामी अमरावती प्राप्त गरी राज्य सुख भोगौंला। फेरि महादेव सतीदेवी मर्नाले शोक गर्दै सम्पूर्ण पृथ्वी भ्रमण गरिसकेपछि उत्तरपन्थमा काम, क्रोध, लोभ, मोह त्यागी सम्पूर्ण इन्द्रिय रोकी तिनै नेत्र बन्द गरी केवल परब्रह्ममा चित्त लगाएर ठूलो कष्टले तपस्या गरिरहेका छन्। अतः महादेवलाई तपस्याबाट च्यूत गराई फेरि काम, क्रोध, लोभ, मोहमा ल्याउने उपाय के छ?' यति सुरराजले भनेको सुनी देवताहरूले भने, 'हे देवेन्द्र! यो काम गर्न कामदेव बाहेक अरु कसैले सक्दैन। अतः कामदेवलाई गई महादेवको हृदयमा कामबाण प्रहार गरेर आऊन्।'"</p>
@@ -1124,15 +944,14 @@ body {
 
             <p class="mantra">इति श्री स्कन्द पुराणे केदार खण्डे माघ महात्म्ये कुमार अगस्त्य संवादे श्री स्वस्थानी परमेश्वर्या व्रत कथायाम् श्री स्वस्थानी व्रत विधान र तारकासुर वध वर्णन नाम त्रयोदशो अध्याय।</p>
         </section>
+
         <div class="divider">❁ ॐ ❁</div>
 
-        <!-- Section: Chapter 14 -->
         <section id="chapter-14">
             <h2>चतुर्दश अध्याय: शिव पार्वती कैलाश प्रवेश वर्णन</h2>
-            
             <h3>पार्वतीको व्रत पूर्ण र वरदान प्राप्ति</h3>
             <p class="drop-cap">कु</p>
-            <p>मारजी आज्ञा गर्नुहुन्छ, "हे अगस्त्य मुनि! त्यसपछि पार्वतीले श्री स्वस्थानी परमेश्वरीको प्रसाद आठ रोटी, आठ अक्षता, आठ बेली पुष्प, आठ पान, आठ कुट्का सुपारी सगुन समेत हे स्वामी, अब मेरो तपस्या पूर्ण भयो। बालक कालदेखि हजुरलाई धाइरहेकी बल्ल इच्छा पूर्ण भयो भनी महादेवका हातमा प्रसाद दिई साष्टाङ्ग प्रणाम गरिन्। 'हे आदि पुरुष! श्री स्वस्थानी परमेश्वरीको व्रतको प्रभावले मैले हजुर जस्ता स्वामी पाएँ। म अरु केही बिन्ती गर्दछु, यो संसारमा कोही दरिद्र छन्, कोही दुःखी छन्, कोही पापी छन्। कसैका स्त्री छैनन्, कसैका पुरुष छैनन्। अतः यो व्रत प्रकाश गरिदिए सबैको कल्याण हुनेछ।' यति पार्वतीले भनेको सुनी महादेव आज्ञा गर्नुहुन्छ, 'हे प्रिये! तिमी धन्य रहेछौ। संसारका दुःखी दरिद्र प्रति तिम्रो मनमा यस्तो दया रहेछ। अब यसको उपाय सुन। पहिले अश्वत्थामा ऋषिलाई डाक्न पठाई रसातल, पातालमा पठाऊ। त्यहाँ उनले यो व्रत प्रकाश गरिदिनेछन्।' यति महादेवले आज्ञा गरेपछि पार्वतीले अश्वत्थामा ऋषिलाई डाक्न पठाइन् र उनी आएपछि शिव-पार्वतीलाई प्रणाम गरेर, 'हे भवानी-शं��र! मलाई के कामले डाक्नुभयो?' भनी सोधे। अनि पार्वतीले आज्ञा गर्दछिन्, 'हे अश्वत्थामा! तिमी रसातल, पातालमा जाऊ र त्यहाँ जो दुःखी छन्, जो दरिद्र छन्, जो पापी छन्, जसका स्त्री छैनन् र जसका सन्तान छैनन्, तिनलाई यस्तो विधिले व्रत गराऊ' भनी आफूलाई विष्णुले उपदेश गरे झैँ सारा व्रत विधि बताइन् र 'जाने बेला बिदा दिइन्।' पार्वतीको आज्ञा सुनी अश्वत्थामा ऋषिले शिव-पार्वतीलाई प्रणाम गरी रसातल, पातालमा गए।"</p>
+            <p>मारजी आज्ञा गर्नुहुन्छ, "हे अगस्त्य मुनि! त्यसपछि पार्वतीले श्री स्वस्थानी परमेश्वरीको प्रसाद आठ रोटी, आठ अक्षता, आठ बेली पुष्प, आठ पान, आठ कुट्का सुपारी सगुन समेत हे स्वामी, अब मेरो तपस्या पूर्ण भयो। बालक कालदेखि हजुरलाई धाइरहेकी बल्ल इच्छा पूर्ण भयो भनी महादेवका हातमा प्रसाद दिई साष्टाङ्ग प्रणाम गरिन्। 'हे आदि पुरुष! श्री स्वस्थानी परमेश्वरीको व्रतको प्रभावले मैले हजुर जस्ता स्वामी पाएँ। म अरु केही बिन्ती गर्दछु, यो संसारमा कोही दरिद्र छन्, कोही दुःखी छन्, कोही पापी छन्। कसैका स्त्री छैनन्, कसैका पुरुष छैनन्। अतः यो व्रत प्रकाश गरिदिए सबैको कल्याण हुनेछ।' यति पार्वतीले भनेको सुनी महादेव आज्ञा गर्नुहुन्छ, 'हे प्रिये! तिमी धन्य रहेछौ। संसारका दुःखी दरिद्र प्रति तिम्रो मनमा यस्तो दया रहेछ। अब यसको उपाय सुन। पहिले अश्वत्थामा ऋषिलाई डाक्न पठाई रसातल, पातालमा पठाऊ। त्यहाँ उनले यो व्रत प्रकाश गरिदिनेछन्।' यति महादेवले आज्ञा गरेपछि पार्वतीले अश्वत्थामा ऋषिलाई डाक्न पठाइन् र उनी आएपछि शिव-पार्वतीलाई प्रणाम गरेर, 'हे भवानी-शंकर! मलाई के कामले डाक्नुभयो?' भनी सोधे। अनि पार्वतीले आज्ञा गर्दछिन्, 'हे अश्वत्थामा! तिमी रसातल, पातालमा जाऊ र त्यहाँ जो दुःखी छन्, जो दरिद्र छन्, जो पापी छन्, जसका स्त्री छैनन् र जसका सन्तान छैनन्, तिनलाई यस्तो विधिले व्रत गराऊ' भनी आफूलाई विष्णुले उपदेश गरे झैँ सारा व्रत विधि बताइन् र 'जाने बेला बिदा दिइन्।' पार्वतीको आज्ञा सुनी अश्वत्थामा ऋषिले शिव-पार्वतीलाई प्रणाम गरी रसातल, पातालमा गए।"</p>
 
             <h3>महादेवको छली रूप र पार्वतीको खोजी</h3>
             <p>"हे अगस्त्य मुनि! त्यसपछि एक दिन महादेवले यी पार्वती कत्तिकी बाठी छिन् भनी जाँच गर्न पर्यो भनी आफू कसैले नदेख्ने स्थानमा लुक्न जानुभयो। महादेवलाई नदेखी पार्वती यता उता खोज्दै गइन् तर कहीँ पाउन सकिनन्। अनि चित्त आकुल गरी कता जानुभयो भन्दै अनेक स्थानमा खोज्दा लुकिरहेका महादेवलाई भेटाएर भनिन्, 'हे स्वामी! हजुर किन मलाई छली लुक्न जानुभयो? म राम्री भइनँ कि हजुरको मन परिनँ? मलाई किन छाडेर अन्त जानुभयो?' पार्वतीले यसरी भनेको सुनी महादेव केही पनि नबोली मन-मनै भन्न लाग्नुभयो, 'यी पार्वतीले मलाई यसै छाड्ने भइनन्। अब रूप फेरेर अर्कै रूप धारण गरी वनमा विहार गर्न जान्छु' भन्ने निश्चय गरी अन्तर्ध्यान भएर श्लेष्मान्तक वनमा किराँतीको रूप धारण गरी शिकार खेल्दै हिँड्न लागे। पार्वतीले फेरि महादेवलाई देखिनन् र मन-मनै दुःख मानी यसरी महादेवले मलाई किन छल्नुभयो भनी शङ्का गरी ध्यान दृष्टिले विचार गर्दा महादेव किराँतीको रूप धारण गरेर श्लेष्मान्तक वनमा शिकार खेल्दै हिँडेको थाहा पाइन् र महादेवलाई झुक्याउनको लागि अत्यन्त राम्री किराँतिनीको रूप धारण गरी अनेक हावभाव कटाक्षले युक्त भएकी श्लेष्मान्तक वनमा पुगी एउटा ठूलो वृक्षको छायामा बसिरहिन्।"</p>
@@ -1145,7 +964,6 @@ body {
 
             <h3>हिमालयको घरमा स्वागत र कन्यादानको तयारी</h3>
             <p>"केही बेरमा हिमालय पर्वतका घर पुगे। अनि महादेवलाई यिनी त पार्वती रहिछन् भन्ने ज्ञात भयो। र मलाई छली आफ्ना माता-पिता कहाँ ल्याइन्। अब कसो गरूँ, के गरूँ भनेर लाज मानी त्यहाँबाट अन्तर्ध्यान भई किरातेश्वर शिवलिङ्ग भएर श्लेष्मान्तक वनको उत्तरतिर गई बसिरहनुभयो। फेरि महादेवलाई नदेखेर चिन्ताग्रस्त भएकी पार्वतीले ध्यान दृष्टिले हेर्दा किरातेश्वर शिवलिङ्ग भएको थाहा पाई पार्वती पनि नित्य वाग्मतीमा स्नान गरी किरातेश्वर शिवको ध्यान र षोडशोपचारले पूजा गर्दै तपस्या गर्न लागिन्। पार्वतीले स्नान गरेकी हुनाले त्यस स्थानको नाम 'गौरीघाट' भयो। जो मनुष्य गौरीघाटमा स्नान गरेर किरातेश्वरको दर्शन गर्ला, त्यसका सबै पाप नाश भएर सुख-शान्ति भई यस लोकमा अनेक भोग भोगी परलोकमा कैलाशमा बास होला।</p>
-            
             <p>हे मुनि! त्यही क्रमले पार्वतीले कठोर तपस्या गरेको देखी शिवजी प्रसन्न भएर आफ्नो ज्योति स्वरूपको दर्शन दिए। अनि पार्वतीले अत्यन्त हर्षसाथ शिवका पाउमा दण्डवत् गरी अञ्जलि जोडेर बिन्ती गरिन्, 'हे स्वामी! हजुरले मलाई किन यसरी बारम्बार दुःख दिनुभएको हो? म हजुरकी मन परिन कि भनी अनेक विस्मात गरेको सुनी प्रत्यक्ष भएर पार्वतीलाई अङ्कमाल गरी काखमा राखेर त्यहाँबाट अन्तर्ध्यान भई हिमालयका घर जानुभयो। त्यसरी छोरी-ज्वाइँ घर आएको देखेर हिमालय र अत्यन्त आनन्द मान्दै सिंहासनमा बसालेर चौरासी व्यञ्जन तयार गरी भोजन गराए। त्यहाँ दुई-चार दिन बसेपछि एक दिन महादेवले पार्वतीसित भन्नुभयो, 'हे प्रिये! कैलाश शून्य भएको धेरै दिन भइसक्यो। अब यहाँ बसेर के गर्नु छ? कैलाश जाऔं, हिँड। तिम्रा माता-पितासँग विदा माग्न जाऔं।' यति भने दुवै दम्पती गएर हिमालयसित भन्नुभयो, 'हे पिता! सतीदेवी मरेदेखि आजसम्म कैलाश शून्य छ। अब विदा पाए कैलाश जाने थियौं।' महादेवले आफूलाई 'हे पिता' भनेर सम्बोधन गरेको सुनेर हिमालय अत्यन्त प्रसन्न भई बिन्ती गर्दछन्, 'हे त्रैलोक्यनाथ! समस्त अखण्ड ब्रह्माण्डका सकल देवताहरूका पितामह हजुरले अज्ञानीलाई जस्तै मलाई 'हे पिता' भन्नुभयो। अब मेरो समस्त अज्ञान नाश गरी स्वच्छ ज्ञान प्रदान गर्नुहोस्। सदैव हजुरको भक्तिमा मेरो चित्त लागिरहोस्। हे शशिशेखर! पहिले पूजा गर्दछु' भनी छोरी-ज्वाइँ दुवैलाई नाना वस्त्रालङ्कार पहिराइन्, सिंहासनमा बसाली षोडशोपचारले पूजन गरी भोजन गराई अञ्जलि जोडेर स्तुति गर्न लागिरहे।"</p>
 
             <h3>देवताहरूद्वारा महादेवको स्तुति</h3>
@@ -1153,19 +971,17 @@ body {
 
             <p class="mantra">इति श्री स्कन्द पुराणे केदार खण्डे माघ महात्म्ये कुमार अगस्त्य संवादे श्री स्वस्थानी परमेश्वर्या व्रत कथायाम् शिव-पार्वती कैलाश प्रवेश वर्णन नाम चतुर्दशो अध्याय।</p>
         </section>
+
         <div class="divider">❁ ॐ ❁</div>
 
-        <!-- Section: Chapter 15 -->
         <section id="chapter-15">
             <h2>पञ्चदश अध्याय: जालन्धर दैत्य जन्म वर्णन</h2>
-            
             <h3>शिवजीको क्रोध र समुन्द्रमा पतन</h3>
             <p class="drop-cap">कु</p>
             <p>मारजी आज्ञा गर्नुहुन्छ, "हे अगस्त्य मुनि! अघि शिवजीले कामदेवलाई भस्म गरी सतीदेवीको वियोगमा इन्द्रादि देवताहरूलाई श्राप दिएको कुरा त मैले भनेकै छु। त्यसपछि एक दिन शिवजी इन्द्रादि देवताहरूमाथि अत्यन्त क्रोधित भई आफ्नो ज्योति स्वरूपले स्वर्गमा जानुभयो र त्यहाँका देवताहरूलाई देख्न सक्नुभएन। अनि देवताका राजा इन्द्र हुन्, अतः इन्द्रकै अमरावती जान्छु भनी बाटो लागेर जाँदै गर्दा बृहस्पतिलाई बाटोमा देखेर शिवजीले 'हे बृहस्पति! तिम्रा इन्द्र कता छन्?' भनी सोध्नुभयो। यस्तो शिवको प्रश्न सुनेर बृहस्पतिले 'थाहा छैन' भनी उत्तर दिए। शिवजीले सोध्दा बृहस्पतिले नदेखे झैँ गरी 'थाहा छैन' भनेर उत्तर दिएकोले शिवलाई अत्यन्त रिस उठ्यो र आफ्ना तीनै नेत्रबाट प्रलयकालको अग्नि जस्तै भयानक ज्योति निकालेर बृहस्पतिलाई भस्म गर्न लाग्नुभयो। त्यो देखेर बृहस्पति डरले काम्दै शिवजीको पाउमा परेर 'हे त्रैलोक्यनाथ! मलाई रक्षा गर्नुहोस्, रक्षा गर्नुहोस्' भन्दै करुणा भावले पुकारा गर्न लागे। बृहस्पतिले त्यस्तो करुणा भावले पुकारा गरेको देखेर शिवजीलाई दया लाग्यो र त्यो ज्योतिलाई त्यहाँबाट निकालेर समुद्रमा फालिदिनुभयो।"</p>
 
             <h3>जालन्धर दैत्यको जन्म र ब्रह्माजीको वरदान</h3>
             <p>"त्यसपछि शिवजी अन्तर्ध्यान हुनुभयो। बृहस्पति पनि डराउँदै आ-आफ्नो आश्रममा गए। शिवजीको त्यो ज्योति समुद्रमा पर्न गएकाले समुद्रको पानी सबै उम्लियो र त्यसबाट एक बालकको जन्म भयो। त्यो बालक शिवजीको तेजबाट उत्पन्न भएकोले अत्यन्त तेजिलो र बलवान् थियो। त्यो बालक जन्मनासाथै 'मलाई दूध खान देऊ' भन्दै ठूलो स्वरले कराउन लाग्यो। बालकको त्यो चर्को स्वर सुनेर समुद्रले आफ्नी पत्नीलाई 'यो बालकलाई दूध खुवाऊ' भनी अह्राए। समुद्रकी पत्नीले पनि बालकलाई दूध खुवाउन लागिन्। तर बालकले यति धेरै दूध खायो कि समुद्रकी पत्नीको दूध नै सुक्यो। तैपनि बालक अझै 'दूध खान देऊ' भन्दै कराइरह्यो। त्यो देखेर समुद्रले 'यसलाई कति दूध खुवाउनु, अब ब्रह्माजीलाई बोलाएर यसको नामकरण गराउँछु र केही वरदान पनि माग्छु' भनी विचार गरेर ब्रह्माजीलाई बोलाए।"</p>
-
             <p>"ब्रह्माजी त्यहाँ आएपछि समुद्रले 'हे ब्रह्माजी! यो बालक शिवजीको तेजबाट उत्पन्न भएको हो। यसको नामकरण गरिदिनुहोस् र यसलाई वरदान पनि दिनुहोस्' भनी बिन्ती गरे। ब्रह्माजीले बालकको तेज देखेर 'यो बालक अत्यन्त पराक्रमी हुनेछ' भनी विचार गरी त्यसको नाम 'जालन्धर' राखिदिए र 'तिमीलाई कसैले पनि मार्न नसकोस्, तर जब तिम्री पत्नीको सतीत्व हरण हुन्छ, तब तिम्रो मृत्यु हुनेछ' भनी वरदान दिए। ब्रह्माजीबाट यस्तो वरदान पाएपछि जालन्धर अत्यन्त बलवान् र अहङ्कारी भयो। उसले सम्पूर्ण लोकमा आफ्नो अधिकार जमाउन थाल्यो।"</p>
 
             <h3>जालन्धरको विवाह र देवलोकमा आक्रमण</h3>
@@ -1173,7 +989,6 @@ body {
 
             <h3>विष्णुसँग जालन्धरको युद्ध र सम्झौता</h3>
             <p>"देवताहरू विष्णु भगवान्को शरणमा गएर 'हे प्रभु! जालन्धर दैत्यले हामीलाई स्वर्गबाट निकाल्यो र सम्पूर्ण देवलोक आफ्नो अधीनमा लियो। अब हजुरले नै हाम्रो रक्षा गर्नुपर्यो' भनी बिन्ती गरे। विष्णु भगवान्ले देवताहरूको पुकारा सुनेर 'म जालन्धरसँग युद्ध गर्छु' भनी आश्वासन दिए र जालन्धरसँग युद्ध गर्न निस्के।"</p>
-            
             <p>"विष्णु भगवान् र जालन्धरको बीचमा घमासान युद्ध भयो। युद्ध लामो समयसम्म चल्यो तर जालन्धरलाई मार्न सकिएन किनभने वृन्दाको सतीत्वले उसलाई रक्षा गरिरहेको थियो। अन्तमा विष्णु भगवान्ले जालन्धरको पराक्रम देखेर छक्क पर्दै 'हे जालन्धर! म तिम्रो पराक्रम देखेर प्रसन्न भएँ, तिमीलाई जे वरदान माग्न मन छ माग' भने। जालन्धरले 'हे विष्णु! यदि हजुर प्रसन्न हुनुहुन्छ भने मेरा घरमा आएर बसिदिनुहोस्' भनी वरदान माग्यो। विष्णु भगवान्ले 'तथास्तु' भनी जालन्धरको घरमा गएर बस्न थाले।"</p>
 
             <h3>शिवजीसँग जालन्धरको युद्ध र पार्वतीमाथिको कुदृष्टि</h3>
@@ -1187,12 +1002,11 @@ body {
 
             <p class="mantra">इति श्री स्कन्द पुराणे केदार खण्डे माघ महात्म्ये कुमार अगस्त्य संवादे श्री स्वस्थानी परमेश्वर्या व्रत कथायाम् जालन्धर दैत्य जन्म वर्णन नाम पञ्चदशो अध्याय।</p>
         </section>
+
         <div class="divider">❁ ॐ ❁</div>
 
-        <!-- Section: Chapter 16 -->
         <section id="chapter-16">
             <h2>षोडश अध्याय: शिवको मृग रूप र जालन्धरको छल वर्णन</h2>
-            
             <h3>शिवजीको मृग रूप र श्लेष्मान्तक वनमा विहार</h3>
             <p class="drop-cap">कु</p>
             <p>मारजी आज्ञा गर्नुहुन्छ, "हे अगस्त्य मुनि! ध्यानपूर्वक सुन। फेरि कुनै दिन शिवजीलाई वन विहार गर्ने इच्छा भयो। र कसैलाई पनि थाहा नदिई श्लेष्मान्तक वनमा मृग रूप भई अनेक मृग-मृगिनीहरूका साथ परम आनन्दले रहन लाग्नुभयो। यता पार्वतीले महादेवलाई नदेखी अनेक स्थानमा खोजिन् तर कहीँ भेटाउन नसकी 'महादेवले अघि पनि मलाई यसै गरी दुःख दिनुभयो, अब फेरि कहाँ जानुभयो होला' भनी ध्यान दृष्टिले विचार गर्दा श्लेष्मान्तक वनमा मृग रूप धरेर विहार गरिरहेको थाहा पाइन्। र आफू पनि वाग्मती नदीको किनारमा गएर अनेक कष्ट खपी तपस्या गर्न लागिन्। कैलाशमा शिव-पार्वती दुवैलाई नदेखी ब्रह्मादि देवताले स्थान-स्थानमा खोजी गरे तर कहीँ पनि पत्ता लगाउन सकेनन्। र हार मानी 'अब के गर्ने' भन्दै गुरु बृहस्पतिका समीप गएर संग्रामको सारा स्थिति बताए। अनि गुरु बृहस्पतिले भने, 'हे सुरराज! यस संग्राममा तिम्रो विजय हुन सक्तैन किनकि तारकासुर दैत्यले हजार वर्षसम्म कठोर तप गर्दा ब्रह्माजी प्रसन्न भई मैले सृष्टि गरेका पाँच वर्ष नाघेका प्राणीले मार्न नसकून् भन्ने यस्तो वर दिनुभएको छ। अतः तिमीहरू महादेवको शरणमा जाऊ' भन्दा देवताहरू त्यहाँबाट आई मर्त्य मण्डलको मृगस्थलीमा लुकेर बसेका थिए।"</p>
@@ -1217,16 +1031,15 @@ body {
 
             <p class="mantra">इति श्री स्कन्द पुराणे केदार खण्डे माघ महात्म्ये कुमार अगस्त्य संवादे श्री स्वस्थानी परमेश्वर्या व्रत कथायाम् शिव-पार्वती कैलाश प्रवेश र जालन्धर छल वर्णन नाम षोडशो अध्याय।</p>
         </section>
+
         <div class="divider">❁ ॐ ❁</div>
 
-        <!-- Section: Chapter 17 -->
         <section id="chapter-17">
             <h2>सप्तदश अध्याय: वृन्दाको सतीत्व हरण र जालन्धर वध वर्णन</h2>
-	    <figure class="image-container">
-    <img src="images/chapter-17.jpg" alt="Vrinda cursing Vishnu" loading="lazy" class="chapter-image">
-    <figcaption class="image-caption">पतिव्रता वृन्दाद्वारा भगवान् विष्णुलाई श्राप र तुलसीको उत्पत्ति।</figcaption>
-</figure>
-            
+            <figure class="image-container">
+                <img src="images/chapter-17.jpg" alt="Vrinda cursing Vishnu" loading="lazy" class="chapter-image">
+                <figcaption class="image-caption">पतिव्रता वृन्दाद्वारा भगवान् विष्णुलाई श्राप र तुलसीको उत्पत्ति।</figcaption>
+            </figure>
             <h3>विष्णुको जालन्धर रूप धारण र वृन्दाको दरबारमा प्रवेश</h3>
             <p class="drop-cap">कु</p>
             <p>मारजी आज्ञा गर्नुहुन्छ, "हे अगस्त्य मुनि! उता पार्वतीको पुकारा सुनेर विष्णु भगवान् गरुडमा चढी तत्काल त्यहाँ पुग्नुभयो। पार्वतीले जालन्धरले छल गर्न आएको सम्पूर्ण वृत्तान्त सुनाएपछि विष्णु भगवान्ले भन्नुभयो, 'हे पार्वती! जालन्धरलाई मार्न उसको पत्नी वृन्दाको सतीत्व डगाउनुपर्छ। जबसम्म वृन्दाको पतिव्रता धर्म रहन्छ, तबसम्म जालन्धरलाई कसैले मार्न सक्दैन। म गएर वृन्दाको सतीत्व हरण गर्छु, अनि मात्र महादेवले जालन्धरलाई मार्न सक्नुहुनेछ।' यति भनी विष्णु भगवान् जालन्धरको नगर जालन्धरपुरतर्फ प्रस्थान गर्नुभयो। विष्णु भगवान्ले जालन्धरकै जस्तो रूप, वेशभूषा र वाहन धारण गरी वृन्दाको दरबारमा पुग्नुभयो। युद्धमा गएका आफ्ना पति जालन्धर फर्केर आएको भन्ठानी वृन्दा अत्यन्त हर्षित भइन्। हतार-हतार पूजाको थाली लिएर पतिको स्वागतार्थ अघि सरिन् र चरणामृत लिई भित्र ल्याएर सुनको सिंहासनमा बसालिन्।"</p>
@@ -1245,12 +1058,11 @@ body {
 
             <p class="mantra">इति श्री स्कन्द पुराणे केदार खण्डे माघ महात्म्ये कुमार अगस्त्य संवादे श्री स्वस्थानी परमेश्वर्या व्रत कथायाम् जालन्धर वध र वृन्दा श्राप वर्णन नाम सप्तदशो अध्याय।</p>
         </section>
+
         <div class="divider">❁ ॐ ❁</div>
 
-        <!-- Section: Chapter 18 -->
         <section id="chapter-18">
             <h2>अष्टादश अध्याय: नागिनी व्रतकरण वर्णन</h2>
-            
             <h3>जालन्धरको मृत्यु र वृन्दाको विलाप</h3>
             <p class="drop-cap">कु</p>
             <p>मारजी आज्ञा गर्नुहुन्छ, "हे अगस्त्य मुनि! त्यसपछि महादेवले विष्णुलाई विदा दिई जालन्धरसित युद्ध गर्न लाग्नुभयो। महादेव र जालन्धरको भयंकर संग्राम भयो। वृन्दाको पतिव्रता धर्म विष्णुले हरण गरिसकेका हुनाले जालन्धर शक्ति क्षीण भई महादेवसित युद्ध गर्न नसकी आकाशमा गएर माया युद्ध गर्न लाग्यो। महादेव पनि आकाशमै गएर युद्ध गर्न लाग्नुभयो। त्यसपछि जालन्धरको शक्ति क्षीण भएको जानी विष्णुले वृन्दाको सत्य डगार्ने छन् भन्ने ठानी तेजिलो त्रिशूल लिई तीनै नेत्रबाट अग्निको ज्वाला निकाली क्रोधपूर्वक जालन्धरको छातीमा प्रहार गर्नुभयो। त्यस त्रिशूलको चोटले जालन्धर मरी अन्तपुरको चोकमा ठूलो शब्द गरेर पछारियो। त्यो चर्को शब्द सुनी वृन्दाले के को शब्द हो भनी हेर्न जाँदा आफ्नै स्वामी जालन्धर मरेको देखी अनेक प्रकारले विलाप गर्दै रुन लागिन्। 'हे स्वामी! मलाई यस्तो अवस्थामा एक्लै पारेर कहाँ जानुभयो? पापिष्ट विष्णुले छल गर्दा तपाईंको यो गति भयो र मेरो यो अवस्था भयो। तपाईं विना म प्राण राख्न सक्तिनँ। तपाईं जहाँ जानुभयो म पनि उहीँ जान्छु' भन्दै केश फिँजाई विष्णुको मुखमा हेरेर भन्न लागिन्, 'हे पापिष्ट विष्णु! तिमीले छली मेरो पतिव्रता धर्म नष्ट गरिदिनाले मेरो स्वामीको यो गति भयो। अब म तिमीलाई श्राप दिन्छु। झार हुनु परोस् १, घाँस हुनु परोस् २, कल्पवृक्ष भएर रहनु परोस् ३, ढुङ्गा भएर रहनु परोस् ४। यति ४ थोक श्राप दिएँ' भनी आफ्नी स्वामीसित सती गई वृन्दाले देह त्यागिन्।"</p>
@@ -1275,16 +1087,15 @@ body {
 
             <p class="mantra">इति श्री स्कन्द पुराणे केदार खण्डे माघ महात्म्ये कुमार अगस्त्य संवादे श्री स्वस्थानी परमेश्वर्या व्रत कथायाम् नागिनी व्रतकरण नाम अष्टादशो अध्याय।</p>
         </section>
+
         <div class="divider">❁ ॐ ❁</div>
 
-        <!-- Section: Chapter 19 -->
         <section id="chapter-19">
             <h2>एकोनविंश अध्याय: गोमा ब्राह्मणी जन्म र शिवको श्राप वर्णन</h2>
-	    <figure class="image-container">
-    <img src="images/chapter-19.jpg" alt="Shiva and Parvati blessing" loading="lazy" class="chapter-image">
-    <figcaption class="image-caption">भगवान् शिवजीको भिक्षुक रूप।</figcaption>
-</figure>
-            
+            <figure class="image-container">
+                <img src="images/chapter-19.jpg" alt="Shiva and Parvati blessing" loading="lazy" class="chapter-image">
+                <figcaption class="image-caption">भगवान् शिवजीको भिक्षुक रूप।</figcaption>
+            </figure>
             <h3>शिव शर्मा र सती ब्राह्मणीलाई सन्तानको वरदान</h3>
             <p class="drop-cap">कु</p>
             <p>मारजी आज्ञा गर्नुहुन्छ, "हे अगस्त्य मुनि! अब म गोमा ब्राह्मणीको जन्म र उनले पाएको श्रापको कथा भन्दछु, ध्यानपूर्वक सुन। कान्यकुब्ज नगरमा शिव शर्मा नाम गरेका एक ब्राह्मण बस्दथे। उनकी पत्नीको नाम सती ब्राह्मणी थियो। ती दम्पती अत्यन्त धर्मात्मा र शिवजीका परम भक्त थिए। उनीहरूले सधैं अतिथि सत्कार र शिवको आराधना गर्ने गर्दथे। तर, उनीहरू वृद्धावस्थामा पुगिसक्दा पनि कुनै सन्तान नभएकोले अत्यन्त दुःखी थिए। एक दिन शिव र पार्वती पृथ्वी भ्रमण गर्दै जाँदा ती ब्राह्मण दम्पतीको घरमा पुग्नुभयो। उनीहरूको भक्ति र दुःख देखेर पार्वतीले शिवजीसँग बिन्ती गरिन्, 'हे नाथ! यी ब्राह्मण दम्पती अत्यन्त धर्मात्मा छन् तर सन्तान नभएर दुःखी छन्। यिनीहरूलाई एउटा सन्तानको वरदान दिनुहोस्।' पार्वतीको बिन्ती सुनेर शिवजीले 'तथास्तु' भनी सती ब्राह्मणीलाई एउटी कन्या सन्तान प्राप्त होस् भनी वरदान दिनुभयो।"</p>
@@ -1300,12 +1111,11 @@ body {
 
             <p class="mantra">इति श्री स्कन्द पुराणे केदार खण्डे माघ महात्म्ये कुमार अगस्त्य संवादे श्री स्वस्थानी परमेश्वर्या व्रत कथायाम् गोमा ब्राह्मणी जन्म र शिवको श्राप वर्णन नाम एकोनविंशो अध्याय।</p>
         </section>
+
         <div class="divider">❁ ॐ ❁</div>
 
-        <!-- Section: Chapter 20 -->
         <section id="chapter-20">
             <h2>विंश अध्याय: गोमा विवाह वर्णन</h2>
-            
             <h3>गोमाको विलाप र भिक्षुकको श्रापको वृत्तान्त</h3>
             <p class="drop-cap">कु</p>
             <p>मारजी आज्ञा गर्नुहुन्छ, "हे अगस्त्य मुनि! त्यसपछि भिक्षुक रूप महादेवको श्राप पाएकी गोमा चिन्तित भएर रुन लागिन्। केही बेरमा गङ्गा स्नान गरेर आएका माता-पिता हरिहरको पूजा गरी सुवर्णादि अनेक द्रव्य दान गरी घर आए र गोमालाई रोइरहेकी देखेर 'हे गोमा किन रोएकी, के भयो?' भनी सोधे। तब गोमाले भनिन्, 'हे माता-पिता! हजुरहरू गङ्गा स्नान गर्न गएपछि म अक्षता केलाइरहेकी थिएँ र अकस्मात् एउटा भिक्षुक आएर भिक्षा मागे। म अक्षता केलाइसकेर भिक्षा दिन्छु भनी एकछिन पर्खाएँ र अक्षता केलाइसकेर भिक्षा दिन गएँ। तब ती भिक्षुकले हे ब्राह्मणी! यतिका बेर पर्खाई अहिले भिक्षा दिन आइस्? त्यो भिक्षा म लिन्नँ, दिने भए तेरा बाबाको पूजा गर्ने तैँले केलाइरहेको भिक्षा दे भने। अनि मैले लिने भए लेऊ नलिने भए अक्षता त दिन सक्तिनँ भनें। अनि भिक्षुक रिसाई हे ब्राह्मणी! तैँले अहङ्कार गरेर मलाई भिक्षा दिइनस्, अब म तँलाई श्राप दिन्छु: तँ सात वर्षकी हुँदा तेरो सत्तरी वर्षको बुढोसित विवाह होस्, फेरि तेरा माता-पिताले ठूलो कष्ट सही सिद्धि विनायकको सेवा गरेर कमाएको सम्पत्ति सबै नाश होस् र तेरा माता-पिता पनि चाँडै नै मरिजाऊन् यति भनी डमरु बजाएर श्राप दिए।' मैले सारा वृत्तान्त सुनाएँ। छोरीको वचन सुनी शिवभट्टले 'हे गोमा ती भिक्षुक श्री महादेव हुन् र? तिनले दिएको श्राप लाग्छ कि लाग्दैन, ती भिक्षुकले त्यति भने भन्दैमा रुन पर्दैन, नरोऊ' भनी बुझाए।"</p>
@@ -1315,7 +1125,6 @@ body {
 
             <h3>शिव शर्माको हठ र सती ब्राह्मणीको विलाप</h3>
             <p>"यति शिवभट्टले भनेको सुनी शिव शर्मा भन्दछन्, 'म शिव शर्मा नामको ब्राह्मण हुँ। १६ वर्षको उमेरदेखि कसैले कन्यादान दिए लिने भनेर हिँडेको हुँ, मलाई कन्यादान दिने कोही भएनन्। आज मेरो भाग्यले तिमीलाई भेटेँ, ईश्वरको कृपाले हामी दुवैको काम बन्ने भयो। हे पिता ममाथि कृपा गरी ती कन्या मलाई देऊ। शास्त्रको बिन्ती छ ब्राह्मण भएर मेरो यो उमेर भयो र पनि अझसम्म विवाह भएको छैन, अब तिमीले कृपा गरे कन्यादान पाउनेछु।' यति शिव शर्माको कुरा सुनी शिवभट्ट भन्दछन्, 'हे शिव शर्मा यस्तो उमेरका तिमीलाई मेरी बालक पुत्री कसरी दिने। फेरि तिमी यस्ता कुरूपलाई कामदेवकी पत्नी रति जस्ती मेरी कन्या अयोग्य छ, यस्ता कुरा नगर' भने। अनि तिनले भने, 'त्यसो आज्ञा नगर ती कन्या मलाई देऊ नदिए हत्या गरी मर्नेछु।'</p>
-            
             <p>शिव शर्माको यस्ता कुरा सुनी शिवभट्ट मनमनै विचार गर्छन्, 'यसको कर्ममा यस्तै लेखेको रहेछ म के गर्न सक्छु र? उहिल्यै श्राप दिने भिक्षुक रूप श्री महादेव रहेछन्। उनको श्राप उल्लङ्घन गर्न कोही सक्तैनन्, इन्द्र जस्ताले सकेनन्, रावणले पनि सकेनन् भने म जस्ताले कसरी सक्ने?' यस्तो विचार गरी मनमा व्याकुल भए पनि शिव शर्मालाई साथै लिई घर गए। सती ब्राह्मणीले शिव शर्मालाई साथ लिएर आफ्ना स्वामी घर आएको देखेर प्रसन्न भई त्यो कसलाई डाकेर ल्याउनुभयो भनी सोधिन् र शिवभट्टले गङ्गा किनारमा भएको सबै वृत्तान्त सुनाए। यति आफ्ना स्वामीले भनेपछि सतीले पनि मनमा चिन्ता र तर्क गर्न लागिन्। 'हरे! यो के आश्चर्य? बालक र बुढाको विवाह देख्नुपर्यो। निर्विवेकी विधाताले मेरी छोरीको भाग्यमा कस्तो लेखिदिएका रहेछन्। न्वारन गर्दा सबै ब्राह्मणहरूले यी बालिका भाग्यमानी हुनेछन् र सम्पूर्ण लोकले मान्नेछन् भनेका थिए, त्यो पनि मिथ्या भयो। हामीले सकेसम्म सबैको भलो नै गरेका हौँ, आज कुन पापले यस्तो भयो? मेरी छोरीलाई श्राप दिने श्री महादेव नै रहेछन्। यस बालकले के जान्दथी र श्राप दिएका होलान्' भन्दै साह्रै रुन लागिन्।"</p>
 
             <h3>गोमाको धैर्य र कन्यादान सम्पन्न</h3>
@@ -1323,12 +1132,11 @@ body {
 
             <p class="mantra">इति श्री स्कन्द पुराणे केदार खण्डे माघ महात्म्ये कुमार अगस्त्य संवादे श्री स्वस्थानी परमेश्वर्या व्रत कथायाम् गोमा विवाह वर्णन नाम विंशो अध्याय।</p>
         </section>
+
         <div class="divider">❁ ॐ ❁</div>
 
-        <!-- Section: Chapter 21 -->
         <section id="chapter-21">
             <h2>एकविंश अध्याय: शिव शर्मा स्वगृह गमन वर्णन</h2>
-            
             <h3>शिव शर्माको स्वगृह फर्कने विचार र गोमाको सल्लाह</h3>
             <p class="drop-cap">कु</p>
             <p>मारजी आज्ञा गर्नुहुन्छ, "हे अगस्त्य मुनि! त्यसै प्रकारले शिव शर्मा ससुरालीमा बसेको निकै वर्ष बितिसक्यो। तब एक दिन शिव शर्माले आफू हृष्टपुष्ट भएको देखेर घर सम्झी अब त्यहाँ कति बस्ने, बरु घर जानुपर्यो भन्ने विचार गरी शिवभट्ट र सती कहाँ गई नजिकै बसेर भने, 'हे माता-पिता! तपाईंहरूको कृपाले कन्यादान पाई म कृतार्थ भएँ। म यहाँ आएर बसेको धेरै दिन भयो, घरमा हेरचाह गर्ने कोही छैन। आज्ञा दिए म घर जाने थिएँ।' ज्वाइँको यस्ता कुरा सुनी शिवभट्ट भन्दछन्, 'हे ज्वाइँ! यो पनि तिम्रै घर हो, हाम्रो को पो छ र? हामी पनि तिम्रै हौं, सम्पत्ति पनि तिम्रै हो, अतः जान्छु नभन।' यति सुनेर शिव शर्मा भन्दछन्, 'हे पिता! एकपटक जान देऊ। नरोका, घरको हेरविचार गरेर म बरु छिट्टै आउनेछु। मेरो पनि को छ र? मातापिता सबै तिमी, इष्टमित्र पनि तिमी, हितु पनि तिमी, गुरु र देवता पनि तिमी। मन परेको खान लाउन दिई पाल्ने यस्ता तिमीहरूलाई छाडेर म कहाँ जान सक्दछु।' यति आफ्ना स्वामीले पितासित कुरा गरेको सुनी गोमा ब्राह्मणीले भनिन्, 'हे स्वामी! कहीँ पनि जाने मन नगर। तिमी जाने भए मलाई पनि साथै लैजाऊ, अन्यथा म जान दिने छैन। तिमी बिना म कसरी बस्न सक्दछु।' यति गोमाले भनेको सुनी शिव शर्मा भन्दछन्, 'हे स्त्री! तिम्रो बाल अवस्था छ, मसित जान सक्ने छैनौ किनभने हाम्रो घर निकै टाढा छ। पहाड चढ्नुपर्दछ र अनेक दिन वनमा बास बस्नुपर्दछ। फेरि वनमा अनेक जन्तुको डर हुन्छ। तिमी आफ्नो इच्छामा बसेकी घरबाट कहिल्यै ननिस्केकी शीत ताप भोक प्यासले कष्ट पाउली। फेरि मेरो वृद्धावस्था छ, बाटोमा कसैले दगा गरी तिमीलाई हरण गरेर लैजाला। यसकारण तिमी यहीँ बस, म घर गएर खबर बुझेर छिट्टै फर्कनेछु, दुई महिना जतिमा आइपुग्नेछु। दुई महिना भनेको कति हो र?'"</p>
@@ -1341,12 +1149,11 @@ body {
 
             <p class="mantra">इति श्री स्कन्द पुराणे केदार खण्डे माघ महात्म्ये कुमार अगस्त्य संवादे श्री स्वस्थानी परमेश्वर्या व्रत कथायाम् शिव शर्मा स्वगृह गमन नाम एकविंशो अध्याय।</p>
         </section>
+
         <div class="divider">❁ ॐ ❁</div>
 
-        <!-- Section: Chapter 22 -->
         <section id="chapter-22">
             <h2>द्वाविंश अध्याय: शिव शर्मा परलोक गमन र नवराज जन्म वर्णन</h2>
-            
             <h3>शिवभट्ट र सतीको मृत्यु तथा कैलाश प्रवेश</h3>
             <p class="drop-cap">कु</p>
             <p>मारजी आज्ञा गर्नुहुन्छ, "हे अगस्त्य मुनि! शिव शर्मा ब्राह्मण र गोमा ब्राह्मणी त्यहाँबाट हिँडेपछि शिवभट्ट र सतीले आँखाले देखेसम्म हेरिरहे। देखिन छाडेपछि वृक्षमा चढेर हेरे। जब वृक्षबाट पनि देखिन छाड्यो, त्यही वृक्षको हाङ्गामा बसेर अनेक विलाप गर्न लागे। दैव संयोग त्यसै बखत रुखको हाङ्गा भाँचिएर दुवै स्त्री पुरुष वृक्षबाट लडेर मरे। तब श्री महादेवका दूत आई विमानमा बसालेर कैलाशपुरी लगे। तब ती दुवै दम्पती दिव्य देह भई कैलाशपुरीमा शिवका पार्षद भएर रहँदा भए।"</p>
@@ -1358,35 +1165,30 @@ body {
             <p>"गोमा पनि 'हे प्रभु आज मेरो यो अवस्था भयो' भन्दै सुस्केरा हाल्दै बिस्तारै-बिस्तारै गइन्। पर्वतको फेदीमा पुगेपछि शिव शर्मा ब्राह्मणले फलफूल टिपेर खान दिए र पानी पनि पिउन दिए। अनि 'हे स्त्री, अब हामी हाम्रो घर पनि आइपुग्यौँ' भन्दै चन्द्रज्योति नगरको बाहिर पुर्याए। अनि त्यहीँ एउटा खरको झुपडी उत्पन्न गरी 'हे स्त्री हाम्रो घर यही हो' भनी देखाए। गोमा ब्राह्मणी घरभित्र गएर हेर्दा माकुराको जालो र कसिङ्गर मात्र देखेर आफ्ना मातापिताको घर सम्झी धेरै अधैर्य भई रुन लागिन्। 'फेरि मेरो कर्मले यस्तै जुरायो अब रोएर के लाभ छैन' भनी धैर्य धारण गरेर कुचोले माकुराको जालो मिल्काई कसिङ्गर बढारिन्। घरमा जे भएको खाई गोमा ब्राह्मणी दुःखको समुद्रमा डुबिरहिन्।"</p>
 
             <h3>शिव शर्माको परदेश प्रस्थान र मृत्यु</h3>
-            <p>"त्यसपछि एकदिन शिव शर्माले आफ्नी ब्राह्मणी पत्नी गोमासित भने, 'हे स्त्री तँ गर्भिणी छस्। हाम्रो घरमा सम्पत्ति छैन। गर्भाधान कर्म कसरी गर्ने? फेरि सुत्केरीमा के खर्च गरौँला? यसनिम्ति म परदेश गएर कसैसित केही मागी ल्याउँछु। तैँले आफ्नो शरीर र घरको रक्षा गरोस्। केवल रोई कराई मात्र नरहेस्' भने। अनि आफ्ना स्वामीको यस्तो वचन सुनी गोमाले भनिन्, 'हे स्वामी मलाई यस्तो अवस्थामा एक्लै छाडी कहाँ जान लागेको? म स्त्री जातिले के गर्ने छु? फेरि मलाई यहाँ कसले के देला? विशेष तपाईं वृद्ध भएकोलाई कसरी पठाउँ? यही यजमानहरु कहाँ गई जो मिलेको मागेर ल्याई सञ्चय गरौँला। अतः कहीँ पनि जाने मन नगर्नुहोस्' भनिन्। र शिव शर्मा फेरि भन्दछन्, 'हे स्त्री हामी निर्धन भए पनि ब्राह्मणको कर्म नगरी हुँदैन। एक महिनामा म आइपुग्नेछु। त्यस सम्म खान नपुगे चन्द्रज्योति नगरमा यजमानहरु छन् तिनका घर गई भिक्षा मागेर खाएस्' भनी बुझाए।</p>
-            
+            <p>"त्यसपछि एकदिन शिव शर्माले आफ्नी ब्राह्मणी पत्नी गोमासित भने, 'हे स्त्री तँ गर्भिणी छस्। हाम्रो घरमा सम्पत्ति छैन। गर्भाधान कर्म कसरी गर्ने? फेरि सुत्केरीमा के खर्च गरौँला? यसनिम्ति म परदेश गएर कसैसित केही मागी ल्याउँछु। तैँले आफ्नो शरीर र घरको रक्षा गरोस्। केवल रोई कराई मात्र नरहेस्' भने। अनि आफ्ना स्वामीको यस्तो वचन सुनी गोमाले भनिन्, 'हे स्वामी मलाई यस्तो अवस्थामा एक्लै छाडी कहाँ जान लागेको? म स्त्री जातिले के गर्ने छु? फेरि मलाई यहाँ कसले के देला? विशेष तपाईं वृद्ध भएकोलाई कसरी पठाउँ? यही यजमानहरु कहाँ गई जो मिलेको मागेर ल्याई सञ्चय गरौँला। अतः कहीँ पनि जाने मन नगर्नुहोस्' भनिन्। र शिव शर्मा फेरि भन्दछन्, 'हे स्त्री हामी निर्धन भए पनि ब्राह्मणको कर्म नगरी हुँदैन। एक महिनामा म आइपुग्नेछु। त्यस सम्म खान नपुगे चन्द्रज्योति नगरमा यजमानहरु छन् तिनका घर गई भिक्षा मागेर खाएस्' भनी बुझाए。</p>
             <p>यति आफ्ना स्वामीले भनेपछि गोमाले मञ्जुर गरिन्। अनि शिव शर्मा भिक्षा माग्न भनी परदेश हिँडे। एक दुई दिनको बाटो हिँडेपछि गंगाको तटमा ऋषिहरुको आश्रममा पुगे। त्यहाँ वृद्ध अवस्था भएका दुई पति पत्नी ब्राह्मण ब्राह्मणी बसेका थिए। त्यहाँ शिव शर्माले गंगा स्नान गरेर ती वृद्ध दम्पती कहाँ गई मलाई नित्य पूजा गर्न फलफूल देऊ भनी मागे। ती ऋषिका आश्रममा प्रशस्त फलफूल थिए। ती शिव शर्माको कुरा सुनी ती वृद्ध दम्पतीले 'तिमी को हौ? कहाँबाट आयौ' भनी सोधे। अनि शिव शर्माले 'म चन्द्रज्योति नगरको शिव शर्मा नामको ब्राह्मण हुँ। घरमा पत्नी गर्भवती हुनाले गर्भाधान आदि कर्म गर्न भिक्षा माग्न हिँडेको' भने। तब ती वृद्ध ब्राह्मणले आफैँ टिपेर लैजाऊ भनी ती शिव शर्मा आफैँ वृक्षमा चढी फलफूल टिप्न लागे। त्यसै अवस्थामा सन्जोगले रुखको हाँगा भाँचियो। शिव शर्मा रुखबाट लडेर मरे।"</p>
 
             <h3>महादेवको यथार्थ रूप र पार्वतीको गुनासो</h3>
             <p>"त्यही शिव शर्मा मरेपछि महादेवको रूप धारण गरी कैलाश पुगे। पार्वतीले महादेव आउनुभएको देखिन् र सुनको कमण्डलुले पाउ धोई भित्र लगेर बसालिन्। भित्र लगेर बसालेपछि भनिन्, 'हे ईश्वर लोग्ने मानिसहरु पापी हुँदा रहेछन्। राम्री स्वास्नी पाएपछि सबै कुरा बिर्सदा रहेछन्। हजुरले पनि मलाई बिर्सनुभएको थियो बल्ल सम्झनुभएछ र आउनुभयो। हेर सुखमा बसेकी त्यो गोमालाई छल बल छल्ले ल्याएर गर्भिणी तुल्याई दुःख दिई त्यस्तो स्थानमा एक्लै मिल्काएर आउनुभयो। अब त्यो के गरेर खाली?' यति पार्वतीले भनेको सुनी महादेव हाँस्दै भन्नुभयो, 'हे प्रिये सेवक र भक्तजनमा पाप पनि गर्नुपर्दछ। गोमा पनि अब सुखी हुनेछे। सन्देह नगर।'"</p>
 
             <h3>नवराजको जन्म र बाल्यकाल</h3>
-            <p>"त्यसपछि भिक्षा माग्न गएका शिव शर्मा धेरै दिन बितेर पनि फर्केनन् र गोमाले अनेक दुःख सही चन्द्रज्योति नगरमा गएर भिक्षा मागेर ल्याई गर्भाधान कर्म गराइन्। मास पूर्ण भयो र सबै राजलक्षणले युक्त छोरो जन्मिन्। गोमाले चन्द्रज्योति नगरबाट ब्राह्मणहरु डाकी ब्राह्मणका मर्यादाले नामाकरण गराइन्। ती ब्राह्मणहरुले ज्योतिष शास्त्र विचार गरेर 'नवराज' नाम राखिदिए। घर जाने बेलामा 'हे गोमा यो बालक सबै राजलक्षणले युक्त छ। राजा पनि हुन सक्दछ र तिमीलाई सुख सन्तोष दिनेछ। यसमा शङ्का नमाने' भने। यति ब्राह्मणहरुको वचन सुनी गोमाले मनमा आनन्द मानी श्रद्धा साथ भोजन दक्षिणा दिई बिदा गरिन्। त्यसपछि बालकलाई गोमाले अर्काको ढिकी जाँतो गरी धागो कातेर पालन गरिन्।</p>
-            
+            <p>"त्यसपछि भिक्षा माग्न गएका शिव शर्मा धेरै दिन बितेर पनि फर्केनन् र गोमाले अनेक दुःख सही चन्द्रज्योति नगरमा गएर भिक्षा मागेर ल्याई गर्भाधान कर्म गराइन्। मास पूर्ण भयो र सबै राजलक्षणले युक्त छोरो जन्मिन्। गोमाले चन्द्रज्योति नगरबाट ब्राह्मणहरु डाकी ब्राह्मणका मर्यादाले नामाकरण गराइन्। ती ब्राह्मणहरुले ज्योतिष शास्त्र विचार गरेर 'नवराज' नाम राखिदिए। घर जाने बेलामा 'हे गोमा यो बालक सबै राजलक्षणले युक्त छ। राजा पनि हुन सक्दछ र तिमीलाई सुख सन्तोष दिनेछ। यसमा शङ्का नमाने' भने। यति ब्राह्मणहरुको वचन सुनी गोमाले मनमा आनन्द मानी श्रद्धा साथ भोजन दक्षिणा दिई बिदा गरिन्। त्यसपछि बालकलाई गोमाले अर्काको ढिकी जाँतो गरी धागो कातेर पालन गरिन्。</p>
             <p>नवराज बालक पनि शुक्ल पक्षका चन्द्रमा झैँ प्रतिदिन बढेर अलि ठूलो भई खेल्न जाँदा मित्रहरुले जे भने पनि सुनिरहन्थे झगडा गर्दैनथे। खेलिसकेर सरासर घर आउँथे। आमाले जो दिएको खाना खाएर सन्तोषले रहन्थे। आफ्नो छोराको स्वभाव देखेर गोमा प्रसन्न भई यजमानहरु कहाँ गएर भनिन्, 'हे यजमान हो मेरो छोरा नवराज आफ्ना साथीहरुसँग खेलेर घर आउँछ। खाना देऊ पनि भन्दैन। किन दिइनौ पनि भन्दैन। रिस पनि गर्दैन। यो मिठो यो नमिठो पनि भन्दैन। दिए खान्छ नदिए चुप लागि रहन्छ। फेरि मेरा स्वामी पनि घरमा छैनन्। सम्पत्ति पनि छैन। सबै यजमानहरुका दयाले जसोतसो एकछाक खाएर बाँचेकी छु। अब त्यसको चूडाकर्म र व्रतबन्ध आदि कसरी गरिदिउँ भन्ने चिन्ता लागिरहेछ।' गोमाको यस्तो वचन सुनेर यजमानहरुले आ-आफ्नो श्रद्धाले जो सकेको दिए र गोमाले सम्पूर्ण सामग्री तयार पारी ब्राह्मणहरु डाकेर नवराजको चूडाकर्म र व्रतबन्ध गराइन्। अनि वेद पुराण आदिको शिक्षा दिलाइन्।"</p>
 
             <h3>नवराजको विवाह र पिताको खोजी</h3>
-            <p>"एक दिन नवराजको चालचलनले प्रसन्न भएका यजमानहरु स्वयम् गोमा कहाँ गएर भने, 'हे गोमा नवराजको विवाह गर्ने भए वरुणपुरका अग्निसवामीकी कन्या चन्द्रावती छन् तीनैसँग गरिदेऊ। सबै सामग्री ठीक पार।' यजमानहरुको यस्ता वचन सुनी गोमा भन्दछिन्, 'हे यजमान हो मेरो छोराको कमाइ छैन। घरमा सम्पत्ति छैन। त्यसलाई कन्या कसले देला विवाह कसरी गरिदिने।' यति सुनेर यजमानहरुले भने, 'हे गोमा जे चाहिएको सामग्री हामी दिन्छौँ। के-के चाहिन्छ?' यति यजमानहरुले भनेपछि गोमा भन्दछिन्, 'हे यजमान हो हामीलाई निर्धन जानेर तिमीहरुको यस्तो दया हामी धन्य रहेछौँ' भनेर विवाहको समस्त सामग्री जे-जे चाहिएको थियो मागिन् र जजमानहरुले दिए। अनि असल दिनमा लग्न ठहराई ब्राह्मणको मर्यादाले वरुणपुरका अग्निसवामीकी कन्या चन्द्रावती र नवराजको विवाह सम्पन्न भयो।</p>
-            
-            <p>त्यसपछि एक दिन ती नवराज बाहिर खेल्न गएको बेला तिनका मित्रहरुले भने, 'हे नवराज आजसम्म हामी तिमीलाई नवराज ब्राह्मण भन्थ्यौँ तर अब देखि तिमीलाई बिना बाबुको छोरो भन्दछौँ। तिम्रा पिता भए पनि तिनको नाम के हो तिमी कसका छोरा हौ हामीलाई भन।' यति आफ्ना मित्रहरुले भनेको सुनी नवराज केही उत्तर नदिई घर आएर 'हे माता म कसको छोरो हुँ? मेरा पिताको नाम के हो?' भनी साथीहरुले भनेको सारा कुरा आमालाई सुनाए। अनि 'मेरा पिता कहाँ छन्?' भनेर सोधे। नवराजको यति कुरा सुन्नासाथ गोमाले वर्षा कालमा मेघ बर्सै झैँ अविरल आँसु बगाई भनिन्, 'हे नवराज तिम्रो पिताको नाम शिव शर्मा हो। तँ गर्भमा छँदै भिक्षा माग्न परदेश गएका आजसम्म फर्केनन्। कतै केही कारण परे रोकिएका छन् कि संसारमै छैनन् थाहा पाउन सकिन।' यति गोमाले भनेको सुनी नवराज भन्दछन्, 'हे माता त्यसो भए मलाई आज्ञा दिनुहोस् कहाँ बसेका छन् म गइ विचार गरेर ल्याउँछु।'"</p>
+            <p>"एक दिन नवराजको चालचलनले प्रसन्न भएका यजमानहरु स्वयम् गोमा कहाँ गएर भने, 'हे गोमा नवराजको विवाह गर्ने भए वरुणपुरका अग्निसवामीकी कन्या चन्द्रावती छन् तीनैसँग गरिदेऊ। सबै सामग्री ठीक पार।' यजमानहरुको यस्ता वचन सुनी गोमा भन्दछिन्, 'हे यजमान हो मेरो छोराको कमाइ छैन। घरमा सम्पत्ति छैन। त्यसलाई कन्या कसले देला विवाह कसरी गरिदिने।' यति सुनेर यजमानहरुले भने, 'हे गोमा जे चाहिएको सामग्री हामी दिन्छौँ। के-के चाहिन्छ?' यति यजमानहरुले भनेपछि गोमा भन्दछिन्, 'हे यजमान हो हामीलाई निर्धन जानेर तिमीहरुको यस्तो दया हामी धन्य रहेछौँ' भनेर विवाहको समस्त सामग्री जे-जे चाहिएको थियो मागिन् र जजमानहरुले दिए। अनि असल दिनमा लग्न ठहराई ब्राह्मणको मर्यादाले वरुणपुरका अग्निसवामीकी कन्या चन्द्रावती र नवराजको विवाह सम्पन्न भयो。</p>
+            <p>त्यसपछि एक दिन ती नवराज बाहिर खेल्न गएको बेला तिनका मित्रहरुले भने, 'हे नवराज आजसम्म हामी तिमीलाई नवराज ब्राह्मण भन्थ्यौँ तर अब देखि तिमीलाई बिना बाबुको छोरो भन्दछौँ। तिम्रा पिता भए पनि तिनको नाम के हो तिमी कसका छोरा हौ हामीलाई भन।' यति आफ्ना मित्रहरुले भनेको सुनी नवराज केही उत्तर नदिई घर आएर 'हे माता म कसको छोरो हुँ? मेरा पिताको नाम के মহাসय? भनी साथीहरुले भनेको सारा कुरा आमालाई सुनाए। अनि 'मेरा पिता कहाँ छन्?' भनेर सोधे। नवराजको यति कुरा सुन्नासाथ गोमाले वर्षा कालमा मेघ बर्सै झैँ अविरल आँसु बगाई भनिन्, 'हे नवराज तिम्रो पिताको नाम शिव शर्मा हो। तँ गर्भमा छँदै भिक्षा माग्न परदेश गएका आजसम्म फर्केनन्। कतै केही कारण परे रोकिएका छन् कि संसारमै छैनन् थाहा पाउन सकिन।' यति गोमाले भनेको सुनी नवराज भन्दछन्, 'हे माता त्यसो भए मलाई आज्ञा दिनुहोस् कहाँ बसेका छन् म गइ विचार गरेर ल्याउँछु।'"</p>
 
             <p class="mantra">इति श्री स्कन्द पुराणे केदार खण्डे माघ महात्म्ये कुमार अगस्त्य संवादे श्री स्वस्थानी परमेश्वर्या व्रत कथायाम् शिवशर्मा परलोक गमन र नवराज जन्म नाम द्वाविंशो अध्याय।</p>
         </section>
+
         <div class="divider">❁ ॐ ❁</div>
 
-        <!-- Section: Chapter 23 -->
         <section id="chapter-23">
             <h2>त्रयोविंश अध्याय: सप्तऋषि व्रतोपदेश वर्णन</h2>
-            
             <h3>चन्द्रावतीको माइत प्रस्थान र गोमाको विलाप</h3>
             <p class="drop-cap">कु</p>
             <p>मारजी आज्ञा गर्नुहुन्छ, "हे अगस्त्य मुनि! नवराज ब्राह्मण पिताको खबर गर्न गएपछि नवराजकी स्त्री चन्द्रावतीले सासू गोमासित भनिन्, 'हे माता, म माइत नगएको धेरै दिन भयो। यहाँ खाना अन्न छैन, लाउन लुगा छैन। अर्कासित मागेर मात्र कति दिन निर्वाह गर्ने। अतः म केही दिन माइत जान्छु। तपाईंले आफ्नो शरीर र घरको रक्षा गर्नुहोला। तपाईंका छोरा आएपछि मलाई डाक्न पठाउनुहोला। म गएपछि एक पेट पाल्न तपाईंलाई पनि कठिन हुनेछैन।' अतः म जान्छु भनी सासूलाई प्रणाम गरेर माइत गइन्।"</p>
-
             <p>"चन्द्रावती हिँडेपछि गोमा ब्राह्मणी आफूलाई दुःख परेको देखी भिक्षुक रूप श्री महादेवले दिएको श्राप सम्झेर भन्न लागिन्, 'म सात वर्षकी हुँदा ७० वर्षका बुढासित विवाह भयो। ती पनि भिक्षा माग्न गएका आजसम्म फर्केनन्। छोरा बुहारीले पनि छाडेर गए। म यस्तो अवस्थामा परेँ। धिक्कार रहेछ, उस्तै दिन मलाई श्राप दिने भिक्षुक श्री महादेव नै रहेछन्। हे जगदीश्वर! मैले जानिनँ, मेरा अपराध क्षमा गर। हे शम्भो! हजुरलाई कोटि-कोटि नमस्कार छ। अब मेरो रक्षा गर कि यो प्राण हर' भन्दै आँसुका धारा बगाई रोइ कराई बौलाई जस्तै भएर हिँड्न लागिन्।"</p>
 
             <h3>पार्वतीको दया र सप्तऋषिहरूको प्रस्थान</h3>
@@ -1400,9 +1202,9 @@ body {
 
             <p class="mantra">इति श्री स्कन्द पुराणे केदार खण्डे माघ महात्म्ये कुमार अगस्त्य संवादे श्री स्वस्थानी परमेश्वर्या व्रत कथायाम् सप्तऋषि व्रतोपदेश नाम त्रयोविंशो अध्याय।</p>
         </section>
+
         <div class="divider">❁ ॐ ❁</div>
 
-        <!-- Section: Chapter 24 -->
         <section id="chapter-24">
             <h2>चतुर्विंश अध्याय: गोमा स्वस्थानी व्रतकृत्य वर्णन</h2>
             
@@ -1423,15 +1225,15 @@ body {
 
             <p class="mantra">इति श्री स्कन्द पुराणे केदार खण्डे माघ महात्म्ये कुमार अगस्त्य संवादे श्री स्वस्थानी परमेश्वर्या व्रत कथायाम् गोमा स्वस्थानी व्रतकृत्य वर्णन नाम चतुर्विंशो अध्याय।</p>
         </section>
+
         <div class="divider">❁ ॐ ❁</div>
 
-        <!-- Section: Chapter 25 -->
         <section id="chapter-25">
             <h2>पञ्चविंश अध्याय: नवराज राज्याभिषेक र गोमा आगमन वर्णन</h2>
-	    <figure class="image-container">
-    <img src="images/chapter-25.jpg" alt="Elephant crowning Navaraj" loading="lazy" class="chapter-image">
-    <figcaption class="image-caption">हात्तीद्वारा नवराज ब्राह्मणलाई सुवर्ण कलशले अभिषेक गरी राजा छनोट।</figcaption>
-</figure>
+            <figure class="image-container">
+                <img src="images/chapter-25.jpg" alt="Elephant crowning Navaraj" loading="lazy" class="chapter-image">
+                <figcaption class="image-caption">हात्तीद्वारा नवराज ब्राह्मणलाई सुवर्ण कलशले अभिषेक गरी राजा छनोट।</figcaption>
+            </figure>
             
             <h3>हात्तीद्वारा नवराजको राजामा छनोट</h3>
             <p class="drop-cap">कु</p>
@@ -1450,9 +1252,9 @@ body {
 
             <p class="mantra">इति श्री स्कन्द पुराणे केदार खण्डे माघ महात्म्ये कुमार अगस्त्य संवादे श्री स्वस्थानी परमेश्वर्या व्रत कथायाम् नवराज राज्याभिषेक र गोमा आगमन वर्णन नाम पञ्चविंशो अध्याय।</p>
         </section>
+
         <div class="divider">❁ ॐ ❁</div>
 
-        <!-- Section: Chapter 26 -->
         <section id="chapter-26">
             <h2>षड्विंश अध्याय: चन्द्रावतीको प्रस्थान र डोलेहरूको व्रत वर्णन</h2>
             
@@ -1473,9 +1275,9 @@ body {
 
             <p class="mantra">इति श्री स्कन्द पुराणे केदार खण्डे माघ महात्म्ये कुमार अगस्त्य संवादे श्री स्वस्थानी परमेश्वर्या व्रत कथायाम् चन्द्रावती माइत गमन र डोले व्रत वर्णन नाम षड्विंशो अध्याय।</p>
         </section>
+
         <div class="divider">❁ ॐ ❁</div>
 
-        <!-- Section: Chapter 27 -->
         <section id="chapter-27">
             <h2>सप्तविंश अध्याय: चन्द्रावतीको पतन र कष्ट वर्णन</h2>
             
@@ -1500,9 +1302,9 @@ body {
 
             <p class="mantra">इति श्री स्कन्द पुराणे केदार खण्डे माघ महात्म्ये कुमार अगस्त्य संवादे श्री स्वस्थानी परमेश्वर्या व्रत कथायाम् चन्द्रावती पतन वर्णन नाम सप्तविंशो अध्याय।</p>
         </section>
+
         <div class="divider">❁ ॐ ❁</div>
 
-        <!-- Section: Chapter 28 -->
         <section id="chapter-28">
             <h2>अष्टाविंश अध्याय: चन्द्रावती व्रत वर्णन</h2>
             
@@ -1527,15 +1329,15 @@ body {
 
             <p class="mantra">इति श्री स्कन्द पुराणे केदार खण्डे माघ महात्म्ये कुमार अगस्त्य संवादे श्री स्वस्थानी परमेश्वर्या व्रत कथायाम् चन्द्रावती व्रत वर्णन नाम अष्टाविंशो अध्याय।</p>
         </section>
+
         <div class="divider">❁ ॐ ❁</div>
 
-        <!-- Section: Chapter 29 -->
         <section id="chapter-29">
             <h2>एकोनत्रिंश अध्याय: नाग-नागिनी मिलन र चन्द्रावतीको उद्धार वर्णन</h2>
-	    <figure class="image-container">
-    <img src="images/chapter-29.jpg" alt="Nag and Nagini reunion" loading="lazy" class="chapter-image">
-    <figcaption class="image-caption">श्री स्वस्थानी परमेश्वरीको प्रसादको प्रभावले बाह्र वर्षपछि नाग र नागिनीको मिलन।</figcaption>
-</figure>
+            <figure class="image-container">
+                <img src="images/chapter-29.jpg" alt="Nag and Nagini reunion" loading="lazy" class="chapter-image">
+                <figcaption class="image-caption">श्री स्वस्थानी परमेश्वरीको प्रसादको प्रभावले बाह्र वर्षपछि नाग र नागिनीको मिलन।</figcaption>
+            </figure>
             
             <h3>नाग-नागिनीलाई प्रसाद प्राप्ति र पुनर्मिलन</h3>
             <p class="drop-cap">कु</p>
@@ -1556,9 +1358,9 @@ body {
 
             <p class="mantra">इति श्री स्कन्द पुराणे केदार खण्डे माघ महात्म्ये कुमार अगस्त्य संवादे श्री स्वस्थानी परमेश्वर्या व्रत कथायाम् नाग-नागिनी मिलन र चन्द्रावती उद्धार वर्णन नाम एकोनत्रिंशो अध्याय।</p>
         </section>
+
         <div class="divider">❁ ॐ ❁</div>
 
-        <!-- Section: Chapter 30 -->
         <section id="chapter-30">
             <h2>त्रिंश अध्याय: चन्द्रावती स्ववृत्त कथन वर्णन</h2>
             
@@ -1572,16 +1374,16 @@ body {
             <p>"यति चन्द्रावतीले भनेको सुनी अप्सराहरू भन्दछन्, 'हे पापिनी! हामी स्वर्गका अप्सरा हौं। आज पौष शुक्ल पूर्णिमा हो। श्री स्वस्थानी परमेश्वरीको व्रत प्रारम्भ गर्न यहाँ स्नान गर्न आयौं। तेरो अवस्था देखेर हामीलाई दया लाग्यो। तँ पनि यही व्रत गर, सम्पूर्ण पाप नाश भएर उद्धार होला।' यति सुनी चन्द्रावती मनमनै विचार गर्दछिन्, 'मैले अरु त केही पाप गरेको थिइनँ, डोलेहरूले स्वस्थानी परमेश्वरीको प्रसाद भनी ल्याइदिएको मैले अहंकारले थुथु गरी थुकेर खुट्टाले कुल्ची फालिदिएकी थिएँ। मलाई अवश्य त्यही पाप लाग्यो। यहाँ आइपुगेपछि नदी तर्न लाग्दा डोलीबाट लडेँ। कुरा ठीक हो। कपिल ब्राह्मणले पनि स्वस्थानी परमेश्वरीको व्रत गर भनी उपदेश दिएका थिए। आज अप्सराहरूले पनि त्यस्तै भने। श्री स्वस्थानी परमेश्वरी भनेकी ठूली रहिछन्। मनुष्यहरू अभिमानमा नासिँदा रहेछन्। मैले पनि अहंकार गर्दा यस अवस्थामा प्राप्त भएँ। अब म पनि स्वस्थानी परमेश्वरीको व्रत गर्दछु।' यस्तो निश्चय गरेर अप्सराहरूसित प्रार्थना गरिन्, 'हे अप्सरा हो! स्वस्थानी परमेश्वरीको व्रत विधि के हो? के-के गर्नुपर्दछ? यो सबै आज्ञा होस्।'"</p>
 
             <h3>अप्सराहरूबाट व्रतविधिको उपदेश</h3>
-            <p>"यति चन्द्रावतीले भनेको सुनी अप्सरा भन्दछन्, 'हे पापिनी! आजैदेखि हातखुट्टाका नङ काटी स्नान गरी पवित्र भएर एकभक्त रही एकचित्त गरी महिना दिनसम्म नित्य मध्यकालमा श्री महादेवको पूजा गर्नु। सकेदेखि श्री स्वस्थानी परमेश्वरीको कथा भन्नु वा सुन्नु, नसके मनले उनैलाई सम्झिरहनु। माघ शुक्ल पूर्णिमाको दिन अष्टोत्तर सय पान, अष्टोत्तर सय अक्षता, अष्टोत्तर सय बेलिपुष्प, अष्टोत्तर सय कुड्का सुपारी, १०८ यज्ञसूत्र र १०८ रोटी तथा जातजातका फूल र नैवेद्यहरू तयार गरी आरसीमा ॐकार लेखी गंगाजलले स्नान गराउनु। माला पहिराई धूप, दीप, नैवेद्य, फलफूल र कस्तुरी, मेवा, मिष्ठान्न वस्तु भेटी चढाउनु। अनि एकचित्त भएर स्वस्थानी परमेश्वरीको स्तोत्र पाठ, जप, ध्यान गर्नु र अर्घ्य दिनु। 'हे ईश्वरी!' भनेर मनले इच्छित वर माग्नु। अनि प्रसाद झिक्नु र अष्टोत्तर सयमा आठ रोटी, आठ अक्षता, आठ पुष्प, आठ पान, आठ कुड्का सुपारी सगुन समेत आफ्ना पुरुषलाई दिनु। पुरुष नभए छोरालाई र छोरा नभए मित छोरालाई दिनु। मित छोरा पनि नभए मेरो अमुक कामना सिद्ध होस् भनेर गंगामा बगाईदिनु र सय रोटी आफूले फलाहार गर्नु। रातिमा जाग्राम बस्नु। हे चन्द्रावती! यति गरेपछि स्वस्थानी परमेश्वरीको व्रतको प्रभावले तिम्रो सबै दुःख नाश हुनेछ। अन्यथा नमान्नु। यही व्रतका प्रभावले पार्वतीले महादेव स्वामी पाएकी थिइन्। अब हामी जान्छौं।' यति अप्सराहरूले भनेको सुनी चन्द्रावतीले मनमा आनन्द मान्दै भनिन्, 'हे अप्सरा हो! म यस्ती पापिनीसँग केही छैन। केले पूजा गरूँ? म त हिँड्न पनि सक्तिनँ। मेरो उद्धार गरिदिनुहोस्' भनी बिन्ती गरिन्।"</p>
+            <p>"यति चन्द्रावतीले भनेको सुनी अप्सरा भन्दछन्, 'हे पापिनी! आजैदेखि हातखुट्टाका नङ काटी स्नान गरी पवित्र भएर एकभक्त रही एकचित्त गरी महिना दिनसम्म नित्य मध्यकालमा श्री महादेवको पूजा गर्नु। सकेदेखि श्री स्वस्थानी परमेश्वरीको कथा भन्नु वा सुन्नु, नसके मनले उनैलाई सम्झिरहनु। माघ शुक्ल पूर्णिमाको दिन अष्टोत्तर सय पान, अष्टोत्तर सय अक्षता, अष्टोत्तर सय बेलिपुष्प, अष्टोत्तर सय कुड्का सुपारी, १०८ यज्ञसूत्र र १०८ रोटी तथा जातजातका फूल र नैवेद्यहरू तयार गरी आरसीमा ॐकार लेखी गंगाजलले स्नान गराउनु। माला पहिराई धूप, दीप, नैवेद्य, फलफूल र कस्तुरी, मेवा, मिष्ठान्न वस्तु भेटी चढाउनु। अनि एकचित्त भएर स्वस्थानी परमेश्वरीको स्तोत्र पाठ, जप, ध्यान गर्नु र अर्घ्य दिनु। 'हे ईश्वरी!' भनेर मनले इच्छित वर माग्नु। अनि प्रसाद झिक्नु र अष्टोत्तर सयमा आठ रोटी, आठ अक्षता, आठ पुष्प, आठ पान, आठ कुड्का सुपारी सगुन समेत आफ्ना पुरुषलाई दिनु। पुरुष नभए छोरालाई र छोरा नभए मित छोरालाई दिनु। मित छोरा पनि नभए मेरो अमुक कामना सिद्ध होस् भनेर गंगामा बगाईदिनु र सय रोटी आफूले फलाहार गर्नु। रातिमा जाग्राम बस्नु। हे चन्द्रावती! यति गरेपछि स्वस्थानी परमेश्वरीको व्रतको प्रभावले तिम्रो सबै दुःख नाश हुनेछ। अन्यथा नमान्नु। यही व्रतका प्रभावले पार्वतीले महादेव स्वामी पाएकी थिइन्। अब हामी जान्छौं।' यति अप्सराहरूले भनेको सुनी चन्द्रावतीले मनमा आनन्द मान्दै भनिन्, 'हे अप्सरा हो! म यस्ती पापिनीसँग केही छैन। केले पूजा गरूँ? म त हिँड्न पनि सक्तिनँ। मेरो उद्धार गरिदिनुहोस्' भनी बिन्ती गरिन्。"</p>
 
             <h3>चन्द्रावतीद्वारा व्रत सम्पादन र क्षमा याचना</h3>
             <p>"अप्सराहरूले चन्द्रावतीको कष्ट देखेर साह्रै दया गरी उनलाई व्रतको विधि सिकाई संकल्प गराइदिए। अनि चन्द्रावतीले बालुवाको शिवलिङ्ग बनाई अप्सराहरूको संसर्गमा श्री स्वस्थानी परमेश्वरीको व्रत र पूजा गरिन्। पूजा सकेर प्रसाद झिकी, आठ रोटी, आठ अक्षता र सगुन समेत 'मेरा स्वामीलाई प्राप्त होस्' भनी शाली नदीमा बगाइन्। अनि आफूले सय रोटी फलाहार गरी रातभर जाग्राम बसिन्। भोलिपल्ट बिहान स्नान गरी श्री स्वस्थानी परमेश्वरीलाई दण्डवत् प्रणाम गर्दै भनिन्, 'हे ईश्वरी! मैले अज्ञानतावश हजुरको निन्दा गरेँ, मेरो अपराध क्षमा गर्नुहोस्। म पापिनीलाई हजुरकै कृपाले मात्र उद्धार मिल्नेछ।' चन्द्रावतीको यस्तो भक्ति र पश्चाताप देखेर श्री स्वस्थानी परमेश्वरी प्रसन्न हुनुभयो। उहाँको कृपाले चन्द्रावतीको कुष्ठरोग तत्काल निको भयो र उनी पहिले जस्तै सुन्दरी र दिव्य रूपकी भइन्।"</p>
 
             <p class="mantra">इति श्री स्कन्द पुराणे केदार खण्डे माघ महात्म्ये कुमार अगस्त्य संवादे श्री स्वस्थानी परमेश्वर्या व्रत कथायाम् चन्द्रावती स्ववृत्त कथन नाम त्रिंशो अध्याय।</p>
         </section>
+
         <div class="divider">❁ ॐ ❁</div>
 
-        <!-- Section: Chapter 31 (Final Chapter) -->
         <section id="chapter-31">
             <h2>एकत्रिंश अध्याय: गोमा उपदेश र व्रत माहात्म्य वर्णन</h2>
             
@@ -1602,11 +1404,12 @@ body {
             <p class="mantra">इति श्री स्कन्द पुराणे केदार खण्डे माघ महात्म्ये कुमार अगस्त्य संवादे श्री स्वस्थानी परमेश्वर्या व्रत कथायाम् गोमा उपदेश र व्रत माहात्म्य वर्णन नाम एकत्रिंशो अध्याय।<br><br>
             <strong>।। श्री स्वस्थानी परमेश्वरीको व्रत कथा समाप्त ।।</strong></p>
         </section>
-<footer style="text-align: center; padding: 30px 20px; margin-top: 50px; border-top: 2px solid var(--secondary-color); font-size: 16px; color: #777;">
-        &copy; 2026 एस.के.एस. क्रिएशन्स (SK'S Creations). सर्वाधिकार सुरक्षित।<br>
-        यस श्री स्वस्थानी परमेश्वरीको व्रत कथा रहेका पाठ वा चित्रहरू अनुमति विना प्रतिलिपि गर्न वा अन्यत्र प्रयोग गर्न सख्त मनाही छ।
-    </footer>
-<div class="divider">❁ ॐ ❁</div>
+
+        <footer style="text-align: center; padding: 30px 20px; margin-top: 50px; border-top: 2px solid var(--secondary-color); font-size: 16px; color: #777;">
+            &copy; 2026 एस.के.एस. क्रिएशन्स (SK'S Creations). सर्वाधिकार सुरक्षित।<br>
+            यस श्री स्वस्थानी परमेश्वरीको व्रत कथा रहेका पाठ वा चित्रहरू अनुमति विना प्रतिलिपि गर्न वा अन्यत्र प्रयोग गर्न सख्त मनाही छ।
+        </footer>
+        <div class="divider">❁ ॐ ❁</div>
 
         <section class="donation-section" id="donate">
             <h2 class="donation-title">स्रष्टालाई सहयोग गर्नुहोस्</h2>
@@ -1632,17 +1435,15 @@ body {
                     <div style="background-color: #f1f5f9; color: #555; padding: 8px 15px; border-radius: 5px; font-size: 0.9em; font-family: 'Mukta', sans-serif; border: 1px solid #cbd5e1;">
                         एपबाट QR स्क्यान गर्नुहोस्
                     </div>
+                </div>
             </div>
         </section> 
     </main>
 
+    <button onclick="scrollToTop()" id="backToTopBtn" title="माथि जानुहोस्">⬆ माथि</button>
 
-<button onclick="scrollToTop()" id="backToTopBtn" title="माथि जानुहोस्">⬆ माथि</button>
-<script>
-        // Get the button
+    <script>
         let mybutton = document.getElementById("backToTopBtn");
-
-        // When the user scrolls down 300px from the top, show the button
         window.onscroll = function() {scrollFunction()};
 
         function scrollFunction() {
@@ -1653,7 +1454,6 @@ body {
             }
         }
 
-        // When the user clicks on the button, scroll to the top of the document smoothly
         function scrollToTop() {
             window.scrollTo({
                 top: 0,
@@ -1661,51 +1461,30 @@ body {
             });
         }
     </script>
-<script>
+    <script>
         function toggleDarkMode() {
-            // This toggles the 'dark-mode' class on and off the body
             document.body.classList.toggle("dark-mode");
-            
-            // This changes the text of the button depending on the mode
             let btn = document.getElementById("darkModeBtn");
             if (document.body.classList.contains("dark-mode")) {
-                btn.innerHTML = "☀️ दिउँसो पढ्ने"; // "Read in Daytime"
+                btn.innerHTML = "☀️ दिउँसो पढ्ने";
             } else {
-                btn.innerHTML = "🌙 राति पढ्ने"; // "Read at Night"
+                btn.innerHTML = "🌙 राति पढ्ने";
             }
         }
     </script>
-<script>
-        // Your default starting font size is 18px
+    <script>
         let currentFontSize = 18; 
-
         function changeFontSize(step) {
-            // Step is either 1 (increase) or -1 (decrease)
-            // We change the font size by 2px per click
             currentFontSize = currentFontSize + (step * 2);
-
-            // Set limits so it doesn't get too small or too huge
-            if (currentFontSize < 14) currentFontSize = 14; // Minimum size
-            if (currentFontSize > 32) currentFontSize = 32; // Maximum size
-
-            // Apply the new font size to the entire body
+            if (currentFontSize < 14) currentFontSize = 14; 
+            if (currentFontSize > 32) currentFontSize = 32; 
             document.body.style.fontSize = currentFontSize + "px";
         }
     </script>
-<script>
-        // 1. Disable Right-Click
-        document.addEventListener('contextmenu', function(e) {
-            e.preventDefault();
-        });
-
-        // 2. Disable Copying via Keyboard
-        document.addEventListener('copy', function(e) {
-            e.preventDefault();
-        });
-
-        // 3. Disable specific Keyboard Shortcuts (Ctrl+C, Ctrl+A, Ctrl+P, Ctrl+U, Ctrl+S)
+    <script>
+        document.addEventListener('contextmenu', function(e) { e.preventDefault(); });
+        document.addEventListener('copy', function(e) { e.preventDefault(); });
         document.onkeydown = function(e) {
-            // Check if Ctrl or Command key is pressed
             if (e.ctrlKey || e.metaKey) {
                 let key = e.key.toLowerCase();
                 if (key === 'c' || key === 'a' || key === 'p' || key === 'u' || key === 's') {
@@ -1713,27 +1492,22 @@ body {
                     return false;
                 }
             }
-            // Disable F12 (Developer Tools)
             if (e.keyCode === 123) {
                 e.preventDefault();
                 return false;
             }
         };
     </script>
-<script>
+    <script>
         function copyHiddenNumber(elementId, btnElement) {
-            // Get the FULL hidden number from the 'data-number' attribute
             var textToCopy = document.getElementById(elementId).getAttribute('data-number');
-            
-            // Copy to clipboard
             navigator.clipboard.writeText(textToCopy).then(function() {
                 var originalText = btnElement.innerText;
                 btnElement.innerText = "✓ Copied!";
-                btnElement.style.backgroundColor = "#60bb46"; // Turn green
-                
+                btnElement.style.backgroundColor = "#60bb46";
                 setTimeout(function() {
                     btnElement.innerText = originalText;
-                    btnElement.style.backgroundColor = ""; // Reset color
+                    btnElement.style.backgroundColor = ""; 
                 }, 2000);
             }).catch(function(err) {
                 console.error('Could not copy text: ', err);
@@ -1741,11 +1515,9 @@ body {
             });
         }
     </script>
-<script>
+    <script>
         function sharePage(platform) {
-            // Automatically grabs your website's URL
             let currentUrl = encodeURIComponent(window.location.href); 
-            // The text that will appear along with the link
             let shareText = encodeURIComponent("श्री स्वस्थानी व्रत कथा - सम्पूर्ण ३१ अध्यायसहितको डिजिटल संस्करण यहाँ पढ्नुहोस्: ");
             let shareUrl = "";
 
@@ -1758,26 +1530,22 @@ body {
             } else if (platform === 'twitter') {
                 shareUrl = `https://twitter.com/intent/tweet?url=${currentUrl}&text=${shareText}`;
             } else if (platform === 'messenger') {
-                // Messenger works best on mobile devices that have the app installed
                 shareUrl = `fb-messenger://share/?link=${currentUrl}`; 
             }
 
-            // Opens the share window in a neat little popup
             if (shareUrl) {
                 window.open(shareUrl, '_blank', 'width=600,height=400');
             }
         }
 
-        // Dedicated function for the "Copy Link" button
         function copyPageLink(btnElement) {
             navigator.clipboard.writeText(window.location.href).then(function() {
                 let originalText = btnElement.innerHTML;
                 btnElement.innerHTML = "✅ Copied!";
-                btnElement.style.backgroundColor = "#28a745"; // Success green color
-                
+                btnElement.style.backgroundColor = "#28a745"; 
                 setTimeout(function() {
                     btnElement.innerHTML = originalText;
-                    btnElement.style.backgroundColor = ""; // Revert to original grey
+                    btnElement.style.backgroundColor = ""; 
                 }, 2000);
             }).catch(function(err) {
                 console.error('Could not copy text: ', err);
@@ -1785,7 +1553,5 @@ body {
             });
         }
     </script>
-</body>
-</html>
 </body>
 </html>
